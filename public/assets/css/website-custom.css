@@ -393,3 +393,26 @@ Description: Ensure PDF viewer banners display correctly as red banners with whi
     background: transparent !important;
     background-color: #fff !important;
 }
+
+/* Make sz-web-link elements that link to PDFs red instead of teal */
+.wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"],
+.wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] {
+    background-color: rgba(254, 0, 0, 0.8) !important;
+    border-left: 8px solid rgba(254, 0, 0, 1) !important;
+    color: #fff !important;
+}
+
+.wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"]:hover,
+.wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"]:hover {
+    background-color: rgba(254, 0, 0, 0.95) !important;
+    border-left: 12px solid rgba(254, 0, 0, 1) !important;
+}
+
+.wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"] .sz-web-icon,
+.wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] .sz-web-icon,
+.wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"] .sz-web-title,
+.wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] .sz-web-title,
+.wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"] .fa,
+.wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] .fa {
+    color: #fff !important;
+}
