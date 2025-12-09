@@ -1,0 +1,19 @@
+﻿{
+    "https://www.heath.derbyshire.sch.uk/theme/_admin/_root/js/jquery.form.min.js":  "/assets/js/external/jquery.form.min.js",
+    "https://www.heath.derbyshire.sch.uk/form/saveprogress.js":  "/assets/js/external/saveprogress.js",
+    "https://www.heath.derbyshire.sch.uk/form/submit.js":  "/assets/js/external/submit.js",
+    "https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js":  "/assets/js/external/tinymcefunctions.js",
+    "https://www.heath.derbyshire.sch.uk/app/js/timepicki/js/time_functions.min.js":  "/assets/js/external/time_functions.min.js",
+    "https://www.heath.derbyshire.sch.uk/app/js/jquery.ui/css/-sb-custom/-1.12.1.custom.min.css":  "/assets/css/external/-1.12.1.custom.min.css",
+    "https://www.heath.derbyshire.sch.uk/theme/_blueprint/style.css":  "/assets/css/external/style.css",
+    "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js":  "/assets/js/external/plugin.js",
+    "https://www.heath.derbyshire.sch.uk/theme/_blueprint/szwebstyle.css":  "/assets/css/external/szwebstyle.css",
+    "https://www.heath.derbyshire.sch.uk/app/js/chosen/chosen.jquery.min.js":  "/assets/js/external/chosen.jquery.min.js",
+    "https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js":  "/assets/js/external/plugins.js",
+    "https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js":  "/assets/js/external/bs-switches.js",
+    "https://www.heath.derbyshire.sch.uk/_admin/cms/szschool/account-setting-colours.css":  "/assets/css/external/account-setting-colours.css",
+    "https://www.heath.derbyshire.sch.uk/app/js/timepicki/js/timepicki.min.js":  "/assets/js/external/timepicki.min.js",
+    "https://www.heath.derbyshire.sch.uk/app/js/timepicki/css/timepicki.css":  "/assets/css/external/timepicki.css",
+    "https://www.heath.derbyshire.sch.uk/app/js/jquery.ui/js/jquery-ui-1.12.1.custom.min.js":  "/assets/js/external/jquery-ui-1.12.1.custom.min.js",
+    "https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js":  "/assets/js/external/tinymce.min.js"
+}

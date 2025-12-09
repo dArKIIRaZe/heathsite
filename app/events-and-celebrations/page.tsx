@@ -1,0 +1,2645 @@
+import type { Metadata } from 'next';
+import Script from 'next/script';
+
+export const metadata: Metadata = {
+  title: "Events and Celebrations - Heath Primary SchoolSchoolzine",
+};
+
+export default function Page() {
+  return (
+    <>
+      <div dangerouslySetInnerHTML={{ __html: `<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+
+<script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js"></script>
+
+<div id="access">
+  <ul>
+    <li><a href="#content01">Skip to content</a></li>
+    <li><a href="#primary-menu">Skip to navigation</a></li>
+    <li><a href="#footer">Skip to footer</a></li>
+  </ul>
+</div>
+
+<div id="wrapper" class="clearfix">
+
+	
+
+
+
+
+<header id="header" class="transparent-header semi-transparent full-header">
+
+	<div id="header-wrap" class="">
+
+		<div class="container clearfix">
+
+			<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+			
+			<div id="logo">
+
+				<a href="/" class="standard-logo" data-dark-logo="/images/large-logo.png"><img src="/images/large-logo.png" alt="Heath Primary School"></a>
+				
+			</div>
+			
+			
+			
+			<nav id="primary-menu" class="style-5 ">
+	
+
+	<ul class="count7 sf-js-enabled" style="touch-action: pan-y;">
+			<li>
+			 <a href="/" title="Home">
+			 	<div class="stickyHidden"><i class="fa fa-home"></i><span>Home</span></div>
+			 	</a>
+			 				 	
+			 
+		</li>
+			<li class="sub-menu">
+			 <a href="javascript:;" title="Key Information" class="sf-with-ul">
+			 	<div class="stickyHidden"><i class="fa fa-folder"></i><span>Key Information</span></div>
+			 	</a>
+			 						<ul style="display: none;" class="nav-submenu">
+																																		<li>
+									
+									<a href="/attendance-and-admissions-copy" title="Admissions">
+										<div>
+											Admissions
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/attendance" title="Attendance">
+										<div>
+											Attendance
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/embark" title="Embark Federation MAT">
+										<div>
+											Embark Federation MAT
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/equality-and-diversity" title="Diversity, Equity and Inclusion">
+										<div>
+											Diversity, Equity and Inclusion
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/GDPR" title="GDPR">
+										<div>
+											GDPR
+																					</div>
+									</a>
+																	</li>
+																												<li class="sub-menu">
+									
+									<a href="/governors" title="Governors" class="sf-with-ul">
+										<div>
+											Governors
+																					</div>
+									</a>
+																			<ul style="display: none;" class="nav-submenu">
+																							<li><a href="https://heathprimary.schoolzineplus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
+																					</ul>
+																	</li>
+																												<li>
+									
+									<a href="/nursery-admissions" title="Nursery Admissions">
+										<div>
+											Nursery Admissions
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/ofsted-performance-tables" title="Ofsted/Performance Tables">
+										<div>
+											Ofsted/Performance Tables
+																					</div>
+									</a>
+																	</li>
+																																									<li>
+									
+									<a href="/policies-copy" title="Policies ">
+										<div>
+											Policies 
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/pupil-premium-and-sports-premium" title="Pupil Premium and Sports Premium">
+										<div>
+											Pupil Premium and Sports Premium
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/school-meals" title="School Meals">
+										<div>
+											School Meals
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/SEND/Inclusion" title="SEND/Inclusion">
+										<div>
+											SEND/Inclusion
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/travel-" title="Travel ">
+										<div>
+											Travel 
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/uniform-shop" title="Uniform ">
+										<div>
+											Uniform 
+																					</div>
+									</a>
+																	</li>
+																		</ul>
+						 	
+			 
+		</li>
+			<li class="sub-menu">
+			 <a href="javascript:;" title="Safeguarding" class="sf-with-ul">
+			 	<div class="stickyHidden"><i class="fa fa-clipboard"></i><span>Safeguarding</span></div>
+			 	</a>
+			 						<ul style="display: none;" class="nav-submenu">
+																					<li class="sub-menu">
+									
+									<a href="/school-policies" title="Safeguarding (Including Policies)" class="sf-with-ul">
+										<div>
+											Safeguarding (Including Policies)
+																					</div>
+									</a>
+																			<ul style="display: none;" class="nav-submenu">
+																							<li><a href="/school-policies/child-friendly-safeguarding-policies-" title="Child Friendly Safeguarding Policies "><div>Child Friendly Safeguarding Policies </div></a></li>
+																					</ul>
+																	</li>
+																												<li>
+									
+									<a href="/protected-characteristics" title="Protected Characteristics">
+										<div>
+											Protected Characteristics
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/prevent" title="Prevent">
+										<div>
+											Prevent
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/online-safety" title="Online Safety">
+										<div>
+											Online Safety
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/parental-guidance" title="Useful Links &amp; Parental Guidance">
+										<div>
+											Useful Links &amp; Parental Guidance
+																					</div>
+									</a>
+																	</li>
+																		</ul>
+						 	
+			 
+		</li>
+			<li class="sub-menu">
+			 <a href="javascript:;" title="Parent Area" class="sf-with-ul">
+			 	<div class="stickyHidden"><i class="fa fa-group"></i><span>Parent Area</span></div>
+			 	</a>
+			 						<ul style="display: none;" class="nav-submenu">
+																					<li>
+									
+									<a href="/clubs" title="Clubs">
+										<div>
+											Clubs
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/parent-area/home-learning/-embark-award" title=" Embark Award">
+										<div>
+											 Embark Award
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/events-and-celebrations" title="Events and Celebrations">
+										<div>
+											Events and Celebrations
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/parent-area/newsletters" title="Newsletters">
+										<div>
+											Newsletters
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/parent-view-and-surveys" title="Parent View and Surveys">
+										<div>
+											Parent View and Surveys
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/pupil-voice" title="Pupil Voice">
+										<div>
+											Pupil Voice
+																					</div>
+									</a>
+																	</li>
+																												<li class="sub-menu">
+									
+									<a href="/parent-area/remote-learning" title="Remote Learning" class="sf-with-ul">
+										<div>
+											Remote Learning
+																					</div>
+									</a>
+																			<ul style="display: none;" class="nav-submenu">
+																							<li><a href="/parent-area/home-learning/lower-key-stage-2-home-learning" title="Lower Key Stage 2 Home Learning"><div>Lower Key Stage 2 Home Learning</div></a></li>
+																							<li><a href="/parent-area/home-learning/upper-key-stage-2-home-learning" title="Upper Key Stage 2 Home Learning"><div>Upper Key Stage 2 Home Learning</div></a></li>
+																							<li><a href="/parent-area/home-learning/key-stage-1-home-learning" title="Key Stage 1 Remote Learning"><div>Key Stage 1 Remote Learning</div></a></li>
+																							<li><a href="/parent-area/home-learning/EYFS-home-learning" title="EYFS Home Learning"><div>EYFS Home Learning</div></a></li>
+																					</ul>
+																	</li>
+																												<li>
+									
+									<a href="/Term-dates" title="Term Dates">
+										<div>
+											Term Dates
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/safeguarding-newsletters-" title="Safeguarding Newsletters ">
+										<div>
+											Safeguarding Newsletters 
+																					</div>
+									</a>
+																	</li>
+																		</ul>
+						 	
+			 
+		</li>
+			<li class="sub-menu">
+			 <a href="/curriculum" title="Curriculum" class="sf-with-ul">
+			 	<div class="stickyHidden"><i class="fa fa-book"></i><span>Curriculum</span></div>
+			 	</a>
+			 						<ul style="display: none;" class="nav-submenu">
+																					<li>
+									
+									<a href="/curriculum/teaching-learning-" title="Teaching &amp; Learning ">
+										<div>
+											Teaching &amp; Learning 
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/english" title="English">
+										<div>
+											English
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/maths" title="Maths">
+										<div>
+											Maths
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum">
+										<div>
+											Curriculum 
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/assemblies" title="Assemblies" target="_blank">
+										<div>
+											Assemblies
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/nurture-at-heath" title="Nurture ">
+										<div>
+											Nurture 
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/eyfs" title="EYFS">
+										<div>
+											EYFS
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/history" title="History">
+										<div>
+											History
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/geography-" title="Geography ">
+										<div>
+											Geography 
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/science" title="Science">
+										<div>
+											Science
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/art-&amp;Design" title="Art &amp; Design ">
+										<div>
+											Art &amp; Design 
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/pe" title="PE ">
+										<div>
+											PE 
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/forest-school" title="Explorers">
+										<div>
+											Explorers
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/curriculum/opal" title="OPAL">
+										<div>
+											OPAL
+																					</div>
+									</a>
+																	</li>
+																		</ul>
+						 	
+			 
+		</li>
+			<li class="sub-menu">
+			 <a href="javascript:;" title="School Community" class="sf-with-ul">
+			 	<div class="stickyHidden"><i class="fa fa-child"></i><span>School Community</span></div>
+			 	</a>
+			 						<ul style="display: none;" class="nav-submenu">
+																																		<li>
+									
+									<a href="/EmotionalHealthandWellbeing" title="Emotional Health and Wellbeing">
+										<div>
+											Emotional Health and Wellbeing
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/after-and-before-school-club" title=" Before and After School Club">
+										<div>
+											 Before and After School Club
+																					</div>
+									</a>
+																	</li>
+																																									<li>
+									
+									<a href="http://www.letslocalise.co.uk/school/heath-primary-school/sch128250/campaigns/" title="Lets Localise " target="_blank">
+										<div>
+											Lets Localise 
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/schoolcommunity/local-clubs" title="Local Clubs" target="_blank">
+										<div>
+											Local Clubs
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/behaviour-and-rewards" title="Behaviour and Rewards">
+										<div>
+											Behaviour and Rewards
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/friends-of-school" title="Friends of School">
+										<div>
+											Friends of School
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/family-liaison-worker" title="Family Liaison Worker">
+										<div>
+											Family Liaison Worker
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/schoolcommunity/early-help-offer" title="Early Help Offer " target="_blank">
+										<div>
+											Early Help Offer 
+																					</div>
+									</a>
+																	</li>
+																												<li>
+									
+									<a href="/meet-our-staff" title="Meet our staff ">
+										<div>
+											Meet our staff 
+																					</div>
+									</a>
+																	</li>
+																		</ul>
+						 	
+			 
+		</li>
+			<li>
+			 <a href="/contact" title="Contact Us">
+			 	<div class="stickyHidden"><i class="fa fa-comments"></i><span>Contact Us</span></div>
+			 	</a>
+			 				 	
+			 
+		</li>
+	
+		
+
+		</ul>
+		
+	<div id="top-search">
+	<a id="top-search-trigger" tabindex="0" role="search"><span>Site Search</span><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+	<form action="/site-search" method="get" name="search-form" id="search-form">
+		<a tabindex="0" id="searchTrap" role="presentation"><span>Function to remove keyboard trap from search</span></a>
+		<label for="Search" style="position: absolute !important; left: -9999px !important;">Search</label>
+		<input type="text" id="Search" name="s" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+		<button type="submit">Search</button>
+	</form>
+</div>	
+	</nav>
+			
+
+		</div>
+
+	</div>
+	</header>
+	
+
+
+
+						<section id="slider" class="slider-element swiper_wrapper full-width clearfix" data-autoplay="7000" data-speed="650" data-loop="true">
+		<div class="swiper-container swiper-parent swiper-container-horizontal" style="cursor: grab;">
+			<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-800px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" style="background-image: url(&quot;/heath/s5.jpg&quot;); width: 800px;" data-swiper-slide-index="4">
+							<div class="container clearfix">
+															</div>
+						</div>
+	
+	
+	
+							       
+	    	 		    		    					        			    	    		    
+	    	    	    	    	    	    	    
+	    	
+	    		    
+	    	    						    	
+													<div class="swiper-slide dark swiper-slide-active" style="background-image: url(&quot;/heath/s1.jpg&quot;); width: 800px;" data-swiper-slide-index="0">
+							<div class="container clearfix">
+																<div class="slider-caption slider-caption-center" style="top: 140px;">
+																		<h2 data-caption-animate="fadeInUp" class="fadeInUp animated">Welcome to Heath Primary School</h2>
+																																			</div>
+															</div>
+						</div>
+										
+								       
+	    	 		    		    					        			    	    		    
+	    	    	    	    	    	    	    
+	    	    		    
+	    	    						    	
+													<div class="swiper-slide swiper-slide-next" style="background-image: url(&quot;/heath/s2.jpg&quot;); width: 800px;" data-swiper-slide-index="1">
+							<div class="container clearfix">
+															</div>
+						</div>
+										
+								       
+	    	 		    		    					        			    	    		    
+	    	    	    	    	    	    	    
+	    	    		    
+	    	    						    	
+													<div class="swiper-slide" style="background-image: url(&quot;/heath/s3.jpg&quot;); width: 800px;" data-swiper-slide-index="2">
+							<div class="container clearfix">
+															</div>
+						</div>
+										
+								       
+	    	 		    		    					        			    	    		    
+	    	    	    	    	    	    	    
+	    	    		    
+	    	    						    	
+													<div class="swiper-slide" style="background-image: url(&quot;/heath/s4.jpg&quot;); width: 800px;" data-swiper-slide-index="3">
+							<div class="container clearfix">
+															</div>
+						</div>
+										
+								       
+	    	 		    		    					        			    	    		    
+	    	    	    	    	    	    	    
+	    	    		    
+	    	    						    	
+													<div class="swiper-slide swiper-slide-duplicate-prev" style="background-image: url(&quot;/heath/s5.jpg&quot;); width: 800px;" data-swiper-slide-index="4">
+							<div class="container clearfix">
+															</div>
+						</div>
+										
+					<div class="swiper-slide dark swiper-slide-duplicate swiper-slide-duplicate-active" style="background-image: url(&quot;/heath/s1.jpg&quot;); width: 800px;" data-swiper-slide-index="0">
+							<div class="container clearfix">
+																<div class="slider-caption slider-caption-center" style="top: 140px;">
+																		<h2 data-caption-animate="fadeInUp" class="not-animated">Welcome to Heath Primary School</h2>
+																																			</div>
+															</div>
+						</div></div>
+			<div class="slider-arrow-left" tabindex="0" role="button" aria-label="Previous slide"><i class="icon-angle-left"></i></div>
+			<div class="slider-arrow-right" tabindex="0" role="button" aria-label="Next slide"><i class="icon-angle-right"></i></div>
+						<div class="slide-number"><div class="slide-number-current">1</div><span>/</span><div class="slide-number-total">5</div></div>
+			<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
+		<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+</section>			
+
+<section id="content01" name="content01" class="">
+
+	
+
+
+
+
+<div class="content-wrap">
+				<div id="h1Container" class="container">
+			<h1>Events and Celebrations</h1>
+		</div>	
+		
+
+
+    
+                <div class="clearfix container content-wrap">
+                                    
+<div>
+<div data-sb-image-container="1" style="text-align: justify;"><a href="https://uk.sz-cdn.net/heathprimary/media/1056/240502042007055/600x848/1.jpg" data-lightbox="1.jpg" data-title="1.jpg" class="no-ajaxy" data-sb-image-container="1">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+            
+
+<div class="sz-gallery-wrapper gallery-width-4 pdf-hide">
+    <div id="gallery_2_1556846857_grid" class="sz-gallery ug-under-780 ug-gallery-wrapper ug-theme-tilesfixed" style="max-width: 100%; min-width: 150px; overflow: visible; height: 430px;" data-parameters="gallery_theme:tilesgrid,tile_width:265,tile_height:199,grid_num_rows:2,tile_enable_border:false,grid_vertical_scroll_ondrag:false,theme_navigation_type:arrows">
+                    <div class="ug-overlay-disabled" style="display:none"></div><div class="ug-thumbs-grid" style="width: 562px; height: 430px; position: absolute; margin: 0px; left: 94px; top: 0px;"><div class="ug-thumbs-grid-inner" style="width: 562px; height: 430px;"><div class="ug-thumb-wrapper ug-tile ug-tile-clickable ug-thumb-ratio-set" style="z-index: 1; opacity: 1; background-color: rgb(240, 240, 240); box-shadow: rgb(139, 139, 139) 0px 0px 0px 1px; width: 265px; height: 199px; position: absolute; margin: 0px; left: 10px; top: 10px;"><div class="ug-thumb-overlay" style="opacity: 0; background-color: rgba(0, 0, 0, 0.4); width: 265px; height: 199px; left: 0px; top: 0px; position: absolute; margin: 0px;"><div class="ug-tile-icon ug-button-play ug-icon-zoom" style="position: absolute; margin: 0px; left: 114px; top: 81px;"></div></div><img src="/images/1.jpg" alt="1" class="ug-thumb-image ug-trans-enabled" style="opacity: 1; width: 265px; height: 375px; left: 0px; top: -88px;"></div><div class="ug-thumb-wrapper ug-tile ug-tile-clickable ug-thumb-ratio-set" style="z-index: 2; opacity: 1; background-color: rgb(240, 240, 240); box-shadow: rgb(139, 139, 139) 0px 0px 0px 1px; width: 265px; height: 199px; position: absolute; margin: 0px; left: 287px; top: 10px;"><div class="ug-thumb-overlay" style="opacity: 0; background-color: rgba(0, 0, 0, 0.4); width: 265px; height: 199px; left: 0px; top: 0px; position: absolute; margin: 0px;"><div class="ug-tile-icon ug-button-play ug-icon-zoom" style="position: absolute; margin: 0px; left: 114px; top: 81px;"></div></div><img src="/images/2.jpg" alt="2" class="ug-thumb-image ug-trans-enabled" style="opacity: 1; width: 265px; height: 375px; left: 0px; top: -88px;"></div><div class="ug-thumb-wrapper ug-tile ug-tile-clickable ug-thumb-ratio-set" style="z-index: 3; opacity: 1; background-color: rgb(240, 240, 240); box-shadow: rgb(139, 139, 139) 0px 0px 0px 1px; width: 265px; height: 199px; position: absolute; margin: 0px; left: 10px; top: 221px;"><div class="ug-thumb-overlay" style="opacity: 0; background-color: rgba(0, 0, 0, 0.4); width: 265px; height: 199px; left: 0px; top: 0px; position: absolute; margin: 0px;"><div class="ug-tile-icon ug-button-play ug-icon-zoom" style="position: absolute; margin: 0px; left: 114px; top: 81px;"></div></div><img src="/images/pic_1.png" alt="Pic 1" class="ug-thumb-image ug-trans-enabled" style="opacity: 1; width: 265px; height: 227px; left: 0px; top: -14px;"></div><div class="ug-thumb-wrapper ug-tile ug-tile-clickable ug-thumb-ratio-set" style="z-index: 4; opacity: 1; background-color: rgb(240, 240, 240); box-shadow: rgb(139, 139, 139) 0px 0px 0px 1px; width: 265px; height: 199px; position: absolute; margin: 0px; left: 287px; top: 221px;"><div class="ug-thumb-overlay" style="opacity: 0; background-color: rgba(0, 0, 0, 0.4); width: 265px; height: 199px; left: 0px; top: 0px; position: absolute; margin: 0px;"><div class="ug-tile-icon ug-button-play ug-icon-zoom" style="position: absolute; margin: 0px; left: 114px; top: 81px;"></div></div><img src="/images/pride_and_progress.png" alt="Pride and Progress" class="ug-thumb-image ug-trans-enabled" style="opacity: 1; width: 289px; height: 199px; left: -12px; top: 0px;"></div></div></div><div class="ug-tile-navigation-wrapper" style="position: absolute; display: none;"><div class="ug-button-tile-navigation ug-button-tile-left ug-button-disabled" style="margin-right: 5px;"></div><div class="ug-button-tile-navigation ug-button-tile-right ug-button-disabled"></div></div><div class="ug-tiles-preloader ug-preloader-trans" style="opacity: 0; position: absolute; margin: 0px; left: 359px; top: 50px;"></div></div>
+</div>
+
+<div class="PDFgallery">
+    <div>
+                                    <img class="" src="/images/1.jpg" alt=""><img class="" src="/images/2.jpg" alt=""><img class="" src="/images/pic_1.png" alt=""><img class="" src="/images/pride_and_progress.png" alt=""></div>
+</div>
+
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </a><a href="https://uk.sz-cdn.net/heathprimary/media/1056/240502042007055/600x848/1.jpg" data-lightbox="1.jpg" data-title="1.jpg" class="no-ajaxy" data-sb-image-container="1"></a></div>
+</div>
+<div>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/world_book_day_2024.pdf" data-fileid="1037"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">World Book Day 2024 <i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+                <div id="pdf-view-1037-10376936df5e646a8" class="pdf-view HTML-only" style="height: 800px; width: 100%;">
+        <iframe src="/pdfs/world_book_day_2024.pdf" type="application/pdf" style="width: 100%; height: 100%; border: none;" title="PDF Viewer"></iframe>
+        </div>
+        <script>
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-955-9556936df5ea1067").height(canvas.height);
+                            $("#pdf-view-loading-955-9556936df5ea1067").hide();
+                            $("#pdf-view-955-9556936df5ea1067").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-955-9556936df5ea1067").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/embark_awards.pdf', document.getElementById('pdf-view-955-9556936df5ea1067'));
+            });
+        </script></div>
+<p></p>
+</div>
+</div>
+<div data-sb-image-container="1"></div>
+<div data-sb-image-container="1"></div>
+</div>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/presentation_1_.pdf" data-fileid="910"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">The Wizard of Oz <i class="fa fa-download pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/presentation_1_.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">The Wizard of Oz  </span>
+                                <span class="pdf-viewer-filesize">    355.82 KB <i class="fa fa-download"></i></span>
+            </a>
+        </div>
+        
+
+</div>
+<p></p>
+</div>
+<p></p>
+</div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/mental_health_awareness_week.pdf" data-fileid="901"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Mental Health Awareness Week <i class="fa fa-download pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/mental_health_awareness_week.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">Mental Health Awareness Week </span>
+                                <span class="pdf-viewer-filesize">    523.48 KB <i class="fa fa-download"></i></span>
+            </a>
+        </div>
+        
+
+</div>
+<p></p>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/king_s_coronation.pdf" data-fileid="883"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">The King's Coronation <i class="fa fa-download pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/king_s_coronation.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">The King's Coronation </span>
+                                <span class="pdf-viewer-filesize">    296.56 KB <i class="fa fa-download"></i></span>
+            </a>
+        </div>
+        
+
+</div>
+<p></p>
+</div>
+<div>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/dance_club_pick_n_mix.pdf" data-fileid="885"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Dance Company Pick N Mix. <i class="fa fa-download pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/dance_club_pick_n_mix.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">Dance Club Pick 'N' Mix.pdf</span>
+                                <span class="pdf-viewer-filesize">    2.21 MB <i class="fa fa-download"></i></span>
+            </a>
+        </div>
+        
+
+</div>
+<p></p>
+</div>
+</div>
+<div></div>
+<div></div>
+<div>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/bikeability_course.pdf" data-fileid="891"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Bikeability Course <i class="fa fa-download pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/bikeability_course.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">Bikeability Course  </span>
+                                <span class="pdf-viewer-filesize">    669.70 KB <i class="fa fa-download"></i></span>
+            </a>
+        </div>
+        
+
+</div>
+<p></p>
+</div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/mental_health_workshop_by_chesterfield_community_trust.pdf" data-fileid="888"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Mental Health Workshop by Chesterfield Community Trust <i class="fa fa-download pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/mental_health_workshop_by_chesterfield_community_trust.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">Mental Health Workshop by Chesterfield Community Trust </span>
+                                <span class="pdf-viewer-filesize">    409.72 KB <i class="fa fa-download"></i></span>
+            </a>
+        </div>
+        
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<div></div>
+<div></div>
+<div>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/hello_yellow_day_2022_.pdf" data-fileid="884"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Hello Yellow Day <i class="fa fa-download pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/hello_yellow_day_2022_.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">Hello Yellow Day  </span>
+                                <span class="pdf-viewer-filesize">    669.73 KB <i class="fa fa-download"></i></span>
+            </a>
+        </div>
+        
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<div></div>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/child_exploitation_workshop.pdf" data-fileid="890"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Child Exploitation Workshop <i class="fa fa-download pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/child_exploitation_workshop.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">Child Exploitation Workshop </span>
+                                <span class="pdf-viewer-filesize">    297.62 KB <i class="fa fa-download"></i></span>
+            </a>
+        </div>
+        
+
+</div>
+<p></p>
+</div>
+</div>
+<p></p>
+<p></p>
+
+                
+                
+    </div>
+
+
+
+
+</div>
+
+    
+                    
+<div id="tiles_2" class="portfolio portfolio-nomargin grid-container portfolio-notitle portfolio-full grid-container clearfix">
+    <article class="portfolio-item pf-media pf-icons"><div class="portfolio-image">
+            <a href="/contact">
+                <img src="/images/contact_tile.jpg" alt="Contact Us"><div class="portfolio-overlay"></div>
+            </a>
+        </div>
+        <div class="portfolio-desc">
+            <h3><a href="/contact">Contact Us</a></h3>
+            <span>Get help with your enquiry</span>        </div>
+    </article><article class="portfolio-item pf-media pf-icons"><div class="portfolio-image">
+            <a href="https://twitter.com/HPSDerbyshire">
+                <img src="/images/twitter_tile.jpg" alt="Twitter"><div class="portfolio-overlay"></div>
+            </a>
+        </div>
+        <div class="portfolio-desc">
+            <h3><a href="https://twitter.com/HPSDerbyshire">Twitter</a></h3>
+            <span>Learn more about us</span>        </div>
+    </article><article class="portfolio-item pf-media pf-icons"><div class="portfolio-image">
+            <a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">
+                <img src="/images/hop1_slide3.jpg" alt="School Calendar"><div class="portfolio-overlay"></div>
+            </a>
+        </div>
+        <div class="portfolio-desc">
+            <h3><a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">School Calendar</a></h3>
+            <span>What's upcoming in the school?</span>        </div>
+    </article></div>
+
+        
+    
+
+</section>
+
+
+
+
+    
+
+
+
+<footer id="footer" class="footer4 primaryBg dark">
+	<div class="container">
+
+			<div class="row">
+				<div class="col-sm-4">
+						<p>
+						<strong>Phone:</strong> 01246 850277<br>														Slack Lane<br>
+							Heath Chesterfield S44 5RH
+						</p>
+					<p class="policies">
+													<a href="/privacy" title="Privacy Policy">Privacy Policy</a> /													<a href="/cookie" title="Cookie Policy">Cookie Policy</a> /													<a href="/site-map" title="Site Map">Site Map</a> 												<br>
+
+
+											Copyrights © 2025 All Rights Reserved by Heath Primary School</p>
+					
+				</div>
+				<div class="col-sm-8">
+
+					<div class="dflex justifyend">
+    <a href="https://twitter.com/HPSDerbyshire" class="social-icon si-light si-rounded si-twitter">
+        <span>Visit our Twitter</span>
+      	<i class="icon-twitter"></i>
+		<i class="icon-twitter"></i>
+    </a>
+
+
+
+ </div>
+
+				</div>
+
+			</div>
+	</div>
+</footer>
+
+    
+                    
+<script>
+
+                    jQuery('.sz-gallery').each(function() {
+                        var array = jQuery(this).attr('data-parameters').split(',');
+                        var parameters = {};
+
+                        jQuery.each(array, function(key, value) {
+                            var split = value.split(':');
+
+                            if (!isNaN(Number(split[1]))) {
+                                split[1] = Number(split[1]);
+                            } else if (split[1] === "true" || split[1] === "false") {
+                                split[1] = (split[1] === "true");
+                            } else {
+                                split[1] = String(split[1]);
+                            }
+                            parameters[split[0]] = split[1];
+                        });
+
+                        jQuery(this).unitegallery(parameters);
+                        jQuery(this).show();
+                    });
+                    $('.read-more-item').each(function(){
+                        var firstPara = $(this).find('p:first').html();
+                        $(this).parent().prepend('<p class="articleSummary">' + firstPara.substring(0,500) + '...</p>');
+                    });
+                }
+			})
+
+
+	}
+
+	$(function(){
+
+        $('.tags_checked').off('change').on("change", function () {
+           executeSearch();
+           console.log('Tags Checked');
+        });
+
+
+		$("#search_phrase").keypress(function (e) {
+			if(e.which == 13) { // the enter key code
+				executeSearch();
+                console.log('Search Phase');
+			}
+		});
+
+        $("#search_clear").click(function(){
+            $("#search_phrase").val("");
+            executeSearch();
+            console.log('Search Clear');
+        });
+
+        $('.clearTags').on('click', function(){
+            $('.tagwrp input:radio').prop("checked", false);
+            executeSearch();
+            console.log('Uncheck');
+        });
+        $('.clearSideTags').on('click', function(){
+            $('aside.sidebar input:radio').prop("checked", false);
+            $('#clearButton').addClass('grey');
+            executeSearch();
+        });
+         $('aside.sidebar label.radio-style-1-label').on('click', function(){
+            $('#clearButton').removeClass('grey');
+         });
+
+         $(document).on('click', '.event-tag, .article-tag', function () {
+             $('input.tags_checked[id="radio-' + $(this).attr('id') + '"]').prop('checked', true);
+             executeSearch();
+         });
+	});
+
+</script><!-- External canvas/functions.js removed - using local /assets/js/functions.js instead -->
+
+	<script src="/website/custom.js?skin_id="></script>
+
+	<script>
+    var actualCaretPositionBookmark;
+</script>
+<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+<script>
+	function setWysiwygValue(id, value) {
+		tinymce.get(id).setContent(value);
+	}
+    function getWysiwygValue(id) {
+        return tinyMCE.get(id).getContent();
+    }
+	function getWysiwygValuePlainText(id) {
+		return tinyMCE.get(id).getContent({ format: 'text' });
+	}
+	function insertIntoWysiwyg(value, id) {
+        if(actualCaretPositionBookmark != undefined) tinyMCE.activeEditor.selection.moveToBookmark(actualCaretPositionBookmark);
+//        console.log(tinyMCE.activeEditor);
+//        //tinyMCE.setActive(id);
+//        tinyMCE.activeEditor.id = id;
+//        console.log(tinyMCE.activeEditor.id);
+//        tinyMCE.execCommand('mceFocus',false,'#'+id);
+        tinyMCE.activeEditor.execCommand('mceInsertContent', false, ' ' + value + ' ');
+	}
+	function setUpTextEditor(id, isFullPage, toolbar1Custom, cssIncludes, isNewsletter, profile, relativeUrls) {
+
+		var plugins = [
+			"linkfrontend spellchecker link image external responsivefilemanager jbimages custom email phone sb_url"
+		];
+
+		var menubar = false;
+		var height = "400px";
+		if($('#'+id).data('tinymce-height') != undefined) {
+			height = $('#'+id).data('tinymce-height');
+		}
+		toolbarOptions = "   link | styleselect |  bold italic underline bullist numlist | spellchecker | removeformat  ";
+		if($('#'+id).siblings('div.mce-tinymce').length == 0) {
+
+			var settings = {
+                branding: false,
+				selector: '#' + id,
+				width: "auto",
+				height: height,
+				statusbar: true,
+				resize: "both",
+				theme: "modern",
+				valid_elements: "*[*]",
+				extended_valid_elements: "*[*]",
+                valid_children : "multiline[a],singleline[a]",
+				plugins: plugins,
+				menubar: menubar,
+				cleanup: false,
+				verify_html: false,
+                toolbar: toolbarOptions,
+				image_advtab: true,
+				contextmenu: "link image inserttable | cell row column deletetable",
+				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				filemanager_title: "File Manager",
+				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
+				image_list: [],
+                paste_preprocess: function (plugin, args) {
+
+					args.content += '';
+				},
+				setup: function (editor) {
+                    editor.on("keyup", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+                    editor.on("click", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+					editor.on('getContent', function (e) {
+
+                        if (e.content.indexOf("<a") >= 0) {
+                            var data = e.content;
+                            var hrefArr = [];
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).text();
+                                    e.content = e.content.replace(text+"</a>", text+'</lotelink>');
+                                }
+                            });
+                            e.content = e.content.replace(/\\\\<a type="page"/g, '<lotelink type="page"');
+                            e.content = e.content.replace(/\\\\<a type="file"/g, '<lotelink type="file"');
+                            var data = e.content;
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).attr('href');
+                                    e.content = e.content.replace('<a href="'+text+'"', '<lotelink href="'+text+'"');
+                                }
+                            });
+                            var data = e.content;
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    e.content = e.content.replace('<a lote_id="'+attr+'"', '<lotelink lote_id="'+attr+'"');
+                                }
+                            });
+                        }
+					});
+                    editor.on('paste', function (e) {
+                        var paste;
+                        if (e.clipboardData.types.indexOf('text/plain') >= 0) {
+                            paste = e.clipboardData.getData('text/plain');
+                        }
+
+                        if (e.clipboardData.types.indexOf('text/html') >= 0) {
+                            var tempPaste = e.clipboardData.getData('text/html');
+                            if (tempPaste.includes('')) { // check if the content is a special type such as actual html, image or file
+                                var regex = new RegExp("([^]*)|([^]*)", "g"); // tinymce copy includes full html and body tags, and the actual content is actually between the comments
+                                paste = tempPaste.replace(regex, '');
+                            }
+                        }
+
+                        if (paste !== undefined) {
+                            paste = paste.replace(/<script[^]*<\\\\/script>/g, ''); // replaces everything in-between and including (<scrip -- <\\\\script>)
+                            e.preventDefault();
+                            insertIntoWysiwyg(paste);
+                        }
+                    });
+					editor.on('paste_preprocess', function (e) {
+						console.log('paste_preprocess', e.content);
+					});
+					editor.on('beforeSetContent', function (e) {
+                        e.content = e.content.replace(/<p>(<a[^<]*(<img[^<]*)<\\\\/a>)<\\\\/p>/gi, function (a) {
+                            return a.replace('<p>', '').replace('</p>', '');
+                        });
+						if (e.content.indexOf("<lotelink") >= 0) {
+
+                            var data = e.content;
+                            $(data).find("lotelink").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).attr('href');
+                                    e.content = e.content.replace('<lotelink href="'+text+'"', '<a href="'+text+'"');
+                                }
+
+                            });
+
+                            var data = e.content;
+                            $(data).find("lotelink").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    e.content = e.content.replace('<lotelink lote_id="'+attr+'"', '<a lote_id="'+attr+'"');
+                                }
+
+                            });
+
+							e.content = e.content.replace(/\\\\<lotelink type="img"/g, '<img');
+							e.content = e.content.replace(/\\\\<lotelink type="page"/g, '<a type="page"');
+							e.content = e.content.replace(/\\\\<lotelink type="file"/g, '<a type="file"');
+                            e.content = e.content.replace(/\\\\<\\\\/lotelink>/g, '</a>');
+
+						}
+
+					});
+				},
+                spellchecker_language: "en_GB",
+                spellchecker_rpc_url: 'spellchecker.php',
+                link_formats: ["Link To URL", "Link To Email", "Link To Phone"],
+                is_campaign: (profile !== undefined && profile === "campaign"),
+                sz_profile: profile
+			};
+
+            if(typeof(toolbar) != 'undefined') {
+                settings.toolbar1 = toolbar1Custom;
+            }
+
+            //Add CSS includes if provided
+            if(cssIncludes) {
+                settings.content_css = cssIncludes;
+            }
+
+            //If newsletter editor...
+            if(isNewsletter) {
+                settings.width = "800px";
+                settings.resize = true;
+            }
+
+            if(typeof relativeUrls == 'undefined' || relativeUrls == false) {
+                settings.relative_urls = false;
+                settings.convert_urls = false;
+            }
+
+			tinymce.init(settings);
+		}
+	}
+
+    function setUpTextEditorFrontEnd(id, isFullPage, toolbar1Custom, cssIncludes, isNewsletter, profile, relativeUrls) {
+
+        var plugins = [
+            "sb_links paste spellchecker textcolor sb_images sb_filemanager sb_table lists"
+        ];
+
+        var menubar = false;
+        var height = "400px";
+        if($('#'+id).data('tinymce-height') != undefined) {
+            height = $('#'+id).data('tinymce-height');
+        }
+        toolbarOptions = "sb_links | sb_images | table |styleselect |  fontsizeselect forecolor | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist | removeformat  ";
+        if($('#'+id).siblings('div.mce-tinymce').length == 0) {
+
+            var settings = {
+                branding: false,
+                selector: '#' + id,
+                width: "auto",
+                height: height,
+                statusbar: true,
+                paste_auto_cleanup_on_paste : true,
+                paste_remove_styles: true,
+                paste_remove_styles_if_webkit: true,
+                paste_strip_class_attributes: true,
+                resize: "both",
+                theme: "modern",
+                valid_elements: "*[*]",
+                extended_valid_elements: "*[*]",
+                valid_children : "multiline[a],singleline[a]",
+                plugins: plugins,
+                menubar: menubar,
+                cleanup: false,
+                verify_html: false,
+                toolbar: toolbarOptions,
+                image_advtab: true,
+                contextmenu: "link image inserttable | cell row column deletetable",
+                fontsize_formats: "8px 9px 10px 11px 12px 14px 16px 18px 20px 24px 36px",
+                image_list: [],
+                paste_preprocess: function (plugin, args) {
+                    args.content += '';
+                },
+                setup: function (editor) {
+                    editor.on("keyup", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+                    editor.on("click", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+                    editor.on('getContent', function (e) {
+                       
+                        if (e.content.indexOf("<a") >= 0) {
+                            var data = e.content;
+                            var hrefArr = [];
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).text();
+                                    e.content = e.content.replace(text+"</a>", text+'</lotelink>');
+                                }
+                            });
+                            e.content = e.content.replace(/\\\\<a type="page"/g, '<lotelink type="page"');
+                            e.content = e.content.replace(/\\\\<a type="file"/g, '<lotelink type="file"');
+                            var data = e.content;
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).attr('href');
+                                    e.content = e.content.replace('<a href="'+text+'"', '<lotelink href="'+text+'"');
+                                }
+                            });
+                            var data = e.content;
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    e.content = e.content.replace('<a lote_id="'+attr+'"', '<lotelink lote_id="'+attr+'"');
+                                }
+                            });
+                        }
+                    });
+                    editor.on('paste', function (e) {
+                        var paste;
+                        if (e.clipboardData.types.indexOf('text/plain') >= 0) {
+                            paste = e.clipboardData.getData('text/plain');
+                        }
+
+                        if (e.clipboardData.types.indexOf('text/html') >= 0) {
+                            var tempPaste = e.clipboardData.getData('text/html');
+                            if (tempPaste.includes('')) { // check if the content is a special type such as actual html, image or file
+                                var regex = new RegExp("([^]*)|([^]*)", "g"); // tinymce copy includes full html and body tags, and the actual content is actually between the comments
+                                paste = tempPaste.replace(regex, '');
+                            }
+                        }
+
+                        if (paste !== undefined) {
+                            paste = paste.replace(/<script[^]*<\\\\/script>/g, ''); // replaces everything in-between and including (<scrip -- <\\\\script>)
+                            e.preventDefault();
+                            insertIntoWysiwyg(paste);
+                        }
+                    });
+                    editor.on('paste_preprocess', function (e) {
+                        console.log('paste_preprocess', e.content);
+                    });
+                    editor.on('beforeSetContent', function (e) {
+
+                        if (e.content.indexOf("<lotelink") >= 0) {
+
+                            var data = e.content;
+                            $(data).find("lotelink").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).attr('href');
+                                    e.content = e.content.replace('<lotelink href="'+text+'"', '<a href="'+text+'"');
+                                }
+
+                            });
+
+                            var data = e.content;
+                            $(data).find("lotelink").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    e.content = e.content.replace('<lotelink lote_id="'+attr+'"', '<a lote_id="'+attr+'"');
+                                }
+
+                            });
+
+                            e.content = e.content.replace(/\\\\<lotelink type="img"/g, '<img');
+                            e.content = e.content.replace(/\\\\<lotelink type="page"/g, '<a type="page"');
+                            e.content = e.content.replace(/\\\\<lotelink type="file"/g, '<a type="file"');
+                            e.content = e.content.replace(/\\\\<\\\\/lotelink>/g, '</a>');
+
+                        }
+
+                    });
+                },
+                spellchecker_language: "en_GB",
+                spellchecker_rpc_url: 'spellchecker.php',
+                is_campaign: (profile !== undefined && profile === "campaign"),
+                sz_profile: profile
+            };
+
+            if(typeof(toolbar) != 'undefined') {
+                settings.toolbar1 = toolbar1Custom;
+            }
+
+            //Add CSS includes if provided
+            if(cssIncludes) {
+                settings.content_css = cssIncludes;
+            }
+
+            //If newsletter editor...
+            if(isNewsletter) {
+                settings.width = "800px";
+                settings.resize = true;
+            }
+
+            if(typeof relativeUrls == 'undefined' || relativeUrls == false) {
+                settings.relative_urls = false;
+                settings.convert_urls = false;
+            }
+
+            settings.sb_links_opts = {
+                link_url: true,
+                link_email: true,
+                link_phone: true
+            };
+
+            settings.sb_images_opts = {
+                link_upload: true,
+                link_external: true
+            };
+
+            tinymce.init(settings);
+
+        }
+    }
+
+    function setupContentEditor(id, isFullPage, toolbar1Custom, cssIncludes, isNewsletter, profile, relativeUrls, wildcards, overrideHeight) {
+        var plugins = [
+            "contextmenu", "advlist", "autolink", "lists", "print",  "searchreplace", "visualblocks", "visualchars",
+            "code", "save", "directionality", "paste", "textcolor",
+            "sb_filemanager", "sb_links", "sb_images", "sb_table", "spellchecker"
+        ];
+        var contextMenu = " sb_links sb_images inserttable elements web_link pdf_viewer";
+
+        var wildcardSettings = {
+            content_holder: false,
+            update_forms: false
+        };
+
+        if (wildcards) {
+            if (profile !== 'campaign') {
+                plugins.push("sb_elements");
+            }
+            plugins.push("sb_wildcards");
+            contextMenu = contextMenu + " sb_wildcards sb_wildcards_update_form ";
+
+        }
+
+        var toolbarOptions = "sb_images sb_gallery sb_video pdf_viewer sb_links | formatselect | fontsizeselect forecolor | bold italic underline strikethrough | removeformat | alignleft aligncenter alignright alignjustify | outdent indent | bullist numlist  |  undo redo | code";
+        if (profile === "campaign"){
+            toolbarOptions = "undo redo | fontsizeselect forecolor | bold italic | removeformat | alignleft aligncenter alignright alignjustify | outdent indent | bullist numlist | sb_links | code";
+        }
+        else if(profile === "manage_app_mobile") {
+            toolbarOptions = "undo redo removeformat |  bold italic | alignleft aligncenter alignright | outdent indent | sb_links | sb_images | code ";
+        }
+        else {
+            plugins.push("sb_gallery");
+            plugins.push("sb_video");
+            contextMenu = "sb_images sb_gallery sb_video pdf_viewer web_link inserttable elements sb_links";
+            //contextMenu =  "sb_gallery sb_video "+contextMenu;
+
+        }
+
+
+        if(isFullPage || isNewsletter) {
+            plugins.push("fullpage");
+        }
+
+        var validElements = "*[*]";
+        var invalidElements = "";
+        var validExtendedElements = '*[*]';
+        var validChildren = "multiline[a],singleline[a]";
+
+        var menubar = "edit insert view table tools sb_wildcards";
+        if(profile === "manage_app_mobile"){
+            menubar = false;
+        }
+        var height = "600px";
+        if(profile == "quick_feed" || profile == "summary" ){
+            height = "400px";
+        }
+        else if( profile === "manage_app_mobile"){
+            height = "250px";
+        }
+        else if( profile === "new_content_holder"){
+            height = "400px";
+        }
+        else if(profile === "company_note"){
+            height = "330px";
+        }
+
+
+        if (overrideHeight) {
+            height = overrideHeight + "px";
+        }
+
+        if($('#'+id).siblings('div.mce-tinymce').length == 0) {
+
+            var settings = {
+                branding: false,
+                selector: '#' + id,
+                width: "100%",
+                height: height,
+                statusbar: true,
+                resize: "both",
+                //theme_advanced_resizing: true,
+                //theme_advanced_resizing_use_cookie : false,
+                theme: "modern",
+                allow_html_in_named_anchor: true,
+                allow_unsafe_link_target: true,
+
+                valid_elements: validElements,
+                extended_valid_elements: validExtendedElements,
+                invalid_elements: invalidElements,
+//                extended_valid_elements: 'iframe[src|width|height|frameborder|scrolling|allowfullscreen]',
+                valid_children : validChildren,
+                plugins: plugins,
+                // menu: {
+                //     edit: { title: 'Edit', items: 'undo redo | cut copy paste pastetext | selectall' },
+                //     insert: {title: 'Insert', items: 'sb_video sb_gallery sb_images'},
+                //     view: {title: 'View', items: 'code | visualaid | spellcheck'},
+                //     format: {title: 'Format', items: 'bold italic underline strikethrough superscript subscript | formats | removeformat'},
+                //     table: {title: 'Table', items: 'inserttable tableprops deletetable | cell row column'},
+                //     tools: {title: 'Tools', items: 'spellchecker code'},
+                //     sb_wildcards: { title: 'Wildcards' }
+                // },
+                menubar: menubar,
+                cleanup: false,
+                verify_html: false,
+                toolbar: toolbarOptions,
+                fontsize_formats: "8px 9px 10px 11px 12px 14px 16px 18px 20px 24px 36px",
+
+                image_advtab: true,
+                image_list: [],
+                contextmenu: contextMenu,
+                setup: function (editor) {
+                    editor.on("init", function () {
+                        this.getDoc().body.style.fontSize = '14px';
+                        this.getDoc().body.style.fontFamily = 'Verdana';
+                    });
+                    editor.on("keyup", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+                    editor.on("click", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+                    editor.on('getContent', function (e) {
+                        e.content = e.content.replace(/<p>(<img[^<]*)<\\\\/p>/gi, function (a) {
+                            return a.replace('<p>', '').replace('</p>', '');
+                        });
+                    });
+                    editor.on('BeforePastePreProcess', function(e) {
+                        // This will change any html text back to html tags and sanitise scripts and default comments
+                        var regex = new RegExp("([^]*)|([^]*)", "g"); // tinymce copy includes full html and body tags, and the actual content is actually between the comments
+                        e.content = e.content.replace(/(&lt;)/g, '<')
+                                .replace(/(&gt;)/g, '>')
+                                .replace(regex, '')
+                                .replace(/<script[\\\\s\\\\S]*?<\\\\/script>/g, '');
+                    });
+                    editor.on('beforeSetContent', function (e) {
+                        e.content = e.content.replace(/<p>(<img[^<]*)<\\\\/p>/gi, function (a) {
+                            return a.replace('<p>', '').replace('</p>', '');
+                        });
+                    });
+
+
+
+
+
+                },
+                spellchecker_language: "en_GB",
+                spellchecker_rpc_url: 'spellchecker.php',
+                is_campaign: (profile !== undefined && profile === "campaign"),
+                sz_profile: profile
+            };
+
+            if(typeof(toolbar) != 'undefined') {
+                settings.toolbar1 = toolbar1Custom;
+            }
+
+            //Add CSS includes if provided
+            if(cssIncludes) {
+                if($.isArray(cssIncludes)){
+                    cssIncludes.push("/theme/website/szschool/css/content.css");
+                    cssIncludes.push("https://www.heath.derbyshire.sch.uk/_admin/cms/szschool/account-setting-colours.css");
+                    cssIncludes.push("/theme/website/szschool/css/font-awesome.min.css");
+
+                }
+                settings.content_css = cssIncludes;
+
+            }else{
+                var cssIncludesDefault = ["/theme/website/szschool/css/content.css", "https://www.heath.derbyshire.sch.uk/_admin/cms/szschool/account-setting-colours.css", "/theme/website/szschool/css/font-awesome.min.css"];
+                settings.content_css = cssIncludesDefault;
+            }
+
+            //If newsletter editor...
+            if(isNewsletter) {
+                settings.width = "100%";
+                settings.resize = true;
+                //settings.force_br_newlines = true;
+                //settings.force_p_newlines = false;
+                settings.forced_root_block = '';
+            }
+
+            if(typeof relativeUrls == 'undefined' || relativeUrls == false) {
+                settings.relative_urls = false;
+                settings.convert_urls = false;
+            }
+
+            if (wildcards) {
+                settings.wildcards = wildcards;
+                settings.wildcardAddons = wildcardSettings;
+            }
+
+            settings.is_user_admin = 0;
+
+//            tinymce.execCommand('mceFocus', false, id);
+            tinymce.execCommand('mceRemoveEditor', true, id);
+            tinymce.init(settings);
+
+        }
+    }
+</script>
+
+
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" alt="Lightbox Image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" name="Previous" href=""><span>Previous</span></a><a class="lb-next" name="Next" href=""><span>Next</span></a></div><div class="lb-loader"><a class="lb-cancel" name="Cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close" name="Close"></a></div></div></div></div><div class="ug-gallery-wrapper ug-lightbox ug-lightbox-compact" style=""><div class="ug-lightbox-overlay" style="opacity: 0.6;"></div><div class="ug-lightbox-numbers">1 / 4</div><div class="ug-lightbox-button-close" style="position: absolute; margin: 0px; left: 753px; top: 2px; opacity: 1;"></div><div class="ug-lightbox-arrow-left"></div><div class="ug-lightbox-arrow-right"></div><div class="ug-slider-wrapper"><div class="ug-slider-inner" style="left: 0px; width: 0px;"><div class="ug-slide-wrapper ug-slide1" style="z-index: 2; position: absolute; margin: 0px; left: 0px; top: 0px; opacity: 1;"><div class="ug-item-wrapper"><img style="display: block; margin: 0px; height: 0px; top: 30px; opacity: 1; width: 0px; left: 40px; position: absolute; border-style: solid; border-width: 10px; border-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: rgb(53, 53, 53) 3px 3px 10px 0px;" src="/images/pride_and_progress.png"></div><div class="ug-slider-preloader ug-loader3 ug-loader-black" style="display: none;"></div><div class="ug-button-videoplay ug-type-square" style="display: none; position: absolute; margin: 0px; left: -43px; top: -33px;"></div></div><div class="ug-slide-wrapper ug-slide2" style="z-index: 3; position: absolute; margin: 0px; left: 0px; top: 0px;"><div class="ug-item-wrapper"><img style="display: block; margin: 0px; height: 0px; top: 30px; opacity: 1; width: 0px; left: 19px; position: absolute; border-style: solid; border-width: 10px; border-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: rgb(53, 53, 53) 3px 3px 10px 0px;" src="/images/1.jpg"></div><div class="ug-slider-preloader ug-loader3 ug-loader-black" style="display: none;"></div><div class="ug-button-videoplay ug-type-square" style="display: none; position: absolute; margin: 0px; left: -43px; top: -33px;"></div></div><div class="ug-slide-wrapper ug-slide3" style="opacity: 1; position: absolute; margin: 0px; left: 0px; top: 0px;"><div class="ug-item-wrapper"><img style="display: block; margin: 0px; height: 0px; top: 30px; opacity: 1; width: 0px; left: 19px; position: absolute; border-style: solid; border-width: 10px; border-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: rgb(53, 53, 53) 3px 3px 10px 0px;" src="/images/2.jpg"></div><div class="ug-slider-preloader ug-loader3 ug-loader-black" style="display: none;"></div><div class="ug-button-videoplay ug-type-square" style="display: none; position: absolute; margin: 0px; left: -43px; top: -33px;"></div></div><div class="ug-videoplayer" style="display:none"><div class="ug-videoplayer-wrapper ug-videoplayer-youtube" style="display:none"><div id="gallery_2_1556846857_grid_youtube_inner"></div></div><div id="gallery_2_1556846857_grid_videoplayer_vimeo" class="ug-videoplayer-wrapper ug-videoplayer-vimeo" style="display:none"></div><div id="gallery_2_1556846857_grid_videoplayer_html5" class="ug-videoplayer-wrapper ug-videoplayer-html5"></div><div id="gallery_2_1556846857_grid_videoplayer_soundcloud" class="ug-videoplayer-wrapper ug-videoplayer-soundcloud"></div><div id="gallery_2_1556846857_grid_videoplayer_wistia" class="ug-videoplayer-wrapper ug-videoplayer-wistia"></div></div></div></div><div class="ug-textpanel"><div class="ug-textpanel-textwrapper"><div class="ug-textpanel-title" style="text-align: left;">1</div></div></div></div>\` }} />
+      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
+      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" />
+      
+      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" />
+      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" />
+      {/* External canvas/functions.js removed - using local /assets/js/functions.js instead via ScriptsLoader */}
+      <Script src="/website/custom.js?skin_id=" strategy="afterInteractive" key="/website/custom.js?skin_id=" />
+      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
+      <Script id="inline-0" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-1037-10376936df5e646a8").height(canvas.height);
+                            $("#pdf-view-loading-1037-10376936df5e646a8").hide();
+                            $("#pdf-view-1037-10376936df5e646a8").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-1037-10376936df5e646a8").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/world_book_day_2024.pdf', document.getElementById('pdf-view-1037-10376936df5e646a8'));
+            });
+        \` }} />
+      <Script id="inline-1" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-1039-10396936df5e6beb3").height(canvas.height);
+                            $("#pdf-view-loading-1039-10396936df5e6beb3").hide();
+                            $("#pdf-view-1039-10396936df5e6beb3").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-1039-10396936df5e6beb3").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/christmas_at_heath.pdf', document.getElementById('pdf-view-1039-10396936df5e6beb3'));
+            });
+        \` }} />
+      <Script id="inline-2" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-1008-10086936df5e72920").height(canvas.height);
+                            $("#pdf-view-loading-1008-10086936df5e72920").hide();
+                            $("#pdf-view-1008-10086936df5e72920").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-1008-10086936df5e72920").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/friendship_week_and_children_in_need.pdf', document.getElementById('pdf-view-1008-10086936df5e72920'));
+            });
+        \` }} />
+      <Script id="inline-3" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-977-9776936df5e794b8").height(canvas.height);
+                            $("#pdf-view-loading-977-9776936df5e794b8").hide();
+                            $("#pdf-view-977-9776936df5e794b8").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-977-9776936df5e794b8").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/remembrance_day.pdf', document.getElementById('pdf-view-977-9776936df5e794b8'));
+            });
+        \` }} />
+      <Script id="inline-4" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-950-9506936df5e7ff70").height(canvas.height);
+                            $("#pdf-view-loading-950-9506936df5e7ff70").hide();
+                            $("#pdf-view-950-9506936df5e7ff70").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-950-9506936df5e7ff70").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/black_history_month.pdf', document.getElementById('pdf-view-950-9506936df5e7ff70'));
+            });
+        \` }} />
+      <Script id="inline-5" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-954-9546936df5e86a01").height(canvas.height);
+                            $("#pdf-view-loading-954-9546936df5e86a01").hide();
+                            $("#pdf-view-954-9546936df5e86a01").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-954-9546936df5e86a01").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/harvest_festival.pdf', document.getElementById('pdf-view-954-9546936df5e86a01'));
+            });
+        \` }} />
+      <Script id="inline-6" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-951-9516936df5e8d3df").height(canvas.height);
+                            $("#pdf-view-loading-951-9516936df5e8d3df").hide();
+                            $("#pdf-view-951-9516936df5e8d3df").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-951-9516936df5e8d3df").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/hello_yellow_day.pdf', document.getElementById('pdf-view-951-9516936df5e8d3df'));
+            });
+        \` }} />
+      <Script id="inline-7" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-952-9526936df5e93e71").height(canvas.height);
+                            $("#pdf-view-loading-952-9526936df5e93e71").hide();
+                            $("#pdf-view-952-9526936df5e93e71").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-952-9526936df5e93e71").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/national_poetry_day.pdf', document.getElementById('pdf-view-952-9526936df5e93e71'));
+            });
+        \` }} />
+      <Script id="inline-8" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-953-9536936df5e9a82e").height(canvas.height);
+                            $("#pdf-view-loading-953-9536936df5e9a82e").hide();
+                            $("#pdf-view-953-9536936df5e9a82e").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-953-9536936df5e9a82e").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/halloween_bonfire_night_and_anti_social_behaviour.pdf', document.getElementById('pdf-view-953-9536936df5e9a82e'));
+            });
+        \` }} />
+      <Script id="inline-9" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-955-9556936df5ea1067").height(canvas.height);
+                            $("#pdf-view-loading-955-9556936df5ea1067").hide();
+                            $("#pdf-view-955-9556936df5ea1067").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-955-9556936df5ea1067").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/embark_awards.pdf', document.getElementById('pdf-view-955-9556936df5ea1067'));
+            });
+        \` }} />
+      <Script id="inline-10" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+
+                    jQuery('.sz-gallery').each(function() {
+                        var array = jQuery(this).attr('data-parameters').split(',');
+                        var parameters = {};
+
+                        jQuery.each(array, function(key, value) {
+                            var split = value.split(':');
+
+                            if (!isNaN(Number(split[1]))) {
+                                split[1] = Number(split[1]);
+                            } else if (split[1] === "true" || split[1] === "false") {
+                                split[1] = (split[1] === "true");
+                            } else {
+                                split[1] = String(split[1]);
+                            }
+                            parameters[split[0]] = split[1];
+                        });
+
+                        jQuery(this).unitegallery(parameters);
+                        jQuery(this).show();
+                    });
+                    $('.read-more-item').each(function(){
+                        var firstPara = $(this).find('p:first').html();
+                        $(this).parent().prepend('<p class="articleSummary">' + firstPara.substring(0,500) + '...</p>');
+                    });
+                }
+			})
+
+
+	}
+
+	$(function(){
+
+        $('.tags_checked').off('change').on("change", function () {
+           executeSearch();
+           console.log('Tags Checked');
+        });
+
+
+		$("#search_phrase").keypress(function (e) {
+			if(e.which == 13) { // the enter key code
+				executeSearch();
+                console.log('Search Phase');
+			}
+		});
+
+        $("#search_clear").click(function(){
+            $("#search_phrase").val("");
+            executeSearch();
+            console.log('Search Clear');
+        });
+
+        $('.clearTags').on('click', function(){
+            $('.tagwrp input:radio').prop("checked", false);
+            executeSearch();
+            console.log('Uncheck');
+        });
+        $('.clearSideTags').on('click', function(){
+            $('aside.sidebar input:radio').prop("checked", false);
+            $('#clearButton').addClass('grey');
+            executeSearch();
+        });
+         $('aside.sidebar label.radio-style-1-label').on('click', function(){
+            $('#clearButton').removeClass('grey');
+         });
+
+         $(document).on('click', '.event-tag, .article-tag', function () {
+             $('input.tags_checked[id="radio-' + $(this).attr('id') + '"]').prop('checked', true);
+             executeSearch();
+         });
+	});
+
+\` }} />
+      <Script id="inline-12" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+    var actualCaretPositionBookmark;
+\` }} />
+      <Script id="inline-13" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
+	function setWysiwygValue(id, value) {
+		tinymce.get(id).setContent(value);
+	}
+    function getWysiwygValue(id) {
+        return tinyMCE.get(id).getContent();
+    }
+	function getWysiwygValuePlainText(id) {
+		return tinyMCE.get(id).getContent({ format: 'text' });
+	}
+	function insertIntoWysiwyg(value, id) {
+        if(actualCaretPositionBookmark != undefined) tinyMCE.activeEditor.selection.moveToBookmark(actualCaretPositionBookmark);
+//        console.log(tinyMCE.activeEditor);
+//        //tinyMCE.setActive(id);
+//        tinyMCE.activeEditor.id = id;
+//        console.log(tinyMCE.activeEditor.id);
+//        tinyMCE.execCommand('mceFocus',false,'#'+id);
+        tinyMCE.activeEditor.execCommand('mceInsertContent', false, ' ' + value + ' ');
+	}
+	function setUpTextEditor(id, isFullPage, toolbar1Custom, cssIncludes, isNewsletter, profile, relativeUrls) {
+
+		var plugins = [
+			"linkfrontend spellchecker link image external responsivefilemanager jbimages custom email phone sb_url"
+		];
+
+		var menubar = false;
+		var height = "400px";
+		if($('#'+id).data('tinymce-height') != undefined) {
+			height = $('#'+id).data('tinymce-height');
+		}
+		toolbarOptions = "   link | styleselect |  bold italic underline bullist numlist | spellchecker | removeformat  ";
+		if($('#'+id).siblings('div.mce-tinymce').length == 0) {
+
+			var settings = {
+                branding: false,
+				selector: '#' + id,
+				width: "auto",
+				height: height,
+				statusbar: true,
+				resize: "both",
+				theme: "modern",
+				valid_elements: "*[*]",
+				extended_valid_elements: "*[*]",
+                valid_children : "multiline[a],singleline[a]",
+				plugins: plugins,
+				menubar: menubar,
+				cleanup: false,
+				verify_html: false,
+                toolbar: toolbarOptions,
+				image_advtab: true,
+				contextmenu: "link image inserttable | cell row column deletetable",
+				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				filemanager_title: "File Manager",
+				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
+				image_list: [],
+                paste_preprocess: function (plugin, args) {
+
+					args.content += '';
+				},
+				setup: function (editor) {
+                    editor.on("keyup", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+                    editor.on("click", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+					editor.on('getContent', function (e) {
+
+                        if (e.content.indexOf("<a") >= 0) {
+                            var data = e.content;
+                            var hrefArr = [];
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).text();
+                                    e.content = e.content.replace(text+"</a>", text+'</lotelink>');
+                                }
+                            });
+                            e.content = e.content.replace(/\\<a type="page"/g, '<lotelink type="page"');
+                            e.content = e.content.replace(/\\<a type="file"/g, '<lotelink type="file"');
+                            var data = e.content;
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).attr('href');
+                                    e.content = e.content.replace('<a href="'+text+'"', '<lotelink href="'+text+'"');
+                                }
+                            });
+                            var data = e.content;
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    e.content = e.content.replace('<a lote_id="'+attr+'"', '<lotelink lote_id="'+attr+'"');
+                                }
+                            });
+                        }
+					});
+                    editor.on('paste', function (e) {
+                        var paste;
+                        if (e.clipboardData.types.indexOf('text/plain') >= 0) {
+                            paste = e.clipboardData.getData('text/plain');
+                        }
+
+                        if (e.clipboardData.types.indexOf('text/html') >= 0) {
+                            var tempPaste = e.clipboardData.getData('text/html');
+                            if (tempPaste.includes('')) { // check if the content is a special type such as actual html, image or file
+                                var regex = new RegExp("([^]*)|([^]*)", "g"); // tinymce copy includes full html and body tags, and the actual content is actually between the comments
+                                paste = tempPaste.replace(regex, '');
+                            }
+                        }
+
+                        if (paste !== undefined) {
+                            paste = paste.replace(/<script[^]*<\\/script>/g, ''); // replaces everything in-between and including (<scrip -- <\\script>)
+                            e.preventDefault();
+                            insertIntoWysiwyg(paste);
+                        }
+                    });
+					editor.on('paste_preprocess', function (e) {
+						console.log('paste_preprocess', e.content);
+					});
+					editor.on('beforeSetContent', function (e) {
+                        e.content = e.content.replace(/<p>(<a[^<]*(<img[^<]*)<\\/a>)<\\/p>/gi, function (a) {
+                            return a.replace('<p>', '').replace('</p>', '');
+                        });
+						if (e.content.indexOf("<lotelink") >= 0) {
+
+                            var data = e.content;
+                            $(data).find("lotelink").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).attr('href');
+                                    e.content = e.content.replace('<lotelink href="'+text+'"', '<a href="'+text+'"');
+                                }
+
+                            });
+
+                            var data = e.content;
+                            $(data).find("lotelink").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    e.content = e.content.replace('<lotelink lote_id="'+attr+'"', '<a lote_id="'+attr+'"');
+                                }
+
+                            });
+
+							e.content = e.content.replace(/\\<lotelink type="img"/g, '<img');
+							e.content = e.content.replace(/\\<lotelink type="page"/g, '<a type="page"');
+							e.content = e.content.replace(/\\<lotelink type="file"/g, '<a type="file"');
+                            e.content = e.content.replace(/\\<\\/lotelink>/g, '</a>');
+
+						}
+
+					});
+				},
+                spellchecker_language: "en_GB",
+                spellchecker_rpc_url: 'spellchecker.php',
+                link_formats: ["Link To URL", "Link To Email", "Link To Phone"],
+                is_campaign: (profile !== undefined && profile === "campaign"),
+                sz_profile: profile
+			};
+
+            if(typeof(toolbar) != 'undefined') {
+                settings.toolbar1 = toolbar1Custom;
+            }
+
+            //Add CSS includes if provided
+            if(cssIncludes) {
+                settings.content_css = cssIncludes;
+            }
+
+            //If newsletter editor...
+            if(isNewsletter) {
+                settings.width = "800px";
+                settings.resize = true;
+            }
+
+            if(typeof relativeUrls == 'undefined' || relativeUrls == false) {
+                settings.relative_urls = false;
+                settings.convert_urls = false;
+            }
+
+			tinymce.init(settings);
+		}
+	}
+
+    function setUpTextEditorFrontEnd(id, isFullPage, toolbar1Custom, cssIncludes, isNewsletter, profile, relativeUrls) {
+
+        var plugins = [
+            "sb_links paste spellchecker textcolor sb_images sb_filemanager sb_table lists"
+        ];
+
+        var menubar = false;
+        var height = "400px";
+        if($('#'+id).data('tinymce-height') != undefined) {
+            height = $('#'+id).data('tinymce-height');
+        }
+        toolbarOptions = "sb_links | sb_images | table |styleselect |  fontsizeselect forecolor | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist | removeformat  ";
+        if($('#'+id).siblings('div.mce-tinymce').length == 0) {
+
+            var settings = {
+                branding: false,
+                selector: '#' + id,
+                width: "auto",
+                height: height,
+                statusbar: true,
+                paste_auto_cleanup_on_paste : true,
+                paste_remove_styles: true,
+                paste_remove_styles_if_webkit: true,
+                paste_strip_class_attributes: true,
+                resize: "both",
+                theme: "modern",
+                valid_elements: "*[*]",
+                extended_valid_elements: "*[*]",
+                valid_children : "multiline[a],singleline[a]",
+                plugins: plugins,
+                menubar: menubar,
+                cleanup: false,
+                verify_html: false,
+                toolbar: toolbarOptions,
+                image_advtab: true,
+                contextmenu: "link image inserttable | cell row column deletetable",
+                fontsize_formats: "8px 9px 10px 11px 12px 14px 16px 18px 20px 24px 36px",
+                image_list: [],
+                paste_preprocess: function (plugin, args) {
+                    args.content += '';
+                },
+                setup: function (editor) {
+                    editor.on("keyup", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+                    editor.on("click", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+                    editor.on('getContent', function (e) {
+                       
+                        if (e.content.indexOf("<a") >= 0) {
+                            var data = e.content;
+                            var hrefArr = [];
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).text();
+                                    e.content = e.content.replace(text+"</a>", text+'</lotelink>');
+                                }
+                            });
+                            e.content = e.content.replace(/\\<a type="page"/g, '<lotelink type="page"');
+                            e.content = e.content.replace(/\\<a type="file"/g, '<lotelink type="file"');
+                            var data = e.content;
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).attr('href');
+                                    e.content = e.content.replace('<a href="'+text+'"', '<lotelink href="'+text+'"');
+                                }
+                            });
+                            var data = e.content;
+                            $(data).find("a").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    e.content = e.content.replace('<a lote_id="'+attr+'"', '<lotelink lote_id="'+attr+'"');
+                                }
+                            });
+                        }
+                    });
+                    editor.on('paste', function (e) {
+                        var paste;
+                        if (e.clipboardData.types.indexOf('text/plain') >= 0) {
+                            paste = e.clipboardData.getData('text/plain');
+                        }
+
+                        if (e.clipboardData.types.indexOf('text/html') >= 0) {
+                            var tempPaste = e.clipboardData.getData('text/html');
+                            if (tempPaste.includes('')) { // check if the content is a special type such as actual html, image or file
+                                var regex = new RegExp("([^]*)|([^]*)", "g"); // tinymce copy includes full html and body tags, and the actual content is actually between the comments
+                                paste = tempPaste.replace(regex, '');
+                            }
+                        }
+
+                        if (paste !== undefined) {
+                            paste = paste.replace(/<script[^]*<\\/script>/g, ''); // replaces everything in-between and including (<scrip -- <\\script>)
+                            e.preventDefault();
+                            insertIntoWysiwyg(paste);
+                        }
+                    });
+                    editor.on('paste_preprocess', function (e) {
+                        console.log('paste_preprocess', e.content);
+                    });
+                    editor.on('beforeSetContent', function (e) {
+
+                        if (e.content.indexOf("<lotelink") >= 0) {
+
+                            var data = e.content;
+                            $(data).find("lotelink").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    var text = $(this).attr('href');
+                                    e.content = e.content.replace('<lotelink href="'+text+'"', '<a href="'+text+'"');
+                                }
+
+                            });
+
+                            var data = e.content;
+                            $(data).find("lotelink").each(function () {
+                                var attr = $(this).attr('lote_id');
+                                if (typeof attr !== typeof undefined && attr !== false && $.isNumeric(attr)) {
+                                    e.content = e.content.replace('<lotelink lote_id="'+attr+'"', '<a lote_id="'+attr+'"');
+                                }
+
+                            });
+
+                            e.content = e.content.replace(/\\<lotelink type="img"/g, '<img');
+                            e.content = e.content.replace(/\\<lotelink type="page"/g, '<a type="page"');
+                            e.content = e.content.replace(/\\<lotelink type="file"/g, '<a type="file"');
+                            e.content = e.content.replace(/\\<\\/lotelink>/g, '</a>');
+
+                        }
+
+                    });
+                },
+                spellchecker_language: "en_GB",
+                spellchecker_rpc_url: 'spellchecker.php',
+                is_campaign: (profile !== undefined && profile === "campaign"),
+                sz_profile: profile
+            };
+
+            if(typeof(toolbar) != 'undefined') {
+                settings.toolbar1 = toolbar1Custom;
+            }
+
+            //Add CSS includes if provided
+            if(cssIncludes) {
+                settings.content_css = cssIncludes;
+            }
+
+            //If newsletter editor...
+            if(isNewsletter) {
+                settings.width = "800px";
+                settings.resize = true;
+            }
+
+            if(typeof relativeUrls == 'undefined' || relativeUrls == false) {
+                settings.relative_urls = false;
+                settings.convert_urls = false;
+            }
+
+            settings.sb_links_opts = {
+                link_url: true,
+                link_email: true,
+                link_phone: true
+            };
+
+            settings.sb_images_opts = {
+                link_upload: true,
+                link_external: true
+            };
+
+            tinymce.init(settings);
+
+        }
+    }
+
+    function setupContentEditor(id, isFullPage, toolbar1Custom, cssIncludes, isNewsletter, profile, relativeUrls, wildcards, overrideHeight) {
+        var plugins = [
+            "contextmenu", "advlist", "autolink", "lists", "print",  "searchreplace", "visualblocks", "visualchars",
+            "code", "save", "directionality", "paste", "textcolor",
+            "sb_filemanager", "sb_links", "sb_images", "sb_table", "spellchecker"
+        ];
+        var contextMenu = " sb_links sb_images inserttable elements web_link pdf_viewer";
+
+        var wildcardSettings = {
+            content_holder: false,
+            update_forms: false
+        };
+
+        if (wildcards) {
+            if (profile !== 'campaign') {
+                plugins.push("sb_elements");
+            }
+            plugins.push("sb_wildcards");
+            contextMenu = contextMenu + " sb_wildcards sb_wildcards_update_form ";
+
+        }
+
+        var toolbarOptions = "sb_images sb_gallery sb_video pdf_viewer sb_links | formatselect | fontsizeselect forecolor | bold italic underline strikethrough | removeformat | alignleft aligncenter alignright alignjustify | outdent indent | bullist numlist  |  undo redo | code";
+        if (profile === "campaign"){
+            toolbarOptions = "undo redo | fontsizeselect forecolor | bold italic | removeformat | alignleft aligncenter alignright alignjustify | outdent indent | bullist numlist | sb_links | code";
+        }
+        else if(profile === "manage_app_mobile") {
+            toolbarOptions = "undo redo removeformat |  bold italic | alignleft aligncenter alignright | outdent indent | sb_links | sb_images | code ";
+        }
+        else {
+            plugins.push("sb_gallery");
+            plugins.push("sb_video");
+            contextMenu = "sb_images sb_gallery sb_video pdf_viewer web_link inserttable elements sb_links";
+            //contextMenu =  "sb_gallery sb_video "+contextMenu;
+
+        }
+
+
+        if(isFullPage || isNewsletter) {
+            plugins.push("fullpage");
+        }
+
+        var validElements = "*[*]";
+        var invalidElements = "";
+        var validExtendedElements = '*[*]';
+        var validChildren = "multiline[a],singleline[a]";
+
+        var menubar = "edit insert view table tools sb_wildcards";
+        if(profile === "manage_app_mobile"){
+            menubar = false;
+        }
+        var height = "600px";
+        if(profile == "quick_feed" || profile == "summary" ){
+            height = "400px";
+        }
+        else if( profile === "manage_app_mobile"){
+            height = "250px";
+        }
+        else if( profile === "new_content_holder"){
+            height = "400px";
+        }
+        else if(profile === "company_note"){
+            height = "330px";
+        }
+
+
+        if (overrideHeight) {
+            height = overrideHeight + "px";
+        }
+
+        if($('#'+id).siblings('div.mce-tinymce').length == 0) {
+
+            var settings = {
+                branding: false,
+                selector: '#' + id,
+                width: "100%",
+                height: height,
+                statusbar: true,
+                resize: "both",
+                //theme_advanced_resizing: true,
+                //theme_advanced_resizing_use_cookie : false,
+                theme: "modern",
+                allow_html_in_named_anchor: true,
+                allow_unsafe_link_target: true,
+
+                valid_elements: validElements,
+                extended_valid_elements: validExtendedElements,
+                invalid_elements: invalidElements,
+//                extended_valid_elements: 'iframe[src|width|height|frameborder|scrolling|allowfullscreen]',
+                valid_children : validChildren,
+                plugins: plugins,
+                // menu: {
+                //     edit: { title: 'Edit', items: 'undo redo | cut copy paste pastetext | selectall' },
+                //     insert: {title: 'Insert', items: 'sb_video sb_gallery sb_images'},
+                //     view: {title: 'View', items: 'code | visualaid | spellcheck'},
+                //     format: {title: 'Format', items: 'bold italic underline strikethrough superscript subscript | formats | removeformat'},
+                //     table: {title: 'Table', items: 'inserttable tableprops deletetable | cell row column'},
+                //     tools: {title: 'Tools', items: 'spellchecker code'},
+                //     sb_wildcards: { title: 'Wildcards' }
+                // },
+                menubar: menubar,
+                cleanup: false,
+                verify_html: false,
+                toolbar: toolbarOptions,
+                fontsize_formats: "8px 9px 10px 11px 12px 14px 16px 18px 20px 24px 36px",
+
+                image_advtab: true,
+                image_list: [],
+                contextmenu: contextMenu,
+                setup: function (editor) {
+                    editor.on("init", function () {
+                        this.getDoc().body.style.fontSize = '14px';
+                        this.getDoc().body.style.fontFamily = 'Verdana';
+                    });
+                    editor.on("keyup", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+                    editor.on("click", function (editor, e) {
+                        actualCaretPositionBookmark = tinyMCE.activeEditor.selection.getBookmark(2, true);
+                    });
+                    editor.on('getContent', function (e) {
+                        e.content = e.content.replace(/<p>(<img[^<]*)<\\/p>/gi, function (a) {
+                            return a.replace('<p>', '').replace('</p>', '');
+                        });
+                    });
+                    editor.on('BeforePastePreProcess', function(e) {
+                        // This will change any html text back to html tags and sanitise scripts and default comments
+                        var regex = new RegExp("([^]*)|([^]*)", "g"); // tinymce copy includes full html and body tags, and the actual content is actually between the comments
+                        e.content = e.content.replace(/(&lt;)/g, '<')
+                                .replace(/(&gt;)/g, '>')
+                                .replace(regex, '')
+                                .replace(/<script[\\s\\S]*?<\\/script>/g, '');
+                    });
+                    editor.on('beforeSetContent', function (e) {
+                        e.content = e.content.replace(/<p>(<img[^<]*)<\\/p>/gi, function (a) {
+                            return a.replace('<p>', '').replace('</p>', '');
+                        });
+                    });
+
+
+
+
+
+                },
+                spellchecker_language: "en_GB",
+                spellchecker_rpc_url: 'spellchecker.php',
+                is_campaign: (profile !== undefined && profile === "campaign"),
+                sz_profile: profile
+            };
+
+            if(typeof(toolbar) != 'undefined') {
+                settings.toolbar1 = toolbar1Custom;
+            }
+
+            //Add CSS includes if provided
+            if(cssIncludes) {
+                if($.isArray(cssIncludes)){
+                    cssIncludes.push("/theme/website/szschool/css/content.css");
+                    cssIncludes.push("https://www.heath.derbyshire.sch.uk/_admin/cms/szschool/account-setting-colours.css");
+                    cssIncludes.push("/theme/website/szschool/css/font-awesome.min.css");
+
+                }
+                settings.content_css = cssIncludes;
+
+            }else{
+                var cssIncludesDefault = ["/theme/website/szschool/css/content.css", "https://www.heath.derbyshire.sch.uk/_admin/cms/szschool/account-setting-colours.css", "/theme/website/szschool/css/font-awesome.min.css"];
+                settings.content_css = cssIncludesDefault;
+            }
+
+            //If newsletter editor...
+            if(isNewsletter) {
+                settings.width = "100%";
+                settings.resize = true;
+                //settings.force_br_newlines = true;
+                //settings.force_p_newlines = false;
+                settings.forced_root_block = '';
+            }
+
+            if(typeof relativeUrls == 'undefined' || relativeUrls == false) {
+                settings.relative_urls = false;
+                settings.convert_urls = false;
+            }
+
+            if (wildcards) {
+                settings.wildcards = wildcards;
+                settings.wildcardAddons = wildcardSettings;
+            }
+
+            settings.is_user_admin = 0;
+
+//            tinymce.execCommand('mceFocus', false, id);
+            tinymce.execCommand('mceRemoveEditor', true, id);
+            tinymce.init(settings);
+
+        }
+    }
+\` }} />` }} />
+
+    </>
+  );
+}

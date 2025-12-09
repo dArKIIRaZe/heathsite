@@ -1,0 +1,124 @@
+/* Global styles for Heath Primary School */
+
+/* Ensure external images can load */
+img[src^="https://"] {
+  display: inline-block;
+}
+
+/* Fallback for custom font icons using Font Awesome equivalents - High specificity */
+i.icon-reorder:before,
+[class*="icon-reorder"]:before {
+  content: "\f0c9" !important; /* fa-bars */
+  font-family: "FontAwesome" !important;
+}
+
+i.icon-search3:before,
+[class*="icon-search3"]:before {
+  content: "\f002" !important; /* fa-search */
+  font-family: "FontAwesome" !important;
+}
+
+i.icon-line-cross:before,
+[class*="icon-line-cross"]:before {
+  content: "\f00d" !important; /* fa-times */
+  font-family: "FontAwesome" !important;
+}
+
+i.icon-angle-left:before,
+[class*="icon-angle-left"]:before {
+  content: "\f104" !important; /* fa-angle-left */
+  font-family: "FontAwesome" !important;
+}
+
+i.icon-angle-right:before,
+[class*="icon-angle-right"]:before {
+  content: "\f105" !important; /* fa-angle-right */
+  font-family: "FontAwesome" !important;
+}
+
+i.icon-twitter:before,
+[class*="icon-twitter"]:before {
+  content: "\f099" !important; /* fa-twitter */
+  font-family: "FontAwesome" !important;
+}
+
+/* Ensure Font Awesome icons load properly */
+.fa {
+  font-family: "FontAwesome" !important;
+}
+
+/* Make sure icons display correctly */
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure slider arrow icons are visible, centered, and white */
+.slider-arrow-left,
+.slider-arrow-right {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 0 !important;
+}
+
+.slider-arrow-left i,
+.slider-arrow-right i {
+  font-size: 24px !important;
+  color: #fff !important;
+  display: inline-block !important;
+  font-family: "FontAwesome" !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  line-height: 1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.slider-arrow-left i.icon-angle-left:before {
+  content: "\f104" !important; /* fa-angle-left */
+  font-family: "FontAwesome" !important;
+  color: #fff !important;
+}
+
+.slider-arrow-right i.icon-angle-right:before {
+  content: "\f105" !important; /* fa-angle-right */
+  font-family: "FontAwesome" !important;
+  color: #fff !important;
+}
+
+/* Ensure search icon is visible */
+#top-search-trigger i.icon-search3 {
+  font-size: 18px !important;
+  display: inline-block !important;
+  font-family: "FontAwesome" !important;
+}
+
+#top-search-trigger i.icon-search3:before {
+  content: "\f002" !important; /* fa-search */
+  font-family: "FontAwesome" !important;
+}
+
+/* Make welcome text white */
+.slider-caption h2,
+.swiper-slide.dark .slider-caption h2,
+.swiper-slide.dark .slider-caption h2 *,
+.slider-caption-center h2,
+.slider-caption h2[data-caption-animate] {
+  color: #fff !important;
+}
+
+/* Override any dark text colors on dark slides */
+.swiper-slide.dark .slider-caption,
+.swiper-slide.dark .slider-caption * {
+  color: #fff !important;
+}
+

@@ -1,0 +1,109 @@
+/* 
+	This CSS file contains the custom css styles for the Schoolzine Website template 
+	When adding to this file use the following comment example:
+*/
+
+/* 
+	Added by: Your Name
+	Date: Date Added
+	Descriptoin: A breif description of the change 
+*/
+
+@media screen and (max-width: 980px) {
+    .portfolio-desc{
+        bottom: 0px !important;
+    }
+    
+    body.device-touch.device-xs #content01 .portfolio-nomargin .portfolio-desc {
+        display: block !important;
+    }
+}
+
+p.Clear.sz-mce-clear.mceNonEditable {
+    padding: 10px;
+}
+
+.is_internal .swiper_wrapper .swiper-slide {background-position: top center;}
+
+#content01 .cal-list {display: none;}
+
+.sitemap-links, .policyPadding {padding: 0 5%;}
+
+/*------------------------------------Nav responsive fix------------------------------------*/
+
+@media screen and (min-width: 992px) and (max-width: 1357px) {
+    #header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li {
+        width: 10vw;
+        height: 60px;
+        margin: 0 7px;
+    }
+    
+    #header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li > a {
+        line-height: 22px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-align: center;
+        height: 60px;
+    }
+    
+    #header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li > a div {
+        position: absolute;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+    
+    #header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li > a i {display: none;}
+    
+    #top-search {margin: 40px 0 40px 5px;}
+
+    #primary-menu ul li > a {padding: 39px 9px;}
+    
+    #header > div.container.clearfix {background: white;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1208px) {
+    body.stretched #header.full-header .container {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1357px) {
+    #header.full-header #primary-menu > ul {
+            padding-right: 2px;
+            margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1000px) {
+    #header.full-header #primary-menu > ul {
+        padding-right: 0;
+        margin-right: 3px;
+    }
+    
+    #top-search {
+        margin: 40px 0 40px 0 !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1053px) {
+    #primary-menu.style-5 > ul > li:not(:first-child) {
+        margin-left: 10px;
+    }
+}
+
+.content-wrap p, li {
+    font-size: 16px;
+}
+a.footer-logo svg{width:150px;}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* 
+Added by: Luke O
+Date: 19/09/23
+Description: Slider caption text white*/
+
+.slider-caption:not(.dark) h2 {
+    color: #fff;
+}

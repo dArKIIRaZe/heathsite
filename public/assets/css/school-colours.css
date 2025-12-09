@@ -1,0 +1,801 @@
+/*
+ *
+ * School specific colours and images
+ * _blueprint
+ *
+
+Background Colour: 254,0,0
+Primary Colour: 254,0,0
+Secondary Colour: 248,148,32
+
+ */
+/* ======================================================================
+General Styles
+=====================================================================================*/
+
+::selection {
+	background: rgb(254,0,0);
+}
+
+::-moz-selection {
+	background: rgb(254,0,0); /* Firefox */
+}
+
+::-webkit-selection {
+	background: rgb(254,0,0); /* Safari */
+}
+
+a {
+	 color: rgb(254,0,0) ;
+}
+
+/*h1 > span:not(.nocolor):not(.badge),
+h2 > span:not(.nocolor):not(.badge),
+h3 > span:not(.nocolor):not(.badge),
+h4 > span:not(.nocolor):not(.badge),
+h5 > span:not(.nocolor):not(.badge),
+h6 > span:not(.nocolor):not(.badge) { color: rgb(254,0,0); }*/
+
+.bgcolor,.bgcolor #header-wrap, #top-bar.dark.primaryBg, #copyrights.primaryBg, #footer-19 { background-color: rgb(254,0,0); }
+.color { color: rgb(254,0,0) ; }
+.border-color { border-color:  rgb(254,0,0) ; }
+
+
+.top-links ul ul, .top-links ul div.top-link-section { border-top-color: rgb(254,0,0) ; }
+.header-extras li .he-text span{ color: rgb(254,0,0);  }
+
+#primary-menu ul li:hover > a, #primary-menu ul li.current > a, .top-cart-item-desc a:hover, .top-cart-action span.top-checkout-price { color: rgb(254,0,0) ; }
+#primary-menu ul ul li:hover > a { color: rgb(254,0,0) ; }
+#primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content{ border-top-color:rgb(254,0,0); }
+
+#primary-menu ul ul:not(.mega-menu-column),#primary-menu ul li .mega-menu-content { border-top-color:rgb(254,0,0); }
+
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a:hover{  color: rgb(248,148,32); }
+
+#primary-menu.style-3 > ul > li.current > a { background-color: rgb(248,148,32); }
+
+#primary-menu.style-4 > ul > li:hover > a, 
+#primary-menu.style-4 > ul > li.current > a,
+.post-timeline .entry:hover .entry-timeline,
+.post-timeline .entry:hover .timeline-divider,
+.more-link,
+.cart-product-thumbnail img:hover,
+.feature-box.fbox-outline .fbox-icon,
+.feature-box.fbox-border .fbox-icon,
+.process-steps li.active a,
+.process-steps li.ui-tabs-active a,
+.i-rounded:hover,
+.i-circled:hover,
+.tabs.tabs-tb ul.tab-nav li.ui-tabs-active a,
+.tabs.tabs-bb ul.tab-nav li.ui-tabs-active a ,
+ul.tab-nav.tab-nav2 li.ui-state-active a,
+ul.tab-nav-lg li.ui-tabs-active a,
+.title-block,
+.title-block-right,
+.heading-block.border-color:after,
+.fancy-title.title-border-color:before,
+.fancy-title.title-bottom-border h1,
+.fancy-title.title-bottom-border h2,
+.fancy-title.title-bottom-border h3,
+.fancy-title.title-bottom-border h4,
+.fancy-title.title-bottom-border h5,
+.fancy-title.title-bottom-border h6,
+#gotoTop:hover,
+.tagcloud a:hover,
+.page-item.active .page-link,
+.page-link:hover,
+.page-link:focus,
+.button:hover,
+a.btn:hover,
+.wysiwyg a:hover
+{ border-color: rgb(248,148,32); }
+
+ #primary-menu.style-6 > ul > li > a:after, 
+ #primary-menu.style-6 > ul > li.current > a:after, 
+ #primary-menu.style-6 > div > ul > li > a:after, 
+ #primary-menu.style-6 > div > ul > li.current > a:after, 
+ #top-cart .top-cart-content { border-top-color:rgb(254,0,0); }
+
+#primary-menu.sub-title > ul > li:hover > a, 
+#primary-menu.sub-title > ul > li.current > a, 
+#primary-menu.sub-title > div > ul > li:hover > a, 
+#primary-menu.sub-title > div > ul > li.current > a, 
+#page-menu-wrap, #page-menu ul ul,
+#page-menu.dots-menu nav li.current a, 
+#page-menu.dots-menu nav li div,
+.portfolio-filter.style-4 li.activeFilter a:after,
+.portfolio-shuffle:hover,
+.entry-link:hover,
+.sale-flash,
+.button.button-dark:hover,
+.button.button-3d:hover,
+.promo.promo-flat,
+.feature-box .fbox-icon i,
+.feature-box .fbox-icon img,
+.fbox-effect.fbox-dark .fbox-icon i:hover,
+.fbox-effect.fbox-dark:hover .fbox-icon i,
+.fbox-border.fbox-effect.fbox-dark .fbox-icon i:after,
+.process-steps li.active a,
+.process-steps li.ui-tabs-active a,
+.sidenav > .ui-tabs-active > a,
+.sidenav > .ui-tabs-active > a:hover,
+.testimonial .flex-control-nav li a,
+.skills li .progress,
+.owl-carousel .owl-nav [class*=owl-]:hover,
+.owl-carousel .owl-dots .owl-dot,
+.widget-filter-links li.active-filter span,
+.page-item.active .page-link,
+.page-link:hover,
+.page-link:focus,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.button,
+a.btn,
+.wysiwyg a
+{ background-color: rgb(254,0,0);}
+
+#page-menu.dots-menu nav li div:after { border-color:rgb(248,148,32);  }
+ 
+ #top-cart > a:hover, 
+ .breadcrumb a:hover, 
+ .portfolio-filter li a:hover,
+ .portfolio-desc h3 a:hover,
+ .portfolio-overlay a:hover,
+ #portfolio-navigation a:hover,
+ .entry-title h2 a:hover,
+ .entry-meta li a:hover,
+ .post-timeline .entry:hover .entry-timeline,
+.post-timeline .entry:hover .timeline-divider,
+.ipost .entry-title h3 a:hover,
+.ipost .entry-title h4 a:hover,
+.spost .entry-title h4 a:hover,
+.mpost .entry-title h4 a:hover,
+.comment-content .comment-author a:hover,
+.product-title h3 a:hover,
+.single-product .product-title h2 a:hover,
+.product-price ins,
+.single-product .product-price,
+.feature-box.fbox-border .fbox-icon i,
+.feature-box.fbox-border .fbox-icon img,
+.feature-box.fbox-plain .fbox-icon i,
+.feature-box.fbox-plain .fbox-icon img,
+.process-steps li.active h5,
+.process-steps li.ui-tabs-active h5,
+.faqlist li a:hover,
+.team-title span,
+.pricing-box.best-price .pricing-price,
+.tagcloud a:hover,
+.nav-tree li:hover > a,
+.nav-tree li.current > a,
+.nav-tree li.active > a,
+.btn-link,
+.page-link,
+.page-link:hover,
+.page-link:focus,
+.page-item.active .page-link,
+.page-link:hover,
+.page-link:focus,
+
+ { color: rgb(248,148,32);  }
+
+#top-cart > a > span, .top-cart-item-image:hover, .portfolio-filter.style-3 li.activeFilter a { background-color: rgb(248,148,32); }
+
+.portfolio-desc h3 a:hover,
+.portfolio-filter.style-3 li.activeFilter a
+{ color: rgb(254,0,0) ;  }
+
+.owl-carousel .owl-nav [class*=owl-]:hover, .portfolio-filter li.activeFilter a{ background-color: rgb(254,0,0) ; }
+
+.fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px rgb(254,0,0) ; }
+.fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
+.fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px rgb(254,0,0) ; }
+
+.button, .btn, .wysiwyg a{ background-color:rgb(254,0,0); }
+.primaryBg, #footer.primaryBg { background: rgb(254,0,0);  }
+
+#header.header5 #top-search{ background: rgb(254,0,0);}
+/* ======================================================================
+News Slider 3
+========================================================================= */
+.newsslider-3 .entry-title h4,
+.newsslider-3 .entry-title h4 a,
+.newsslider-3 .entry-title h3,
+.newsslider-3 .entry-title h3 a  { color:rgb(254,0,0); }
+
+.secondary-nav{
+	background: rgb(254,0,0);
+}
+.secondary-nav .nav-item ul {
+	background: rgba(254,0,0, 0.7);
+}
+/* ======================================================================
+SideMenu
+========================================================================= */
+#primary-menu.sideMenu{
+	background-color: rgb(254,0,0);
+}
+#primary-menu.sideMenu ul li a{color:#fff;}
+
+#primary-menu.sideMenu ul ul:not(.mega-menu-column), #primary-menu.sideMenu ul li .mega-menu-content {
+	position: relative;
+	width: auto;
+	max-width: none;
+	background: transparent !important;
+	box-shadow: none;
+	border: 0;
+	border-top: 1px solid #EEE;
+	z-index: 1;
+	top: 0;
+	padding-left: 15px;
+}
+#primary-menu.sideMenu ul ul:not(.mega-menu-column) ul {
+	top: 0 !important;
+	left: 0;
+}
+/* ======================================================================
+Tiles 4
+========================================================================= */
+.tiles4 .htile .read-more-button {
+	background-color: rgb(254,0,0);
+}
+/* ======================================================================
+Header 8
+========================================================================= */
+.button-box, #second-menu .left-box{ background: rgba(254,0,0,0.8); }
+
+/* ======================================================================
+Tiles 9
+========================================================================= */
+#tiles_9 .tile:hover h2 {
+    color: white;
+    background:rgba(254,0,0,0.8);
+}
+/* ======================================================================
+Footer 6
+========================================================================= */
+#footer6 { background:rgb(254,0,0); }
+
+/* ======================================================================
+Footer 7
+========================================================================= */
+#footer7 { border-color: rgb(254,0,0);}
+
+/* ======================================================================
+Footer 10
+========================================================================= */
+footer#footer.footer-CASPA { background:  rgb(254,0,0);}
+
+/* ======================================================================
+Slider 10
+========================================================================= */
+#slider-10 .slider-caption.slider-caption-center h2{ color: rgb(254,0,0); }
+#slider-10 .slide-number { color: rgb(254,0,0); }
+/* ======================================================================
+Newsletter Styles
+========================================================================= */
+.titleArea span.subTitle,
+nav.sideNav ul li .fa,
+nav.sideNav ul li a:hover{ color: rgb(254,0,0) ; }
+	.readMoreControl .btn-primary, .readless.btn-primary {background-color:rgb(254,0,0) ; border-color: rgb(254,0,0) ; }
+.legacyHeader{ background-color:rgb(254,0,0); }
+.bgImgColor{
+	background: url('https://uk.sz-cdn.net/heathprimary/setting/50/180716092421904/2562x1267/interim-background.jpg') fixed no-repeat rgb(254,0,0);
+    background-size: cover;
+}
+
+.bgImg{
+	background: url('https://uk.sz-cdn.net/heathprimary/setting/50/180716092421904/2562x1267/interim-background.jpg') fixed no-repeat;
+	background-size: cover;
+}
+.bgColor{
+	background:rgb(254,0,0);
+}
+.bgImgColor > .content-wrap, .bgImg > .content-wrap, .bgColor > .content-wrap {  }
+.bgImgColor .content-wrap > .container, .bgImg .content-wrap > .container, .bgColor .content-wrap > .container { }
+
+.bgImgColor #wrapper,
+.bgImg #wrapper,
+.bgColor #wrapper,
+.bgImgColor #content,
+.bgImg #content,
+.bgColor #content { background:none; }
+.bgImgColor #content .content-wrap > .container { padding: 0; }
+
+/* ======================================================================
+Content Styles
+========================================================================= */
+.fc-eventlist-date,
+.colourBox{ background:rgb(254,0,0); }
+ul.iconlist li i{ color:rgb(254,0,0); }
+
+.checkbox-style:checked + .checkbox-style-1-label:before, .radio-style:checked + .radio-style-1-label:before {background:rgb(254,0,0); }
+
+.custom-cal-text-color, .custom-cal-text-color a{
+	color: # !important;
+}
+.custom-cal-border-color{
+	border-color: # !important;
+}
+.custom-cal-background-color{
+	background-color: # !important;
+}
+
+/* ======================================================================
+PDF Link
+========================================================================= */
+.pdf-viewer-heading, .wysiwyg.sz-web-link, .cbContent .pdf-viewer-heading{
+	background: rgba(254,0,0,0.8); 
+	border-color: rgba(254,0,0);
+}
+.pdf-viewer-heading:hover, .cbContent .pdf-viewer-heading:hover{
+	background: rgba(254,0,0, 0.95);  
+	border-color: rgba(254,0,0);
+}
+
+.faqs .toggle .togglet:hover{
+	color: rgba(254,0,0);
+}
+
+/* ==================================================================================
+   Events 4
+ -----------------------------------------------------------------------------------*/
+.event-list-wrap4 .col-3 {
+	background: rgb(254,0,0);
+}
+
+.event-list-wrap4 .row:nth-child(even) .col-3{
+	background: rgb(248,148,32);
+}
+/* ==================================================================================
+   Tiles 8
+ -----------------------------------------------------------------------------------*/
+#tiles_8 a:focus .border-box{
+	border-color:rgb(254,0,0);
+}
+
+/* ==================================================================================
+   Compatible Header
+ -----------------------------------------------------------------------------------*/
+#newsHeader4 .header-img {
+	background: url('https://uk.sz-cdn.net/heathprimary/setting/49/180718124851282/980x325/hps-header.jpg') scroll no-repeat #FFF;
+
+}
+
+/* ==================================================================================
+   Coloured Header and Nav
+ -----------------------------------------------------------------------------------*/
+.primaryBg{background:rgb(254,0,0); }
+.secondaryBg{ background:rgb(248,148,32); }
+
+.bgColorNav{ background:rgb(254,0,0); }
+.dark #primary-menu ul li > a, .dark #top-search a, .dark #top-search form input {color:#fff;}
+.dark #top-search form input::placeholder{ color:rgba(255,255,255,0.7) }
+#header.bgColorHead{ background:rgb(254,0,0); }
+.dark #header.bgColorHead:not(.transparent-header), #header.bgColorHead.dark:not(.transparent-header){background:rgb(254,0,0);}
+
+#tiles_10 .image, #tiles_10 .contentImage{background-color:rgb(254,0,0);}
+
+.header-8 #primary-menu, .header-10 #primary-menu{ background: rgb(254,0,0); }
+
+
+/* ==================================================================================
+   Header 20
+ -----------------------------------------------------------------------------------*/
+ .header20 .headerTop {
+	 background-color:  rgba(254,0,0, 0.85);
+ }
+
+.header20 #primary-menu #navigation a {
+	color: rgb(254,0,0);
+}
+.header20 #primary-menu #navigation a:hover {
+	color: rgb(248,148,32);
+}
+.header20 #primary-menu > ul ul a{
+	color: rgb(254,0,0);
+}
+@media (max-width: 991px){
+	.header20 #primary-menu #navigation ul a {
+		color: rgb(248,148,32);
+	}
+}
+@media (max-width: 767px) {
+	.header20 .headerTop {
+		background-color: rgb(254,0,0);
+	}
+}
+.header20 #primary-menu.nav-6 #navigation ul li:hover > a {
+	color:  rgb(254,0,0);
+}
+
+/* ==================================================================================
+   Tiles MTC
+ -----------------------------------------------------------------------------------*/
+#tilesMTC .tile-banner {
+	background-color: rgb(254,0,0);
+}
+#tilesMTC .tile-content:hover h2 a {
+	color: rgb(248,148,32);
+}
+
+/* ==================================================================================
+   Footer 21
+ -----------------------------------------------------------------------------------*/
+#footer.footer21 {
+	background: rgb(254,0,0);
+}
+
+/* ==================================================================================
+   Header 14
+ -----------------------------------------------------------------------------------*/
+#header.full-header.header-14.dark,  #header.header-14.dark.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark){
+	background: rgb(254,0,0);
+}
+.footer-16 {
+	background: rgb(254,0,0);
+}
+
+#slider-ccsp .col-md-3:nth-child(even){
+	background-color: rgb(254,0,0);
+}
+
+#slider-ccsp .col-md-3:nth-child(odd){
+	background-color: rgb(248,148,32);
+}
+
+#slider-ccsp .button.button-border:hover{
+	color:rgb(248,148,32);
+}
+
+#slider-ccsp .col-md-3:nth-child(even) .button.button-border:hover{
+	color:rgb(254,0,0);
+}
+
+#slider-ccsp .col-md-3:nth-child(odd) .button.button-border:hover{
+	color:rgb(248,148,32);
+}
+
+
+input.clearBtn:hover {
+	color:rgb(254,0,0);
+}
+
+/* ==================================================================================
+   Tiles 14
+ -----------------------------------------------------------------------------------*/
+
+#tiles_14 .tileContainer a{
+	background-color: rgba(254,0,0,0.5);
+}
+#tiles_14 .tileContainer a:hover{
+	background-color: rgba(248,148,32,0);
+
+}
+#tiles_14 .tileContainer:nth-child(odd) a {
+	background-color: rgba(248,148,32,0.5);
+}
+#tiles_14 .tileContainer:nth-child(odd) a:hover {
+	background-color: rgba(254,0,0,0);
+}
+/* ==================================================================================
+   Footer 18
+ -----------------------------------------------------------------------------------*/
+footer .primaryBg {
+	background: rgb(254,0,0);
+}
+
+
+/* ===================================================================================
+	tiles 15
+-------------------------------------------------------------------------------------*/
+#tiles-15 .col-md-3 a {
+	background: rgb(254,0,0);
+	background: linear-gradient(0deg, rgb(254,0,0) 25%, rgba(254,0,0,0.6) 100%);
+}
+#tiles-15 .col-md-3:nth-child(even) a {
+	color: rgb(254,0,0);
+	background: rgb(248,148,32);
+	background: linear-gradient(0deg, rgb(248,148,32) 25%, rgba(248,148,32,0.6) 100%);
+}
+#tiles-15 .col-md-3:nth-child(even) a h3{
+	color: rgb(254,0,0);
+}
+/* ===================================================================================
+	Articles 10
+-------------------------------------------------------------------------------------*/
+#articles-10 .article {
+	background:rgb(254,0,0);
+}
+
+
+/*
+TasDeo Pushdown Notification
+ */
+#result{
+	background:rgb(254,0,0);
+}
+
+
+/* ===================================================================================
+	Articles 20
+-------------------------------------------------------------------------------------*/
+#slider.featuredArticles{
+	background: rgb(248,148,32);
+}
+#slider.featuredArticles .articleCaption{
+	background-color: rgb(254,0,0);
+}
+
+/* ===================================================================================
+	Footer 22
+-------------------------------------------------------------------------------------*/
+.footer22 .mainContent {
+	background: rgb(248,148,32);
+	color:rgb(254,0,0);
+}
+.footer22 .mainContent h3{
+	color:rgb(254,0,0);
+}
+.footer22 .mainContent a {
+	color:rgb(254,0,0);
+}
+
+/* ===================================================================================
+	Header 23
+-------------------------------------------------------------------------------------*/
+#header.header23 #top-bar {
+	background: rgb(248,148,32);
+}
+#header.header23 #top-bar a{
+	color:rgb(254,0,0);
+}
+#header.header23 #header-wrap{
+	background: rgb(254,0,0);
+}
+@media (max-width: 991px) {
+	#header.header23 #header-wrap {
+		color: rgb(254,0,0);
+		border-color: rgb(254,0,0);
+		background:#fff;
+	}
+	#header.header23 #primary-menu-trigger {
+		color: rgb(254,0,0);
+	}
+	.primary-menu-open #header.header23 #header-wrap{
+		border-color: rgb(254,0,0);
+	}
+	#header.header23 #top-search a i{
+		color: rgb(254,0,0);
+	}
+	#header.header23 #top-search form input {
+		color: rgb(254,0,0);
+	}
+	#header.header23 #top-search form input::placeholder{
+		color: rgb(254,0,0);
+	}
+	#header.header23 #primary-menu ul li a{
+		color:rgb(254,0,0);
+	}
+	.primary-menu-open #header.header23 #header-wrap{
+		border-color: rgb(254,0,0);
+	}
+}
+
+/* ==================================================================================
+    Slider 13
+ -----------------------------------------------------------------------------------*/
+.slider13 .swiper-slide:not(.dark) .slider-caption{
+	background: rgba(254,0,0, 0.9);
+}
+
+/* ==================================================================================
+    Tiles 22
+ -----------------------------------------------------------------------------------*/
+#tiles22 {
+	background: rgba(254,0,0, 0.2);
+}
+#tiles22 .tileCont a.title {
+	background-color: rgb(248,148,32);
+	color: rgb(254,0,0);
+}
+
+
+/* ==================================================================================
+    Articles 22
+ -----------------------------------------------------------------------------------*/
+#articles22 h3{
+	color: rgb(254,0,0);
+}
+#articles22 .artCont a.title:hover{
+	color: rgb(254,0,0);
+}
+
+
+/* Buttons - Colors Stay at bottom to overwrite color styles
+-----------------------------------------------------------------*/
+
+.button-red { background-color: #C02942 ; }
+.button-3d.button-red:hover,
+.button-reveal.button-red:hover,
+.button-border.button-red:hover,
+.button-border.button-red.button-fill:before { background-color: #C02942 ; }
+
+.button-border.button-red {
+	color: #C02942;
+	border-color: #C02942;
+}
+
+.button-grey { background-color: #999 ; }
+.button-3d.button-grey:hover,
+.button-reveal.button-grey:hover,
+.button-border.button-grey:hover,
+.button-border.button-grey.button-fill:before { background-color: #999 ; }
+
+.button-border.button-grey {
+	color: #999;
+	border-color: #999;
+}
+
+.button-teal { background-color: #53777A ; }
+.button-3d.button-teal:hover,
+.button-reveal.button-teal:hover,
+.button-border.button-teal:hover,
+.button-border.button-teal.button-fill:before { background-color: #53777A ; }
+
+.button-border.button-teal {
+	color: #53777A;
+	border-color: #53777A;
+}
+
+.button-yellow { background-color: #ECD078 ; }
+.button-3d.button-yellow:hover,
+.button-reveal.button-yellow:hover,
+.button-border.button-yellow:hover,
+.button-border.button-yellow.button-fill:before { background-color: #ECD078 ; }
+
+.button-border.button-yellow,
+.button-border.button-yellow.button-fill.button-light:hover {
+	color: #ECD078 !important;
+	border-color: #ECD078 !important;
+}
+
+.button-border.button-yellow:hover,
+.button-border.button-yellow.button-fill.button-light:hover { color: #333 ; }
+
+.button-green { background-color: #59BA41 ; }
+.button-3d.button-green:hover,
+.button-reveal.button-green:hover,
+.button-border.button-green:hover,
+.button-border.button-green.button-fill:before { background-color: #59BA41 ; }
+
+.button-border.button-green {
+	color: #59BA41;
+	border-color: #59BA41;
+}
+
+.button-brown { background-color: #774F38 ; }
+.button-3d.button-brown:hover,
+.button-reveal.button-brown:hover,
+.button-border.button-brown:hover,
+.button-border.button-brown.button-fill:before { background-color: #774F38 ; }
+
+.button-border.button-brown {
+	color: #774F38;
+	border-color: #774F38;
+}
+
+.button-aqua { background-color: #40C0CB ; }
+.button-3d.button-aqua:hover,
+.button-reveal.button-aqua:hover,
+.button-border.button-aqua:hover,
+.button-border.button-aqua.button-fill:before { background-color: #40C0CB ; }
+
+.button-border.button-aqua {
+	color: #40C0CB;
+	border-color: #40C0CB;
+}
+
+.button-lime { background-color: #AEE239 ; }
+.button-3d.button-lime:hover,
+.button-reveal.button-lime:hover,
+.button-border.button-lime:hover,
+.button-border.button-lime.button-fill:before { background-color: #AEE239 ; }
+
+.button-border.button-lime {
+	color: #AEE239;
+	border-color: #AEE239;
+}
+
+.button-purple { background-color: #5D4157 ; }
+.button-3d.button-purple:hover,
+.button-reveal.button-purple:hover,
+.button-border.button-purple:hover,
+.button-border.button-purple.button-fill:before { background-color: #5D4157 ; }
+
+.button-border.button-purple {
+	color: #5D4157;
+	border-color: #5D4157;
+}
+
+.button-leaf { background-color: #A8CABA ; }
+.button-3d.button-leaf:hover,
+.button-reveal.button-leaf:hover,
+.button-border.button-leaf:hover,
+.button-border.button-leaf.button-fill:before { background-color: #A8CABA ; }
+
+.button-border.button-leaf {
+	color: #A8CABA;
+	border-color: #A8CABA;
+}
+
+.button-pink { background-color: #F89FA1; }
+.button-3d.button-pink:hover,
+.button-reveal.button-pink:hover,
+.button-border.button-pink:hover,
+.button-border.button-pink.button-fill:before { background-color: #F89FA1 ; }
+
+.button-border.button-pink {
+	color: #F89FA1;
+	border-color: #F89FA1;
+}
+
+.button-dirtygreen { background-color: #1693A5 ; }
+.button-3d.button-dirtygreen:hover,
+.button-reveal.button-dirtygreen:hover,
+.button-border.button-dirtygreen:hover,
+.button-border.button-dirtygreen.button-fill:before { background-color: #1693A5 ; }
+
+.button-border.button-dirtygreen {
+	color: #1693A5;
+	border-color: #1693A5;
+}
+
+.button-blue { background-color: #1265A8 ; }
+.button-3d.button-blue:hover,
+.button-reveal.button-blue:hover,
+.button-border.button-blue:hover,
+.button-border.button-blue.button-fill:before { background-color: #1265A8 ; }
+
+.button-border.button-blue {
+	color: #1265A8;
+	border-color: #1265A8;
+}
+
+.button-amber { background-color: #EB9C4D; }
+.button-3d.button-amber:hover,
+.button-reveal.button-amber:hover,
+.button-border.button-amber:hover,
+.button-border.button-amber.button-fill:before { background-color: #EB9C4D ; }
+
+.button-border.button-amber {
+	color: #EB9C4D;
+	border-color: #EB9C4D;
+}
+
+.button-black { background-color: #111; }
+.button-3d.button-black:hover,
+.button-reveal.button-black:hover,
+.button-border.button-black:hover,
+.button-border.button-black.button-fill:before { background-color: #111 ; }
+
+.button-border.button-black {
+	color: #111;
+	border-color: #111;
+}
+
+.button-white { background-color: #F9F9F9; }
+.button-3d.button-white:hover,
+.button-reveal.button-white:hover { background-color: #F9F9F9; }
+
+.button-orange { background-color: #f36523; }
+.button-3d.button-orange:hover,
+.button-reveal.button-orange:hover,
+.button-border.button-orange:hover,
+.button-border.button-orange.button-fill:before { background-color: #f36523; }
+
+.button-border.button-orange {
+	color: #f36523;
+	border-color: #f36523;
+
+}

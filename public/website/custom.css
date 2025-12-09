@@ -1,0 +1,33 @@
+/* Custom website CSS */
+
+/* Hide Schoolzine footer logo - override all possible selectors */
+.footer-logo,
+a.footer-logo,
+.footer4 .footer-logo,
+.footer4 a.footer-logo,
+.col-sm-8 .footer-logo,
+.col-sm-8 a.footer-logo,
+footer .footer-logo,
+footer a.footer-logo,
+footer#footer .footer-logo,
+footer#footer a.footer-logo,
+.footer4 .col-sm-8 .footer-logo,
+.footer4 .col-sm-8 a.footer-logo,
+.footer4.dark .footer-logo,
+.footer4.dark a.footer-logo,
+.footer4.primaryBg .footer-logo,
+.footer4.primaryBg a.footer-logo,
+.footer4.dark.primaryBg .footer-logo,
+.footer4.dark.primaryBg a.footer-logo {
+	display: none !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
+	height: 0 !important;
+	width: 0 !important;
+	overflow: hidden !important;
+	position: absolute !important;
+	left: -9999px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
