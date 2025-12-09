@@ -668,28 +668,10 @@ export default function Page() {
 </div>
 <div data-sb-image-container="1"></div>
 <div data-sb-image-container="1">
-<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
-<div class="wysiwyg-hide">
-            <div class="pdf-viewer-heading">
-            <a class="pdf-viewer-link" href="/pdfs/reading_at_hps.pdf" download="download">
-                <i class="fa fa-file-pdf-o"></i>
-                <span class="pdf-viewer-title">CLICK HERE TO VIEW READING AT HPS</span>
-            </a>
-        </div>
-</div>
-</div>
+<div class="wysiwyg sz-web-link no-url bg-sub mceNonEditable"><a href="/pdfs/reading_at_hps.pdf" title="Click here to view Reading at HPS" class="sz-web-a"><i class="fa fa-pencil  edit-web-link"></i><i class="fa fa-minus-circle  deleted-web-link"></i><span class="sz-web-icon-wrap"><span class="sz-web-icon"><i class="fa fa-file-pdf-o"></i></span></span><span class="sz-web-inline"><span class="sz-web-title">Click here to view Reading at HPS</span></span></a></div>
 </div>
 <div data-sb-image-container="1">
-<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
-<div class="wysiwyg-hide">
-            <div class="pdf-viewer-heading">
-            <a class="pdf-viewer-link" href="/pdfs/writing_at_heath.pdf" download="download">
-                <i class="fa fa-file-pdf-o"></i>
-                <span class="pdf-viewer-title">CLICK HERE TO VIEW OUR WRITING AT HEATH</span>
-            </a>
-        </div>
-</div>
-</div>
+<div class="wysiwyg sz-web-link no-url bg-sub mceNonEditable"><a href="/pdfs/writing_at_heath.pdf" title="Click here to view our Writing at Heath" class="sz-web-a"><i class="fa fa-pencil  edit-web-link"></i><i class="fa fa-minus-circle  deleted-web-link"></i><span class="sz-web-icon-wrap"><span class="sz-web-icon"><i class="fa fa-file-pdf-o"></i></span></span><span class="sz-web-inline"><span class="sz-web-title">Click here to view our Writing at Heath</span></span></a></div>
 </div>
 <div data-sb-image-container="1"></div>
 <div data-sb-image-container="1"></div>
@@ -699,6 +681,7 @@ export default function Page() {
 <div data-sb-image-container="1">
 <div>
 <div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/reading_at_hps.pdf" data-fileid="667"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">READING AT HPS <i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
 <div class="wysiwyg-hide">
             <div class="pdf-viewer-heading">
             <a class="pdf-viewer-link" href="/pdfs/reading_at_hps.pdf" download="download">
