@@ -1,0 +1,615 @@
+/* 
+	This CSS file contains the custom css styles for the Schoolzine Website template 
+	When adding to this file use the following comment example:
+*/
+
+/* 
+	Added by: Your Name
+	Date: Date Added
+	Descriptoin: A breif description of the change 
+*/
+
+@media screen and (max-width: 980px) {
+    .portfolio-desc{
+        bottom: 0px !important;
+    }
+    
+    body.device-touch.device-xs #content01 .portfolio-nomargin .portfolio-desc {
+        display: block !important;
+    }
+}
+
+p.Clear.sz-mce-clear.mceNonEditable {
+    padding: 10px;
+}
+
+.is_internal .swiper_wrapper .swiper-slide {background-position: top center;}
+
+#content01 .cal-list {display: none;}
+
+.sitemap-links, .policyPadding {padding: 0 5%;}
+
+/*------------------------------------Nav responsive fix------------------------------------*/
+
+@media screen and (min-width: 992px) and (max-width: 1357px) {
+    #header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li {
+        width: 10vw;
+        height: 60px;
+        margin: 0 7px;
+    }
+    
+    #header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li > a {
+        line-height: 22px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-align: center;
+        height: 60px;
+    }
+    
+    #header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li > a div {
+        position: absolute;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+    
+    #header.sticky-header:not(.static-sticky) #primary-menu.style-5 > ul > li > a i {display: none;}
+    
+    #top-search {margin: 40px 0 40px 5px;}
+
+    #primary-menu ul li > a {padding: 39px 9px;}
+    
+    #header > div.container.clearfix {background: white;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1208px) {
+    body.stretched #header.full-header .container {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1357px) {
+    #header.full-header #primary-menu > ul {
+            padding-right: 2px;
+            margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1000px) {
+    #header.full-header #primary-menu > ul {
+        padding-right: 0;
+        margin-right: 3px;
+    }
+    
+    #top-search {
+        margin: 40px 0 40px 0 !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1053px) {
+    #primary-menu.style-5 > ul > li:not(:first-child) {
+        margin-left: 10px;
+    }
+}
+
+.content-wrap p, li {
+    font-size: 16px;
+}
+/* Hide Schoolzine footer logo - override all possible selectors */
+a.footer-logo svg{width:150px;}
+.footer-logo,
+a.footer-logo,
+.footer4 .footer-logo,
+.footer4 a.footer-logo,
+.col-sm-8 .footer-logo,
+.col-sm-8 a.footer-logo,
+footer .footer-logo,
+footer a.footer-logo,
+footer#footer .footer-logo,
+footer#footer a.footer-logo,
+.footer4 .col-sm-8 .footer-logo,
+.footer4 .col-sm-8 a.footer-logo,
+.footer4.dark .footer-logo,
+.footer4.dark a.footer-logo,
+.footer4.primaryBg .footer-logo,
+.footer4.primaryBg a.footer-logo,
+.footer4.dark.primaryBg .footer-logo,
+.footer4.dark.primaryBg a.footer-logo {
+	display: none !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
+	height: 0 !important;
+	width: 0 !important;
+	overflow: hidden !important;
+	position: absolute !important;
+	left: -9999px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* 
+Added by: Luke O
+Date: 19/09/23
+Description: Slider caption text white*/
+
+.slider-caption:not(.dark) h2 {
+    color: #fff;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* 
+Added by: Auto
+Date: 2025-01-27
+Description: Make content stretch to full window width like original site
+*/
+
+/* Make wrapper and body full width - override fixed 1220px width */
+body,
+#wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+}
+
+/* Override Bootstrap container max-width to allow full-width content */
+.container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Ensure content sections can expand to full width */
+#content01,
+.content-wrap,
+section {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Keep header container centered but full-width */
+#header .container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Keep footer container full-width */
+#footer .container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* 
+Added by: Auto
+Date: 2025-01-27
+Description: Make 3 portfolio tiles display nicely in one row
+*/
+
+/* Ensure tiles container uses flexbox for even spacing */
+#tiles_2.portfolio {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+    padding: 0 20px !important;
+}
+
+/* Make portfolio items flexible and evenly sized */
+#tiles_2 .portfolio-item {
+    position: relative !important;
+    flex: 1 1 30% !important;
+    min-width: 266px !important;
+    max-width: 400px !important;
+    margin: 0 !important;
+}
+
+/* Ensure images scale properly within tiles */
+#tiles_2 .portfolio-item img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+}
+
+/* Responsive: stack on smaller screens */
+@media screen and (max-width: 900px) {
+    #tiles_2 .portfolio-item {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* 
+Added by: Auto
+Date: 2025-01-27
+Description: Change menu hover/active color from teal/green to red
+*/
+
+/* Override teal/green hover color with red for all menu states */
+#primary-menu ul li:hover > a,
+#primary-menu ul li.current > a,
+#primary-menu ul li.active > a,
+#primary-menu ul ul li:hover > a,
+body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a,
+body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a,
+body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a,
+body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a {
+    color: rgb(254,0,0) !important;
+}
+
+/* Also change the dropdown menu border color to red */
+#primary-menu ul ul:not(.mega-menu-column),
+#primary-menu ul li .mega-menu-content {
+    border-top-color: rgb(254,0,0) !important;
+}
+
+/* Override style-4 menu border colors */
+#primary-menu.style-4 > ul > li:hover > a,
+#primary-menu.style-4 > ul > li.current > a {
+    border-color: rgb(254,0,0) !important;
+}
+
+/* Override mega menu title hover colors */
+#primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a:hover {
+    color: rgb(254,0,0) !important;
+}
+
+
+/* Ensure content section is visible */
+#content01, .content-wrap { display: block !important; visibility: visible !important; opacity: 1 !important; }
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* 
+Added by: Auto
+Date: 2025-01-27
+Description: Ensure PDF viewer banners display correctly as red banners with white text
+*/
+
+/* Hide wysiwyg-only version to avoid duplicates */
+.wysiwyg-only.pdf-viewer-heading {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+}
+
+/* Show the wysiwyg-hide PDF viewer heading (the one with file size) */
+.wysiwyg-hide .pdf-viewer-heading,
+.pdf-viewer-heading-wrap .wysiwyg-hide .pdf-viewer-heading {
+    display: block !important;
+    visibility: visible !important;
+    background: rgba(254, 0, 0, 0.8) !important;
+    background-color: rgba(254, 0, 0, 0.8) !important;
+    border-left: 8px solid rgba(254, 0, 0, 1) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-radius: 2px !important;
+    margin-bottom: 10px !important;
+    min-height: 50px !important;
+    width: 100% !important;
+    color: #fff !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+}
+
+/* Hide PDF viewer headings when there's an embedded PDF in the same wrap */
+.pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .pdf-viewer-heading,
+.pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .wysiwyg-hide .pdf-viewer-heading {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+}
+
+/* Keep the wrap container visible so embedded PDFs can display */
+.pdf-viewer-heading-wrap {
+    display: block !important;
+    visibility: visible !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+
+/* Hide empty divs that cause spacing issues */
+div:empty:not([class]):not([id]),
+div:empty:not([class*="pdf"]):not([id*="pdf"]):not([class*="sb"]):not([data-sb-image-container]) {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+    line-height: 0 !important;
+}
+
+/* Hide wysiwyg-hide containers that only contain scripts (not PDFs) */
+.wysiwyg-hide:has(script:only-child),
+.wysiwyg-hide:has(script):not(:has(.pdf-view.HTML-only)):not(:has(.pdf-viewer-heading)) {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+}
+
+/* Fix spacing issues with wysiwyg-hide containers that have embedded PDFs */
+.wysiwyg-hide:has(.pdf-view.HTML-only) {
+    margin-bottom: 10px !important;
+    padding-bottom: 0 !important;
+}
+
+/* Remove extra spacing from content wrap at bottom */
+.content-wrap {
+    padding-bottom: 20px !important;
+}
+
+/* Remove extra spacing from empty paragraphs */
+p:empty {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+}
+
+/* Ensure all governor content is left-aligned */
+#content01 [data-sb-image-container] {
+    text-align: left !important;
+}
+
+#content01 [data-sb-image-container] p,
+#content01 [data-sb-image-container] div,
+#content01 [data-sb-image-container] strong {
+    text-align: left !important;
+}
+
+#content01 [data-sb-image-container] p[style*="text-align: justify"],
+#content01 [data-sb-image-container] div[style*="text-align: justify"] {
+    text-align: left !important;
+}
+
+/* Clear floats after governor images to ensure text starts on new line */
+#content01 div[style*="clear: both"] {
+    clear: both !important;
+    display: block !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Ensure governor text content starts on new line after clearfix */
+#content01 div[style*="clear: both"] + strong,
+#content01 div[style*="clear: both"] + p,
+#content01 div[style*="clear: both"] + div {
+    clear: both !important;
+    display: block !important;
+}
+
+/* Ensure floated image containers don't affect following content */
+#content01 div[style*="float: left"] {
+    float: left !important;
+    margin-right: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+#content01 div[style*="float: left"] img {
+    float: none !important;
+    display: block !important;
+}
+
+/* Force governor text to start below images - prevent wrapping */
+#content01 div[style*="clear: both"] {
+    clear: both !important;
+    display: block !important;
+    height: 1px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Ensure all content after clearfix starts on new line */
+#content01 div[style*="clear: both"] ~ *,
+#content01 div[style*="clear: both"] + * {
+    clear: both !important;
+    display: block !important;
+    margin-left: 0 !important;
+}
+
+/* Alternative: Wrap each governor profile and use overflow */
+#content01 [data-sb-image-container] {
+    overflow: visible !important;
+}
+
+/* Force text to not wrap around images by using min-height */
+#content01 div[style*="float: left"] + div[style*="clear: both"] {
+    min-height: 0 !important;
+}
+
+/* Ensure strong tags and paragraphs after images start below */
+#content01 div[style*="float: left"] ~ strong,
+#content01 div[style*="float: left"] ~ p {
+    clear: both !important;
+    display: block !important;
+    margin-top: 10px !important;
+}
+
+/* PDF viewer heading hover state */
+.wysiwyg-hide .pdf-viewer-heading:hover {
+    background: rgba(254, 0, 0, 0.95) !important;
+    border-left: 12px solid rgba(254, 0, 0, 1) !important;
+}
+
+/* PDF viewer links and content styling */
+.wysiwyg-hide .pdf-viewer-heading a.pdf-viewer-link {
+    display: block !important;
+    padding: 15px 130px 15px 15px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    position: relative !important;
+    min-height: 50px !important;
+    line-height: 1.4 !important;
+    width: 100% !important;
+}
+
+.pdf-viewer-heading a.pdf-viewer-link:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+/* PDF viewer title, icons, and content - white text */
+.wysiwyg-hide .pdf-viewer-heading .pdf-viewer-title,
+.wysiwyg-hide .pdf-viewer-heading a.pdf-viewer-link .pdf-viewer-title,
+.wysiwyg-hide .pdf-viewer-heading .pdf-viewer-filesize,
+.wysiwyg-hide .pdf-viewer-heading .fa,
+.wysiwyg-hide .pdf-viewer-heading .fa-file-pdf-o,
+.wysiwyg-hide .pdf-viewer-heading .fa-download {
+    color: #fff !important;
+}
+
+/* Hide wysiwyg-hide PDF viewer headings when there's an embedded PDF */
+.pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .wysiwyg-hide .pdf-viewer-heading {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+}
+
+/* All PDF viewer headings are hidden - using embedded PDFs instead */
+
+/* All PDF viewer heading content is hidden */
+
+/* All PDF viewer headings are completely hidden - using embedded PDFs */
+
+/* Hide PDF viewer headings only when there's an embedded PDF in the same container */
+body .pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .pdf-viewer-heading,
+body .pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .wysiwyg-only.pdf-viewer-heading,
+body .pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .wysiwyg-hide .pdf-viewer-heading,
+body .pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) div.pdf-viewer-heading {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+}
+
+/* Keep pdf-viewer-heading-wrap visible */
+body .pdf-viewer-heading-wrap {
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Ensure PDF views inside the wrap are visible */
+body .pdf-viewer-heading-wrap .pdf-view,
+body .pdf-viewer-heading-wrap .pdf-view.HTML-only {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Ensure embedded PDF containers are visible - these are the actual PDFs */
+.pdf-view.HTML-only {
+    display: block !important;
+    visibility: visible !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    height: 800px !important;
+    width: 100% !important;
+    margin: 10px 0 !important;
+    opacity: 1 !important;
+}
+
+.pdf-view.HTML-only iframe {
+    display: block !important;
+    visibility: visible !important;
+    background: transparent !important;
+    background-color: #fff !important;
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    opacity: 1 !important;
+}
+
+/* Ensure PDF view containers are visible */
+.pdf-view,
+div.pdf-view,
+#content01 .pdf-view,
+.content-wrap .pdf-view {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Make ALL sz-web-link elements red instead of teal/blue - applies to all banners */
+.wysiwyg.sz-web-link a.sz-web-a,
+.wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"],
+.wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] {
+    background-color: rgba(254, 0, 0, 0.8) !important;
+    border-left: 8px solid rgba(254, 0, 0, 1) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    color: #fff !important;
+}
+
+.wysiwyg.sz-web-link a.sz-web-a:hover,
+.wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"]:hover,
+.wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"]:hover {
+    background-color: rgba(254, 0, 0, 0.95) !important;
+    border-left: 12px solid rgba(254, 0, 0, 1) !important;
+}
+
+.wysiwyg.sz-web-link a.sz-web-a .sz-web-icon,
+.wysiwyg.sz-web-link a.sz-web-a .sz-web-title,
+.wysiwyg.sz-web-link a.sz-web-a .fa,
+.wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"] .sz-web-icon,
+.wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] .sz-web-icon,
+.wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"] .sz-web-title,
+.wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] .sz-web-title,
+.wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"] .fa,
+.wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] .fa {
+    color: #fff !important;
+}
+
+/* Fix any black rectangles/borders to match red banner style */
+.wysiwyg.sz-web-link,
+.wysiwyg.sz-web-link.bg-sub {
+    background-color: transparent !important;
+}
+
+.wysiwyg.sz-web-link a.sz-web-a,
+.wysiwyg.sz-web-link.bg-sub a.sz-web-a {
+    background-color: rgba(254, 0, 0, 0.8) !important;
+    border-left: 8px solid rgba(254, 0, 0, 1) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    color: #fff !important;
+}
+
+.wysiwyg.sz-web-link a.sz-web-a:hover,
+.wysiwyg.sz-web-link.bg-sub a.sz-web-a:hover {
+    background-color: rgba(254, 0, 0, 0.95) !important;
+    border-left: 12px solid rgba(254, 0, 0, 1) !important;
+}

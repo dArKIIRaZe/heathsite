@@ -1,0 +1,295 @@
+1:"$Sreact.fragment"
+9:I[75105,["/_next/static/chunks/3f21afa8930fb57b.js"],"default"]
+a:I[39756,["/_next/static/chunks/42879de7b8087bc9.js"],"default"]
+b:I[37457,["/_next/static/chunks/42879de7b8087bc9.js"],"default"]
+:HL["/_next/static/chunks/a6d5fcc06170fc8c.css","style"]
+:HL["/assets/css/font-awesome.min.css","style"]
+:HL["https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i","style"]
+:HL["/assets/css/jquery-ui.css","style"]
+:HL["/assets/css/bootstrap.css","style"]
+:HL["/assets/css/style.css","style"]
+:HL["/assets/css/swiper.css","style"]
+:HL["/assets/css/dark.css","style"]
+:HL["/assets/css/font-icons.css","style"]
+:HL["/assets/css/animate.css","style"]
+:HL["/assets/css/magnific-popup.css","style"]
+:HL["/assets/css/bs-switches.css","style"]
+:HL["/assets/css/szwebstyle.css?v=1.0","style"]
+:HL["/assets/css/content.css","style"]
+:HL["/school-colours.css?skin_id=3?v=1.0","style"]
+:HL["/assets/css/responsive.css","style"]
+:HL["//www.schoolzineplus.co.uk/schoolzine/global.css","style"]
+:HL["/website/custom.css?skin=3","style"]
+:HL["/assets/css/lightbox.css","style"]
+:HL["/assets/css/-1.12.1.custom.min.css","style"]
+:HL["/assets/css/timepicki.css","style"]
+2:T1ba3,
+              (function() {
+                function removeSchoolzineLogo() {
+                  // Remove by class
+                  var logos = document.querySelectorAll('.footer-logo, a.footer-logo, a[href*="schoolzine.co.uk"]');
+                  for (var i = 0; i < logos.length; i++) {
+                    logos[i].remove();
+                  }
+                  // Also check footer specifically
+                  var footer = document.getElementById('footer');
+                  if (footer) {
+                    var footerLogos = footer.querySelectorAll('a[href*="schoolzine.co.uk"], .footer-logo');
+                    for (var j = 0; j < footerLogos.length; j++) {
+                      footerLogos[j].remove();
+                    }
+                  }
+                }
+                
+                function hidePDFBannersWithEmbeddedPDFs() {
+                  // Hide all wysiwyg-only PDF viewer headings (duplicates)
+                  var hideHeadings = document.querySelectorAll('.wysiwyg-only.pdf-viewer-heading');
+                  for (var k = 0; k < hideHeadings.length; k++) {
+                    hideHeadings[k].style.display = 'none';
+                    hideHeadings[k].style.visibility = 'hidden';
+                    hideHeadings[k].style.height = '0';
+                    hideHeadings[k].style.margin = '0';
+                    hideHeadings[k].style.padding = '0';
+                    hideHeadings[k].style.opacity = '0';
+                  }
+                  
+                  // Show wysiwyg-hide PDF viewer headings (the ones with file size)
+                  var showHeadings = document.querySelectorAll('.wysiwyg-hide .pdf-viewer-heading');
+                  for (var m = 0; m < showHeadings.length; m++) {
+                    var heading = showHeadings[m];
+                    // Check if this heading's wrap contains an embedded PDF
+                    var wrap = heading.closest('.pdf-viewer-heading-wrap');
+                    if (wrap && !wrap.querySelector('.pdf-view.HTML-only')) {
+                      // No embedded PDF, so show this heading
+                      heading.style.display = 'block';
+                      heading.style.visibility = 'visible';
+                      heading.style.opacity = '1';
+                    }
+                  }
+                  
+                  // Find all PDF viewer heading wraps
+                  var wraps = document.querySelectorAll('.pdf-viewer-heading-wrap');
+                  for (var i = 0; i < wraps.length; i++) {
+                    var wrap = wraps[i];
+                    // Check if this wrap contains an embedded PDF
+                    var hasEmbeddedPDF = wrap.querySelector('.pdf-view.HTML-only');
+                    if (hasEmbeddedPDF) {
+                      // Hide PDF viewer headings in this wrap when there's an embedded PDF
+                      var headings = wrap.querySelectorAll('.pdf-viewer-heading, .wysiwyg-hide .pdf-viewer-heading');
+                      for (var j = 0; j < headings.length; j++) {
+                        headings[j].style.display = 'none';
+                        headings[j].style.visibility = 'hidden';
+                        headings[j].style.height = '0';
+                        headings[j].style.margin = '0';
+                        headings[j].style.padding = '0';
+                        headings[j].style.opacity = '0';
+                      }
+                    }
+                  }
+                }
+                
+                function fixSpacingIssues() {
+                  // Hide empty divs that cause spacing issues
+                  var emptyDivs = document.querySelectorAll('div:empty');
+                  for (var i = 0; i < emptyDivs.length; i++) {
+                    var div = emptyDivs[i];
+                    // Don't hide divs with important classes or IDs
+                    if (!div.className && !div.id) {
+                      div.style.display = 'none';
+                      div.style.height = '0';
+                      div.style.margin = '0';
+                      div.style.padding = '0';
+                    }
+                  }
+                  
+                  // Hide wysiwyg-hide containers that only contain scripts (not PDFs or headings)
+                  var wysiwygHides = document.querySelectorAll('.wysiwyg-hide');
+                  for (var j = 0; j < wysiwygHides.length; j++) {
+                    var container = wysiwygHides[j];
+                    var hasPDF = container.querySelector('.pdf-view.HTML-only');
+                    var hasHeading = container.querySelector('.pdf-viewer-heading');
+                    var scripts = container.querySelectorAll('script');
+                    var otherContent = container.querySelectorAll('*:not(script)');
+                    
+                    // If it only has scripts and no PDF or heading, hide it
+                    if (!hasPDF && !hasHeading && scripts.length > 0 && otherContent.length === 0) {
+                      container.style.display = 'none';
+                      container.style.height = '0';
+                      container.style.margin = '0';
+                      container.style.padding = '0';
+                    }
+                  }
+                  
+                  // Remove extra spacing from empty paragraphs
+                  var emptyParas = document.querySelectorAll('p:empty');
+                  for (var k = 0; k < emptyParas.length; k++) {
+                    emptyParas[k].style.display = 'none';
+                    emptyParas[k].style.height = '0';
+                    emptyParas[k].style.margin = '0';
+                    emptyParas[k].style.padding = '0';
+                  }
+                }
+                
+                // Run immediately
+                removeSchoolzineLogo();
+                hidePDFBannersWithEmbeddedPDFs();
+                fixSpacingIssues();
+                
+                // Run when DOM is ready
+                if (document.readyState === 'loading') {
+                  document.addEventListener('DOMContentLoaded', function() {
+                    removeSchoolzineLogo();
+                    hidePDFBannersWithEmbeddedPDFs();
+                    fixSpacingIssues();
+                  });
+                } else {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }
+                
+                // Run after delays
+                setTimeout(function() {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }, 100);
+                setTimeout(function() {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }, 500);
+                setTimeout(function() {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }, 1000);
+              })();
+            0:{"buildId":"uWIx26tBS-vrAQh4fpXPs","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a6d5fcc06170fc8c.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3f21afa8930fb57b.js","async":true}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/font-awesome.min.css"}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/jquery-ui.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/bootstrap.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/style.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/swiper.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/dark.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/font-icons.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/animate.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/magnific-popup.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/bs-switches.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/szwebstyle.css?v=1.0"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/content.css"}],["$","link",null,{"rel":"stylesheet","href":"/school-colours.css?skin_id=3?v=1.0"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/responsive.css"}],["$","link",null,{"rel":"stylesheet","href":"//www.schoolzineplus.co.uk/schoolzine/global.css"}],["$","link",null,{"rel":"stylesheet","href":"/website/custom.css?skin=3"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/lightbox.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/-1.12.1.custom.min.css"}],["$","link",null,{"rel":"stylesheet","href":"/assets/css/timepicki.css"}]]}],["$","body",null,{"className":"stretched","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}],"$L3","$L4","$L5","$L6"]}]]}]]}],"loading":null,"isPartial":false}
+7:T672,
+              (function() {
+                if (typeof window.jQuery === 'undefined' && typeof window.$ === 'undefined') {
+                  var script = document.createElement('script');
+                  script.src = '/assets/js/jquery.js?v=' + Date.now();
+                  script.async = false;
+                  script.defer = false;
+                  // Make it blocking by using document.write in head, or append to head and wait
+                  var loaded = false;
+                  script.onload = script.onreadystatechange = function() {
+                    if (!loaded && (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete')) {
+                      loaded = true;
+                      // Ensure jQuery is set
+                      if (window.$ && !window.jQuery) {
+                        window.jQuery = window.$;
+                      }
+                      if (window.jQuery && !window.$) {
+                        window.$ = window.jQuery;
+                      }
+                      // Force both to be available
+                      if (window.jQuery) {
+                        window.$ = window.jQuery;
+                      }
+                      console.log('jQuery loaded in blocking script');
+                    }
+                  };
+                  document.head.insertBefore(script, document.head.firstChild);
+                } else {
+                  // jQuery already loaded
+                  if (window.$ && !window.jQuery) window.jQuery = window.$;
+                  if (window.jQuery && !window.$) window.$ = window.jQuery;
+                }
+              })();
+            3:["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}]
+8:T1044,
+              (function() {
+                console.log('ScriptLoader: Starting script loading sequence');
+                
+                // Function to load script and return promise
+                function loadScript(src, id) {
+                  return new Promise(function(resolve, reject) {
+                    // Check if already loaded
+                    if (id && document.getElementById(id)) {
+                      console.log('ScriptLoader: ' + id + ' already loaded');
+                      resolve();
+                      return;
+                    }
+                    
+                    var script = document.createElement('script');
+                    script.src = src + '?v=' + Date.now();
+                    script.async = false;
+                    script.defer = false;
+                    if (id) script.id = id;
+                    
+                    script.onload = function() {
+                      console.log('ScriptLoader: Loaded ' + src);
+                      resolve();
+                    };
+                    
+                    script.onerror = function() {
+                      console.error('ScriptLoader: Failed to load ' + src);
+                      reject(new Error('Failed to load ' + src));
+                    };
+                    
+                    document.head.appendChild(script);
+                  });
+                }
+                
+                // Wait for jQuery, then load other scripts
+                function waitForJQuery() {
+                  var attempts = 0;
+                  var maxAttempts = 100; // Increased to 10 seconds
+                  var checkInterval = setInterval(function() {
+                    attempts++;
+                    var jq = null;
+                    try {
+                      jq = window.jQuery || window.$;
+                    } catch(e) {
+                      // Ignore errors
+                    }
+                    
+                    if (jq && typeof jq === 'function') {
+                      clearInterval(checkInterval);
+                      // Ensure both are set
+                      if (!window.jQuery) window.jQuery = jq;
+                      if (!window.$) window.$ = jq;
+                      console.log('ScriptLoader: jQuery confirmed available');
+                      
+                      // Now load other scripts in sequence
+                      loadScript('/assets/js/jquery-ui.min.js', 'jquery-ui')
+                        .then(function() {
+                          return loadScript('/assets/js/plugins.js', 'plugins');
+                        })
+                        .then(function() {
+                          return new Promise(function(resolve) {
+                            setTimeout(resolve, 100);
+                          });
+                        })
+                        .then(function() {
+                          return loadScript('/assets/js/functions-loader.js', 'functions-loader');
+                        })
+                        .then(function() {
+                          console.log('ScriptLoader: All scripts loaded successfully');
+                        })
+                        .catch(function(error) {
+                          console.error('ScriptLoader: Error loading scripts:', error);
+                        });
+                    } else if (attempts >= maxAttempts) {
+                      clearInterval(checkInterval);
+                      console.warn('ScriptLoader: jQuery not found after', maxAttempts * 100, 'ms');
+                      // Try to continue anyway - maybe jQuery will load later
+                      setTimeout(function() {
+                        if (window.jQuery || window.$) {
+                          console.log('ScriptLoader: jQuery found after timeout, retrying...');
+                          waitForJQuery();
+                        }
+                      }, 1000);
+                    }
+                  }, 100);
+                }
+                
+                // Start waiting for jQuery after a short delay to let the jQuery loading script start
+                setTimeout(waitForJQuery, 50);
+              })();
+            4:["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$8"}}]
+5:["$","$L9",null,{}]
+6:["$","$La",null,{"parallelRouterKey":"children","template":["$","$Lb",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]

@@ -1,0 +1,266 @@
+<!DOCTYPE html><!--uWIx26tBS_vrAQh4fpXPs--><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/chunks/a6d5fcc06170fc8c.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/2a40d0dd147273b3.js"/><script src="/_next/static/chunks/248cba0fcb3874ed.js" async=""></script><script src="/_next/static/chunks/449cc9beaf757658.js" async=""></script><script src="/_next/static/chunks/5997132b61dec430.js" async=""></script><script src="/_next/static/chunks/turbopack-ce21f09cf18a303c.js" async=""></script><script src="/_next/static/chunks/42879de7b8087bc9.js" async=""></script><script src="/_next/static/chunks/3f21afa8930fb57b.js" async=""></script><link rel="preload" href="/assets/css/font-awesome.min.css" as="style"/><link rel="preload" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" as="style"/><link rel="preload" href="/assets/css/jquery-ui.css" as="style"/><link rel="preload" href="/assets/css/bootstrap.css" as="style"/><link rel="preload" href="/assets/css/style.css" as="style"/><link rel="preload" href="/assets/css/swiper.css" as="style"/><link rel="preload" href="/assets/css/dark.css" as="style"/><link rel="preload" href="/assets/css/font-icons.css" as="style"/><link rel="preload" href="/assets/css/animate.css" as="style"/><link rel="preload" href="/assets/css/magnific-popup.css" as="style"/><link rel="preload" href="/assets/css/bs-switches.css" as="style"/><link rel="preload" href="/assets/css/szwebstyle.css?v=1.0" as="style"/><link rel="preload" href="/assets/css/content.css" as="style"/><link rel="preload" href="/school-colours.css?skin_id=3?v=1.0" as="style"/><link rel="preload" href="/assets/css/responsive.css" as="style"/><link rel="preload" href="//www.schoolzineplus.co.uk/schoolzine/global.css" as="style"/><link rel="preload" href="/website/custom.css?skin=3" as="style"/><link rel="preload" href="/assets/css/lightbox.css" as="style"/><link rel="preload" href="/assets/css/-1.12.1.custom.min.css" as="style"/><link rel="preload" href="/assets/css/timepicki.css" as="style"/><link rel="icon" href="/favicon.ico"/><title>404: This page could not be found.</title><meta name="robots" content="noindex"/><title>Heath Primary School</title><meta name="description" content="Heath Primary School, Slack Lane, Chesterfield, S44 5RH"/><link rel="icon" href="/favicon.ico?favicon.0b3bf435.ico" sizes="256x256" type="image/x-icon"/><link rel="stylesheet" href="/assets/css/font-awesome.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"/><link rel="stylesheet" href="/assets/css/jquery-ui.css"/><link rel="stylesheet" href="/assets/css/bootstrap.css"/><link rel="stylesheet" href="/assets/css/style.css"/><link rel="stylesheet" href="/assets/css/swiper.css"/><link rel="stylesheet" href="/assets/css/dark.css"/><link rel="stylesheet" href="/assets/css/font-icons.css"/><link rel="stylesheet" href="/assets/css/animate.css"/><link rel="stylesheet" href="/assets/css/magnific-popup.css"/><link rel="stylesheet" href="/assets/css/bs-switches.css"/><link rel="stylesheet" href="/assets/css/szwebstyle.css?v=1.0"/><link rel="stylesheet" href="/assets/css/content.css"/><link rel="stylesheet" href="/school-colours.css?skin_id=3?v=1.0"/><link rel="stylesheet" href="/assets/css/responsive.css"/><link rel="stylesheet" href="//www.schoolzineplus.co.uk/schoolzine/global.css"/><link rel="stylesheet" href="/website/custom.css?skin=3"/><link rel="stylesheet" href="/assets/css/lightbox.css"/><link rel="stylesheet" href="/assets/css/-1.12.1.custom.min.css"/><link rel="stylesheet" href="/assets/css/timepicki.css"/><script src="/_next/static/chunks/a6dad97d9634a72d.js" noModule=""></script></head><body class="stretched"><div hidden=""><!--$--><!--/$--></div><script>
+              (function() {
+                function removeSchoolzineLogo() {
+                  // Remove by class
+                  var logos = document.querySelectorAll('.footer-logo, a.footer-logo, a[href*="schoolzine.co.uk"]');
+                  for (var i = 0; i < logos.length; i++) {
+                    logos[i].remove();
+                  }
+                  // Also check footer specifically
+                  var footer = document.getElementById('footer');
+                  if (footer) {
+                    var footerLogos = footer.querySelectorAll('a[href*="schoolzine.co.uk"], .footer-logo');
+                    for (var j = 0; j < footerLogos.length; j++) {
+                      footerLogos[j].remove();
+                    }
+                  }
+                }
+                
+                function hidePDFBannersWithEmbeddedPDFs() {
+                  // Hide all wysiwyg-only PDF viewer headings (duplicates)
+                  var hideHeadings = document.querySelectorAll('.wysiwyg-only.pdf-viewer-heading');
+                  for (var k = 0; k < hideHeadings.length; k++) {
+                    hideHeadings[k].style.display = 'none';
+                    hideHeadings[k].style.visibility = 'hidden';
+                    hideHeadings[k].style.height = '0';
+                    hideHeadings[k].style.margin = '0';
+                    hideHeadings[k].style.padding = '0';
+                    hideHeadings[k].style.opacity = '0';
+                  }
+                  
+                  // Show wysiwyg-hide PDF viewer headings (the ones with file size)
+                  var showHeadings = document.querySelectorAll('.wysiwyg-hide .pdf-viewer-heading');
+                  for (var m = 0; m < showHeadings.length; m++) {
+                    var heading = showHeadings[m];
+                    // Check if this heading's wrap contains an embedded PDF
+                    var wrap = heading.closest('.pdf-viewer-heading-wrap');
+                    if (wrap && !wrap.querySelector('.pdf-view.HTML-only')) {
+                      // No embedded PDF, so show this heading
+                      heading.style.display = 'block';
+                      heading.style.visibility = 'visible';
+                      heading.style.opacity = '1';
+                    }
+                  }
+                  
+                  // Find all PDF viewer heading wraps
+                  var wraps = document.querySelectorAll('.pdf-viewer-heading-wrap');
+                  for (var i = 0; i < wraps.length; i++) {
+                    var wrap = wraps[i];
+                    // Check if this wrap contains an embedded PDF
+                    var hasEmbeddedPDF = wrap.querySelector('.pdf-view.HTML-only');
+                    if (hasEmbeddedPDF) {
+                      // Hide PDF viewer headings in this wrap when there's an embedded PDF
+                      var headings = wrap.querySelectorAll('.pdf-viewer-heading, .wysiwyg-hide .pdf-viewer-heading');
+                      for (var j = 0; j < headings.length; j++) {
+                        headings[j].style.display = 'none';
+                        headings[j].style.visibility = 'hidden';
+                        headings[j].style.height = '0';
+                        headings[j].style.margin = '0';
+                        headings[j].style.padding = '0';
+                        headings[j].style.opacity = '0';
+                      }
+                    }
+                  }
+                }
+                
+                function fixSpacingIssues() {
+                  // Hide empty divs that cause spacing issues
+                  var emptyDivs = document.querySelectorAll('div:empty');
+                  for (var i = 0; i < emptyDivs.length; i++) {
+                    var div = emptyDivs[i];
+                    // Don't hide divs with important classes or IDs
+                    if (!div.className && !div.id) {
+                      div.style.display = 'none';
+                      div.style.height = '0';
+                      div.style.margin = '0';
+                      div.style.padding = '0';
+                    }
+                  }
+                  
+                  // Hide wysiwyg-hide containers that only contain scripts (not PDFs or headings)
+                  var wysiwygHides = document.querySelectorAll('.wysiwyg-hide');
+                  for (var j = 0; j < wysiwygHides.length; j++) {
+                    var container = wysiwygHides[j];
+                    var hasPDF = container.querySelector('.pdf-view.HTML-only');
+                    var hasHeading = container.querySelector('.pdf-viewer-heading');
+                    var scripts = container.querySelectorAll('script');
+                    var otherContent = container.querySelectorAll('*:not(script)');
+                    
+                    // If it only has scripts and no PDF or heading, hide it
+                    if (!hasPDF && !hasHeading && scripts.length > 0 && otherContent.length === 0) {
+                      container.style.display = 'none';
+                      container.style.height = '0';
+                      container.style.margin = '0';
+                      container.style.padding = '0';
+                    }
+                  }
+                  
+                  // Remove extra spacing from empty paragraphs
+                  var emptyParas = document.querySelectorAll('p:empty');
+                  for (var k = 0; k < emptyParas.length; k++) {
+                    emptyParas[k].style.display = 'none';
+                    emptyParas[k].style.height = '0';
+                    emptyParas[k].style.margin = '0';
+                    emptyParas[k].style.padding = '0';
+                  }
+                }
+                
+                // Run immediately
+                removeSchoolzineLogo();
+                hidePDFBannersWithEmbeddedPDFs();
+                fixSpacingIssues();
+                
+                // Run when DOM is ready
+                if (document.readyState === 'loading') {
+                  document.addEventListener('DOMContentLoaded', function() {
+                    removeSchoolzineLogo();
+                    hidePDFBannersWithEmbeddedPDFs();
+                    fixSpacingIssues();
+                  });
+                } else {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }
+                
+                // Run after delays
+                setTimeout(function() {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }, 100);
+                setTimeout(function() {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }, 500);
+                setTimeout(function() {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }, 1000);
+              })();
+            </script><script>
+              (function() {
+                if (typeof window.jQuery === 'undefined' && typeof window.$ === 'undefined') {
+                  var script = document.createElement('script');
+                  script.src = '/assets/js/jquery.js?v=' + Date.now();
+                  script.async = false;
+                  script.defer = false;
+                  // Make it blocking by using document.write in head, or append to head and wait
+                  var loaded = false;
+                  script.onload = script.onreadystatechange = function() {
+                    if (!loaded && (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete')) {
+                      loaded = true;
+                      // Ensure jQuery is set
+                      if (window.$ && !window.jQuery) {
+                        window.jQuery = window.$;
+                      }
+                      if (window.jQuery && !window.$) {
+                        window.$ = window.jQuery;
+                      }
+                      // Force both to be available
+                      if (window.jQuery) {
+                        window.$ = window.jQuery;
+                      }
+                      console.log('jQuery loaded in blocking script');
+                    }
+                  };
+                  document.head.insertBefore(script, document.head.firstChild);
+                } else {
+                  // jQuery already loaded
+                  if (window.$ && !window.jQuery) window.jQuery = window.$;
+                  if (window.jQuery && !window.$) window.$ = window.jQuery;
+                }
+              })();
+            </script><script>
+              (function() {
+                console.log('ScriptLoader: Starting script loading sequence');
+                
+                // Function to load script and return promise
+                function loadScript(src, id) {
+                  return new Promise(function(resolve, reject) {
+                    // Check if already loaded
+                    if (id && document.getElementById(id)) {
+                      console.log('ScriptLoader: ' + id + ' already loaded');
+                      resolve();
+                      return;
+                    }
+                    
+                    var script = document.createElement('script');
+                    script.src = src + '?v=' + Date.now();
+                    script.async = false;
+                    script.defer = false;
+                    if (id) script.id = id;
+                    
+                    script.onload = function() {
+                      console.log('ScriptLoader: Loaded ' + src);
+                      resolve();
+                    };
+                    
+                    script.onerror = function() {
+                      console.error('ScriptLoader: Failed to load ' + src);
+                      reject(new Error('Failed to load ' + src));
+                    };
+                    
+                    document.head.appendChild(script);
+                  });
+                }
+                
+                // Wait for jQuery, then load other scripts
+                function waitForJQuery() {
+                  var attempts = 0;
+                  var maxAttempts = 100; // Increased to 10 seconds
+                  var checkInterval = setInterval(function() {
+                    attempts++;
+                    var jq = null;
+                    try {
+                      jq = window.jQuery || window.$;
+                    } catch(e) {
+                      // Ignore errors
+                    }
+                    
+                    if (jq && typeof jq === 'function') {
+                      clearInterval(checkInterval);
+                      // Ensure both are set
+                      if (!window.jQuery) window.jQuery = jq;
+                      if (!window.$) window.$ = jq;
+                      console.log('ScriptLoader: jQuery confirmed available');
+                      
+                      // Now load other scripts in sequence
+                      loadScript('/assets/js/jquery-ui.min.js', 'jquery-ui')
+                        .then(function() {
+                          return loadScript('/assets/js/plugins.js', 'plugins');
+                        })
+                        .then(function() {
+                          return new Promise(function(resolve) {
+                            setTimeout(resolve, 100);
+                          });
+                        })
+                        .then(function() {
+                          return loadScript('/assets/js/functions-loader.js', 'functions-loader');
+                        })
+                        .then(function() {
+                          console.log('ScriptLoader: All scripts loaded successfully');
+                        })
+                        .catch(function(error) {
+                          console.error('ScriptLoader: Error loading scripts:', error);
+                        });
+                    } else if (attempts >= maxAttempts) {
+                      clearInterval(checkInterval);
+                      console.warn('ScriptLoader: jQuery not found after', maxAttempts * 100, 'ms');
+                      // Try to continue anyway - maybe jQuery will load later
+                      setTimeout(function() {
+                        if (window.jQuery || window.$) {
+                          console.log('ScriptLoader: jQuery found after timeout, retrying...');
+                          waitForJQuery();
+                        }
+                      }, 1000);
+                    }
+                  }, 100);
+                }
+                
+                // Start waiting for jQuery after a short delay to let the jQuery loading script start
+                setTimeout(waitForJQuery, 50);
+              })();
+            </script><div style="font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class="next-error-h1" style="display:inline-block;margin:0 20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px">404</h1><div style="display:inline-block"><h2 style="font-size:14px;font-weight:400;line-height:49px;margin:0">This page could not be found.</h2></div></div></div><!--$--><!--/$--><script src="/_next/static/chunks/2a40d0dd147273b3.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\na:I[68027,[\"/_next/static/chunks/42879de7b8087bc9.js\"],\"default\"]\n:HL[\"/_next/static/chunks/a6d5fcc06170fc8c.css\",\"style\"]\n:HL[\"/assets/css/font-awesome.min.css\",\"style\"]\n:HL[\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i\",\"style\"]\n:HL[\"/assets/css/jquery-ui.css\",\"style\"]\n:HL[\"/assets/css/bootstrap.css\",\"style\"]\n:HL[\"/assets/css/style.css\",\"style\"]\n:HL[\"/assets/css/swiper.css\",\"style\"]\n:HL[\"/assets/css/dark.css\",\"style\"]\n:HL[\"/assets/css/font-icons.css\",\"style\"]\n:HL[\"/assets/css/animate.css\",\"style\"]\n:HL[\"/assets/css/magnific-popup.css\",\"style\"]\n:HL[\"/assets/css/bs-switches.css\",\"style\"]\n:HL[\"/assets/css/szwebstyle.css?v=1.0\",\"style\"]\n:HL[\"/assets/css/content.css\",\"style\"]\n:HL[\"/school-colours.css?skin_id=3?v=1.0\",\"style\"]\n:HL[\"/assets/css/responsive.css\",\"style\"]\n:HL[\"//www.schoolzineplus.co.uk/schoolzine/global.css\",\"style\"]\n:HL[\"/website/custom.css?skin=3\",\"style\"]\n:HL[\"/assets/css/lightbox.css\",\"style\"]\n:HL[\"/assets/css/-1.12.1.custom.min.css\",\"style\"]\n:HL[\"/assets/css/timepicki.css\",\"style\"]\n2:T1ba3,"])</script><script>self.__next_f.push([1,"\n              (function() {\n                function removeSchoolzineLogo() {\n                  // Remove by class\n                  var logos = document.querySelectorAll('.footer-logo, a.footer-logo, a[href*=\"schoolzine.co.uk\"]');\n                  for (var i = 0; i \u003c logos.length; i++) {\n                    logos[i].remove();\n                  }\n                  // Also check footer specifically\n                  var footer = document.getElementById('footer');\n                  if (footer) {\n                    var footerLogos = footer.querySelectorAll('a[href*=\"schoolzine.co.uk\"], .footer-logo');\n                    for (var j = 0; j \u003c footerLogos.length; j++) {\n                      footerLogos[j].remove();\n                    }\n                  }\n                }\n                \n                function hidePDFBannersWithEmbeddedPDFs() {\n                  // Hide all wysiwyg-only PDF viewer headings (duplicates)\n                  var hideHeadings = document.querySelectorAll('.wysiwyg-only.pdf-viewer-heading');\n                  for (var k = 0; k \u003c hideHeadings.length; k++) {\n                    hideHeadings[k].style.display = 'none';\n                    hideHeadings[k].style.visibility = 'hidden';\n                    hideHeadings[k].style.height = '0';\n                    hideHeadings[k].style.margin = '0';\n                    hideHeadings[k].style.padding = '0';\n                    hideHeadings[k].style.opacity = '0';\n                  }\n                  \n                  // Show wysiwyg-hide PDF viewer headings (the ones with file size)\n                  var showHeadings = document.querySelectorAll('.wysiwyg-hide .pdf-viewer-heading');\n                  for (var m = 0; m \u003c showHeadings.length; m++) {\n                    var heading = showHeadings[m];\n                    // Check if this heading's wrap contains an embedded PDF\n                    var wrap = heading.closest('.pdf-viewer-heading-wrap');\n                    if (wrap \u0026\u0026 !wrap.querySelector('.pdf-view.HTML-only')) {\n                      // No embedded PDF, so show this heading\n                      heading.style.display = 'block';\n                      heading.style.visibility = 'visible';\n                      heading.style.opacity = '1';\n                    }\n                  }\n                  \n                  // Find all PDF viewer heading wraps\n                  var wraps = document.querySelectorAll('.pdf-viewer-heading-wrap');\n                  for (var i = 0; i \u003c wraps.length; i++) {\n                    var wrap = wraps[i];\n                    // Check if this wrap contains an embedded PDF\n                    var hasEmbeddedPDF = wrap.querySelector('.pdf-view.HTML-only');\n                    if (hasEmbeddedPDF) {\n                      // Hide PDF viewer headings in this wrap when there's an embedded PDF\n                      var headings = wrap.querySelectorAll('.pdf-viewer-heading, .wysiwyg-hide .pdf-viewer-heading');\n                      for (var j = 0; j \u003c headings.length; j++) {\n                        headings[j].style.display = 'none';\n                        headings[j].style.visibility = 'hidden';\n                        headings[j].style.height = '0';\n                        headings[j].style.margin = '0';\n                        headings[j].style.padding = '0';\n                        headings[j].style.opacity = '0';\n                      }\n                    }\n                  }\n                }\n                \n                function fixSpacingIssues() {\n                  // Hide empty divs that cause spacing issues\n                  var emptyDivs = document.querySelectorAll('div:empty');\n                  for (var i = 0; i \u003c emptyDivs.length; i++) {\n                    var div = emptyDivs[i];\n                    // Don't hide divs with important classes or IDs\n                    if (!div.className \u0026\u0026 !div.id) {\n                      div.style.display = 'none';\n                      div.style.height = '0';\n                      div.style.margin = '0';\n                      div.style.padding = '0';\n                    }\n                  }\n                  \n                  // Hide wysiwyg-hide containers that only contain scripts (not PDFs or headings)\n                  var wysiwygHides = document.querySelectorAll('.wysiwyg-hide');\n                  for (var j = 0; j \u003c wysiwygHides.length; j++) {\n                    var container = wysiwygHides[j];\n                    var hasPDF = container.querySelector('.pdf-view.HTML-only');\n                    var hasHeading = container.querySelector('.pdf-viewer-heading');\n                    var scripts = container.querySelectorAll('script');\n                    var otherContent = container.querySelectorAll('*:not(script)');\n                    \n                    // If it only has scripts and no PDF or heading, hide it\n                    if (!hasPDF \u0026\u0026 !hasHeading \u0026\u0026 scripts.length \u003e 0 \u0026\u0026 otherContent.length === 0) {\n                      container.style.display = 'none';\n                      container.style.height = '0';\n                      container.style.margin = '0';\n                      container.style.padding = '0';\n                    }\n                  }\n                  \n                  // Remove extra spacing from empty paragraphs\n                  var emptyParas = document.querySelectorAll('p:empty');\n                  for (var k = 0; k \u003c emptyParas.length; k++) {\n                    emptyParas[k].style.display = 'none';\n                    emptyParas[k].style.height = '0';\n                    emptyParas[k].style.margin = '0';\n                    emptyParas[k].style.padding = '0';\n                  }\n                }\n                \n                // Run immediately\n                removeSchoolzineLogo();\n                hidePDFBannersWithEmbeddedPDFs();\n                fixSpacingIssues();\n                \n                // Run when DOM is ready\n                if (document.readyState === 'loading') {\n                  document.addEventListener('DOMContentLoaded', function() {\n                    removeSchoolzineLogo();\n                    hidePDFBannersWithEmbeddedPDFs();\n                    fixSpacingIssues();\n                  });\n                } else {\n                  removeSchoolzineLogo();\n                  hidePDFBannersWithEmbeddedPDFs();\n                  fixSpacingIssues();\n                }\n                \n                // Run after delays\n                setTimeout(function() {\n                  removeSchoolzineLogo();\n                  hidePDFBannersWithEmbeddedPDFs();\n                  fixSpacingIssues();\n                }, 100);\n                setTimeout(function() {\n                  removeSchoolzineLogo();\n                  hidePDFBannersWithEmbeddedPDFs();\n                  fixSpacingIssues();\n                }, 500);\n                setTimeout(function() {\n                  removeSchoolzineLogo();\n                  hidePDFBannersWithEmbeddedPDFs();\n                  fixSpacingIssues();\n                }, 1000);\n              })();\n            "])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"uWIx26tBS-vrAQh4fpXPs\",\"c\":[\"\",\"_not-found\",\"\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"/_not-found\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/a6d5fcc06170fc8c.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/3f21afa8930fb57b.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"rel\":\"icon\",\"href\":\"/favicon.ico\"}],[\"$\",\"meta\",null,{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/font-awesome.min.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/jquery-ui.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/bootstrap.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/style.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/swiper.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/dark.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/font-icons.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/animate.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/magnific-popup.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/bs-switches.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/szwebstyle.css?v=1.0\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/content.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/school-colours.css?skin_id=3?v=1.0\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/responsive.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"//www.schoolzineplus.co.uk/schoolzine/global.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/website/custom.css?skin=3\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/lightbox.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/-1.12.1.custom.min.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"href\":\"/assets/css/timepicki.css\"}]]}],[\"$\",\"body\",null,{\"className\":\"stretched\",\"children\":[[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$2\"}}],\"$L3\",\"$L4\",\"$L5\",\"$L6\"]}]]}]]}],{\"children\":[\"$L7\",{\"children\":[\"$L8\",{},null,false,false]},null,false,false]},null,false,false],\"$L9\",false]],\"m\":\"$undefined\",\"G\":[\"$a\",\"$undefined\"],\"S\":true}\n"])</script><script>self.__next_f.push([1,"d:I[75105,[\"/_next/static/chunks/3f21afa8930fb57b.js\"],\"default\"]\ne:I[39756,[\"/_next/static/chunks/42879de7b8087bc9.js\"],\"default\"]\nf:I[37457,[\"/_next/static/chunks/42879de7b8087bc9.js\"],\"default\"]\n10:I[97367,[\"/_next/static/chunks/42879de7b8087bc9.js\"],\"OutletBoundary\"]\n11:\"$Sreact.suspense\"\n13:I[97367,[\"/_next/static/chunks/42879de7b8087bc9.js\"],\"ViewportBoundary\"]\n15:I[97367,[\"/_next/static/chunks/42879de7b8087bc9.js\"],\"MetadataBoundary\"]\nb:T672,"])</script><script>self.__next_f.push([1,"\n              (function() {\n                if (typeof window.jQuery === 'undefined' \u0026\u0026 typeof window.$ === 'undefined') {\n                  var script = document.createElement('script');\n                  script.src = '/assets/js/jquery.js?v=' + Date.now();\n                  script.async = false;\n                  script.defer = false;\n                  // Make it blocking by using document.write in head, or append to head and wait\n                  var loaded = false;\n                  script.onload = script.onreadystatechange = function() {\n                    if (!loaded \u0026\u0026 (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete')) {\n                      loaded = true;\n                      // Ensure jQuery is set\n                      if (window.$ \u0026\u0026 !window.jQuery) {\n                        window.jQuery = window.$;\n                      }\n                      if (window.jQuery \u0026\u0026 !window.$) {\n                        window.$ = window.jQuery;\n                      }\n                      // Force both to be available\n                      if (window.jQuery) {\n                        window.$ = window.jQuery;\n                      }\n                      console.log('jQuery loaded in blocking script');\n                    }\n                  };\n                  document.head.insertBefore(script, document.head.firstChild);\n                } else {\n                  // jQuery already loaded\n                  if (window.$ \u0026\u0026 !window.jQuery) window.jQuery = window.$;\n                  if (window.jQuery \u0026\u0026 !window.$) window.$ = window.jQuery;\n                }\n              })();\n            "])</script><script>self.__next_f.push([1,"3:[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$b\"}}]\nc:T1044,"])</script><script>self.__next_f.push([1,"\n              (function() {\n                console.log('ScriptLoader: Starting script loading sequence');\n                \n                // Function to load script and return promise\n                function loadScript(src, id) {\n                  return new Promise(function(resolve, reject) {\n                    // Check if already loaded\n                    if (id \u0026\u0026 document.getElementById(id)) {\n                      console.log('ScriptLoader: ' + id + ' already loaded');\n                      resolve();\n                      return;\n                    }\n                    \n                    var script = document.createElement('script');\n                    script.src = src + '?v=' + Date.now();\n                    script.async = false;\n                    script.defer = false;\n                    if (id) script.id = id;\n                    \n                    script.onload = function() {\n                      console.log('ScriptLoader: Loaded ' + src);\n                      resolve();\n                    };\n                    \n                    script.onerror = function() {\n                      console.error('ScriptLoader: Failed to load ' + src);\n                      reject(new Error('Failed to load ' + src));\n                    };\n                    \n                    document.head.appendChild(script);\n                  });\n                }\n                \n                // Wait for jQuery, then load other scripts\n                function waitForJQuery() {\n                  var attempts = 0;\n                  var maxAttempts = 100; // Increased to 10 seconds\n                  var checkInterval = setInterval(function() {\n                    attempts++;\n                    var jq = null;\n                    try {\n                      jq = window.jQuery || window.$;\n                    } catch(e) {\n                      // Ignore errors\n                    }\n                    \n                    if (jq \u0026\u0026 typeof jq === 'function') {\n                      clearInterval(checkInterval);\n                      // Ensure both are set\n                      if (!window.jQuery) window.jQuery = jq;\n                      if (!window.$) window.$ = jq;\n                      console.log('ScriptLoader: jQuery confirmed available');\n                      \n                      // Now load other scripts in sequence\n                      loadScript('/assets/js/jquery-ui.min.js', 'jquery-ui')\n                        .then(function() {\n                          return loadScript('/assets/js/plugins.js', 'plugins');\n                        })\n                        .then(function() {\n                          return new Promise(function(resolve) {\n                            setTimeout(resolve, 100);\n                          });\n                        })\n                        .then(function() {\n                          return loadScript('/assets/js/functions-loader.js', 'functions-loader');\n                        })\n                        .then(function() {\n                          console.log('ScriptLoader: All scripts loaded successfully');\n                        })\n                        .catch(function(error) {\n                          console.error('ScriptLoader: Error loading scripts:', error);\n                        });\n                    } else if (attempts \u003e= maxAttempts) {\n                      clearInterval(checkInterval);\n                      console.warn('ScriptLoader: jQuery not found after', maxAttempts * 100, 'ms');\n                      // Try to continue anyway - maybe jQuery will load later\n                      setTimeout(function() {\n                        if (window.jQuery || window.$) {\n                          console.log('ScriptLoader: jQuery found after timeout, retrying...');\n                          waitForJQuery();\n                        }\n                      }, 1000);\n                    }\n                  }, 100);\n                }\n                \n                // Start waiting for jQuery after a short delay to let the jQuery loading script start\n                setTimeout(waitForJQuery, 50);\n              })();\n            "])</script><script>self.__next_f.push([1,"4:[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$c\"}}]\n5:[\"$\",\"$Ld\",null,{}]\n"])</script><script>self.__next_f.push([1,"6:[\"$\",\"$Le\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Lf\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]\n"])</script><script>self.__next_f.push([1,"7:[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$Le\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Lf\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]\n8:[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":\"$6:props:notFound:0:1:props:style\",\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":\"$6:props:notFound:0:1:props:children:props:children:1:props:style\",\"children\":404}],[\"$\",\"div\",null,{\"style\":\"$6:props:notFound:0:1:props:children:props:children:2:props:style\",\"children\":[\"$\",\"h2\",null,{\"style\":\"$6:props:notFound:0:1:props:children:props:children:2:props:children:props:style\",\"children\":\"This page could not be found.\"}]}]]}]}]],null,[\"$\",\"$L10\",null,{\"children\":[\"$\",\"$11\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@12\"}]}]]}]\n9:[\"$\",\"$1\",\"h\",{\"children\":[[\"$\",\"meta\",null,{\"name\":\"robots\",\"content\":\"noindex\"}],[\"$\",\"$L13\",null,{\"children\":\"$@14\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$L15\",null,{\"children\":[\"$\",\"$11\",null,{\"name\":\"Next.Metadata\",\"children\":\"$@16\"}]}]}],null]}]\n"])</script><script>self.__next_f.push([1,"14:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script><script>self.__next_f.push([1,"17:I[27201,[\"/_next/static/chunks/42879de7b8087bc9.js\"],\"IconMark\"]\n16:[[\"$\",\"title\",\"0\",{\"children\":\"Heath Primary School\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Heath Primary School, Slack Lane, Chesterfield, S44 5RH\"}],[\"$\",\"link\",\"2\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.0b3bf435.ico\",\"sizes\":\"256x256\",\"type\":\"image/x-icon\"}],[\"$\",\"$L17\",\"3\",{}]]\n12:null\n"])</script></body></html>
