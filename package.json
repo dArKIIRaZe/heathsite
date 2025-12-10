@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy:build": "npm run build && echo Build complete! Ready for deployment. Upload contents of 'out' directory to Plesk.",
+    "deploy:check": "node -e \"const fs = require('fs'); const out = './out'; if (!fs.existsSync(out)) { console.error('❌ out/ directory not found. Run npm run build first.'); process.exit(1); } const files = fs.readdirSync(out); console.log('✅ Build found with', files.length, 'items'); console.log('📁 Main files:', files.slice(0, 10).join(', '));\""
   },
   "dependencies": {
     "axios": "^1.13.2",
