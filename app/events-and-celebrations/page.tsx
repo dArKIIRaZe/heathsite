@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Events and Celebrations - Heath Primary SchoolSchoolzine",
+  title: "Events and Celebrations - Heath Primary School",
 };
 
 export default function Page() {
   return (
     <>
-      <div dangerouslySetInnerHTML={{ __html: `<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+      <div dangerouslySetInnerHTML={{ __html: `<script src="/assets/js/tinymce.min.js"></script>
 
-<script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js"></script>
+<script src="/assets/js/tinymcefunctions.js"></script>
 
 <div id="access">
   <ul>
@@ -108,7 +108,7 @@ export default function Page() {
 																					</div>
 									</a>
 																			<ul style="display: none;" class="nav-submenu">
-																							<li><a href="https://heathprimary.schoolzineplus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
+																							<li><a href="https://heathprimary.plus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
 																					</ul>
 																	</li>
 																												<li>
@@ -895,12 +895,12 @@ export default function Page() {
             <h3><a href="https://twitter.com/HPSDerbyshire">Twitter</a></h3>
             <span>Learn more about us</span>        </div>
     </article><article class="portfolio-item pf-media pf-icons"><div class="portfolio-image">
-            <a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">
+            <a href="https://heathprimary.plus.co.uk/calendar/1">
                 <img src="/images/hop1_slide3.jpg" alt="School Calendar"><div class="portfolio-overlay"></div>
             </a>
         </div>
         <div class="portfolio-desc">
-            <h3><a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">School Calendar</a></h3>
+            <h3><a href="https://heathprimary.plus.co.uk/calendar/1">School Calendar</a></h3>
             <span>What's upcoming in the school?</span>        </div>
     </article></div>
 
@@ -1033,7 +1033,7 @@ export default function Page() {
 	<script>
     var actualCaretPositionBookmark;
 </script>
-<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+<script src="/assets/js/tinymce.min.js"></script>
 <script>
 	function setWysiwygValue(id, value) {
 		tinymce.get(id).setContent(value);
@@ -1085,7 +1085,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],
@@ -1596,14 +1596,14 @@ export default function Page() {
 
 
 <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" alt="Lightbox Image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" name="Previous" href=""><span>Previous</span></a><a class="lb-next" name="Next" href=""><span>Next</span></a></div><div class="lb-loader"><a class="lb-cancel" name="Cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close" name="Close"></a></div></div></div></div><div class="ug-gallery-wrapper ug-lightbox ug-lightbox-compact" style=""><div class="ug-lightbox-overlay" style="opacity: 0.6;"></div><div class="ug-lightbox-numbers">1 / 4</div><div class="ug-lightbox-button-close" style="position: absolute; margin: 0px; left: 753px; top: 2px; opacity: 1;"></div><div class="ug-lightbox-arrow-left"></div><div class="ug-lightbox-arrow-right"></div><div class="ug-slider-wrapper"><div class="ug-slider-inner" style="left: 0px; width: 0px;"><div class="ug-slide-wrapper ug-slide1" style="z-index: 2; position: absolute; margin: 0px; left: 0px; top: 0px; opacity: 1;"><div class="ug-item-wrapper"><img style="display: block; margin: 0px; height: 0px; top: 30px; opacity: 1; width: 0px; left: 40px; position: absolute; border-style: solid; border-width: 10px; border-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: rgb(53, 53, 53) 3px 3px 10px 0px;" src="/images/pride_and_progress.png"></div><div class="ug-slider-preloader ug-loader3 ug-loader-black" style="display: none;"></div><div class="ug-button-videoplay ug-type-square" style="display: none; position: absolute; margin: 0px; left: -43px; top: -33px;"></div></div><div class="ug-slide-wrapper ug-slide2" style="z-index: 3; position: absolute; margin: 0px; left: 0px; top: 0px;"><div class="ug-item-wrapper"><img style="display: block; margin: 0px; height: 0px; top: 30px; opacity: 1; width: 0px; left: 19px; position: absolute; border-style: solid; border-width: 10px; border-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: rgb(53, 53, 53) 3px 3px 10px 0px;" src="/images/1.jpg"></div><div class="ug-slider-preloader ug-loader3 ug-loader-black" style="display: none;"></div><div class="ug-button-videoplay ug-type-square" style="display: none; position: absolute; margin: 0px; left: -43px; top: -33px;"></div></div><div class="ug-slide-wrapper ug-slide3" style="opacity: 1; position: absolute; margin: 0px; left: 0px; top: 0px;"><div class="ug-item-wrapper"><img style="display: block; margin: 0px; height: 0px; top: 30px; opacity: 1; width: 0px; left: 19px; position: absolute; border-style: solid; border-width: 10px; border-color: rgb(255, 255, 255); border-radius: 0px; box-shadow: rgb(53, 53, 53) 3px 3px 10px 0px;" src="/images/2.jpg"></div><div class="ug-slider-preloader ug-loader3 ug-loader-black" style="display: none;"></div><div class="ug-button-videoplay ug-type-square" style="display: none; position: absolute; margin: 0px; left: -43px; top: -33px;"></div></div><div class="ug-videoplayer" style="display:none"><div class="ug-videoplayer-wrapper ug-videoplayer-youtube" style="display:none"><div id="gallery_2_1556846857_grid_youtube_inner"></div></div><div id="gallery_2_1556846857_grid_videoplayer_vimeo" class="ug-videoplayer-wrapper ug-videoplayer-vimeo" style="display:none"></div><div id="gallery_2_1556846857_grid_videoplayer_html5" class="ug-videoplayer-wrapper ug-videoplayer-html5"></div><div id="gallery_2_1556846857_grid_videoplayer_soundcloud" class="ug-videoplayer-wrapper ug-videoplayer-soundcloud"></div><div id="gallery_2_1556846857_grid_videoplayer_wistia" class="ug-videoplayer-wrapper ug-videoplayer-wistia"></div></div></div></div><div class="ug-textpanel"><div class="ug-textpanel-textwrapper"><div class="ug-textpanel-title" style="text-align: left;">1</div></div></div></div>\` }} />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
+      <Script src="/assets/js/tinymcefunctions.js" strategy="afterInteractive" key="/assets/js/tinymcefunctions.js" />
       
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" />
+      <Script src="/assets/js/plugins.js" strategy="afterInteractive" key="/assets/js/plugins.js" />
+      <Script src="/assets/js/bs-switches.js" strategy="afterInteractive" key="/assets/js/bs-switches.js" />
       {/* External canvas/functions.js removed - using local /assets/js/functions.js instead via ScriptsLoader */}
       <Script src="/website/custom.js?skin_id=" strategy="afterInteractive" key="/website/custom.js?skin_id=" />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
       <Script id="inline-0" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
             $(function () {
                 function renderPDF(url, canvasContainer, options) {
@@ -2132,7 +2132,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],

@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Travel  - Heath Primary SchoolSchoolzine",
+  title: "Travel  - Heath Primary School",
 };
 
 export default function Page() {
   return (
     <>
-      <div dangerouslySetInnerHTML={{ __html: `<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+      <div dangerouslySetInnerHTML={{ __html: `<script src="/assets/js/tinymce.min.js"></script>
 
-<script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js"></script>
+<script src="/assets/js/tinymcefunctions.js"></script>
 
 <div id="access">
   <ul>
@@ -108,7 +108,7 @@ export default function Page() {
 																					</div>
 									</a>
 																			<ul style="display: none;" class="nav-submenu">
-																							<li><a href="https://heathprimary.schoolzineplus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
+																							<li><a href="https://heathprimary.plus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
 																					</ul>
 																	</li>
 																												<li>
@@ -717,6 +717,17 @@ export default function Page() {
 </div>
 <p></p>
 </div>
+<p>We also have a 5-minute walking bubble to encourage families to park their cars further away from school and walk/ scoot/ cycle the final few minutes to school, this helps to reduce traffic, parking issues and improve the safety for all families and members of the public.</p>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/walking_bubble_map_poster.pdf" data-fileid="559"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">walking_bubble_map_poster.pdf <i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+                <div style="width: 100%; text-align: center;">
+        <img src="/images/walkingbubble.png" alt="5-MINUTE WALKING BUBBLE - Stay Safe Get Active" style="max-width: 100%; height: auto;" />
+        </div>
+</div>
+</div>
+</div>
 <p></p>
 <p></p>
 
@@ -749,12 +760,12 @@ export default function Page() {
             <h3><a href="https://twitter.com/HPSDerbyshire">Twitter</a></h3>
             <span>Learn more about us</span>        </div>
     </article><article class="portfolio-item pf-media pf-icons"><div class="portfolio-image">
-            <a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">
+            <a href="https://heathprimary.plus.co.uk/calendar/1">
                 <img src="/images/hop1_slide3.jpg" alt="School Calendar"><div class="portfolio-overlay"></div>
             </a>
         </div>
         <div class="portfolio-desc">
-            <h3><a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">School Calendar</a></h3>
+            <h3><a href="https://heathprimary.plus.co.uk/calendar/1">School Calendar</a></h3>
             <span>What's upcoming in the school?</span>        </div>
     </article></div>
 
@@ -887,7 +898,7 @@ export default function Page() {
 	<script>
     var actualCaretPositionBookmark;
 </script>
-<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+<script src="/assets/js/tinymce.min.js"></script>
 <script>
 	function setWysiwygValue(id, value) {
 		tinymce.get(id).setContent(value);
@@ -939,7 +950,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],
@@ -1450,14 +1461,14 @@ export default function Page() {
 
 
 <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" alt="Lightbox Image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" name="Previous" href=""><span>Previous</span></a><a class="lb-next" name="Next" href=""><span>Next</span></a></div><div class="lb-loader"><a class="lb-cancel" name="Cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close" name="Close"></a></div></div></div></div>\` }} />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
+      <Script src="/assets/js/tinymcefunctions.js" strategy="afterInteractive" key="/assets/js/tinymcefunctions.js" />
       
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" />
+      <Script src="/assets/js/plugins.js" strategy="afterInteractive" key="/assets/js/plugins.js" />
+      <Script src="/assets/js/bs-switches.js" strategy="afterInteractive" key="/assets/js/bs-switches.js" />
       {/* External canvas/functions.js removed - using local /assets/js/functions.js instead via ScriptsLoader */}
       <Script src="/website/custom.js?skin_id=" strategy="afterInteractive" key="/website/custom.js?skin_id=" />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
       <Script id="inline-0" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
             $(function () {
                 function renderPDF(url, canvasContainer, options) {
@@ -1496,46 +1507,6 @@ export default function Page() {
 
                 }
                 renderPDF('/pdfs/how_to_get_to_heath_primary_school.pdf', document.getElementById('pdf-view-558-5586936df28cfc3d'));
-            });
-        \` }} />
-      <Script id="inline-1" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
-            $(function () {
-                function renderPDF(url, canvasContainer, options) {
-                    options = options || {scale: 1};
-                    var first = 0;
-                    function renderPage(page) {
-                        var viewport = page.getViewport(options.scale);
-                        var canvas = document.createElement('canvas');
-                        var ctx = canvas.getContext('2d');
-                        var renderContext = {
-                            canvasContext: ctx,
-                            viewport: viewport
-                        };
-                        canvas.height = viewport.height;
-                        canvas.width = viewport.width;
-                        canvasContainer.appendChild(canvas);
-                        if(first == 0){
-                            $("#pdf-view-559-5596936df28d82bf").height(canvas.height);
-                            $("#pdf-view-loading-559-5596936df28d82bf").hide();
-                            $("#pdf-view-559-5596936df28d82bf").show();
-                        }
-                        page.render(renderContext);
-                        first = 1;
-                    }
-                    function renderPages(pdfDoc) {
-                        if(pdfDoc.numPages == 1){
-                            $("#pdf-view-559-5596936df28d82bf").addClass("single-page");
-                        }
-                        for (var num = 1; num <= pdfDoc.numPages; num++){
-                            pdfDoc.getPage(num).then(renderPage);
-                        }
-                    }
-
-                    PDFJS.disableWorker = true;
-                    PDFJS.getDocument(url).then(renderPages);
-
-                }
-                renderPDF('/pdfs/walking_bubble_map_poster.pdf', document.getElementById('pdf-view-559-5596936df28d82bf'));
             });
         \` }} />
       <Script id="inline-2" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
@@ -1666,7 +1637,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],

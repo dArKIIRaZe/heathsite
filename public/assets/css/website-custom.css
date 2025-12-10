@@ -271,28 +271,190 @@ Date: 2025-01-27
 Description: Ensure PDF viewer banners display correctly as red banners with white text
 */
 
-/* PDF Viewer Heading - Red banner with white text */
-.pdf-viewer-heading,
-.wysiwyg-only.pdf-viewer-heading,
-.pdf-viewer-heading-wrap .pdf-viewer-heading,
-.wysiwyg-hide .pdf-viewer-heading {
-    background: rgba(254, 0, 0, 0.8) !important;
-    border-left: 8px solid rgba(254, 0, 0, 1) !important;
-    border-radius: 2px !important;
-    margin-bottom: 10px !important;
-    display: block !important;
-    min-height: 50px !important;
-    width: 100% !important;
+/* Hide wysiwyg-only version to avoid duplicates */
+.wysiwyg-only.pdf-viewer-heading {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
 }
 
-.pdf-viewer-heading:hover {
+/* Show the wysiwyg-hide PDF viewer heading (the one with file size) */
+.wysiwyg-hide .pdf-viewer-heading,
+.pdf-viewer-heading-wrap .wysiwyg-hide .pdf-viewer-heading {
+    display: block !important;
+    visibility: visible !important;
+    background: rgba(254, 0, 0, 0.8) !important;
+    background-color: rgba(254, 0, 0, 0.8) !important;
+    border-left: 8px solid rgba(254, 0, 0, 1) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-radius: 2px !important;
+    margin-bottom: 10px !important;
+    min-height: 50px !important;
+    width: 100% !important;
+    color: #fff !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+}
+
+/* Hide PDF viewer headings when there's an embedded PDF in the same wrap */
+.pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .pdf-viewer-heading,
+.pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .wysiwyg-hide .pdf-viewer-heading {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+}
+
+/* Keep the wrap container visible so embedded PDFs can display */
+.pdf-viewer-heading-wrap {
+    display: block !important;
+    visibility: visible !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+
+/* Hide empty divs that cause spacing issues */
+div:empty:not([class]):not([id]),
+div:empty:not([class*="pdf"]):not([id*="pdf"]):not([class*="sb"]):not([data-sb-image-container]) {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+    line-height: 0 !important;
+}
+
+/* Hide wysiwyg-hide containers that only contain scripts (not PDFs) */
+.wysiwyg-hide:has(script:only-child),
+.wysiwyg-hide:has(script):not(:has(.pdf-view.HTML-only)):not(:has(.pdf-viewer-heading)) {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+}
+
+/* Fix spacing issues with wysiwyg-hide containers that have embedded PDFs */
+.wysiwyg-hide:has(.pdf-view.HTML-only) {
+    margin-bottom: 10px !important;
+    padding-bottom: 0 !important;
+}
+
+/* Remove extra spacing from content wrap at bottom */
+.content-wrap {
+    padding-bottom: 20px !important;
+}
+
+/* Remove extra spacing from empty paragraphs */
+p:empty {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+}
+
+/* Ensure all governor content is left-aligned */
+#content01 [data-sb-image-container] {
+    text-align: left !important;
+}
+
+#content01 [data-sb-image-container] p,
+#content01 [data-sb-image-container] div,
+#content01 [data-sb-image-container] strong {
+    text-align: left !important;
+}
+
+#content01 [data-sb-image-container] p[style*="text-align: justify"],
+#content01 [data-sb-image-container] div[style*="text-align: justify"] {
+    text-align: left !important;
+}
+
+/* Clear floats after governor images to ensure text starts on new line */
+#content01 div[style*="clear: both"] {
+    clear: both !important;
+    display: block !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Ensure governor text content starts on new line after clearfix */
+#content01 div[style*="clear: both"] + strong,
+#content01 div[style*="clear: both"] + p,
+#content01 div[style*="clear: both"] + div {
+    clear: both !important;
+    display: block !important;
+}
+
+/* Ensure floated image containers don't affect following content */
+#content01 div[style*="float: left"] {
+    float: left !important;
+    margin-right: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+#content01 div[style*="float: left"] img {
+    float: none !important;
+    display: block !important;
+}
+
+/* Force governor text to start below images - prevent wrapping */
+#content01 div[style*="clear: both"] {
+    clear: both !important;
+    display: block !important;
+    height: 1px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Ensure all content after clearfix starts on new line */
+#content01 div[style*="clear: both"] ~ *,
+#content01 div[style*="clear: both"] + * {
+    clear: both !important;
+    display: block !important;
+    margin-left: 0 !important;
+}
+
+/* Alternative: Wrap each governor profile and use overflow */
+#content01 [data-sb-image-container] {
+    overflow: visible !important;
+}
+
+/* Force text to not wrap around images by using min-height */
+#content01 div[style*="float: left"] + div[style*="clear: both"] {
+    min-height: 0 !important;
+}
+
+/* Ensure strong tags and paragraphs after images start below */
+#content01 div[style*="float: left"] ~ strong,
+#content01 div[style*="float: left"] ~ p {
+    clear: both !important;
+    display: block !important;
+    margin-top: 10px !important;
+}
+
+/* PDF viewer heading hover state */
+.wysiwyg-hide .pdf-viewer-heading:hover {
     background: rgba(254, 0, 0, 0.95) !important;
     border-left: 12px solid rgba(254, 0, 0, 1) !important;
 }
 
-/* PDF Viewer Link - White text, proper padding */
-.pdf-viewer-heading a.pdf-viewer-link,
-.wysiwyg-only.pdf-viewer-heading a.pdf-viewer-link,
+/* PDF viewer links and content styling */
 .wysiwyg-hide .pdf-viewer-heading a.pdf-viewer-link {
     display: block !important;
     padding: 15px 130px 15px 15px !important;
@@ -309,73 +471,9 @@ Description: Ensure PDF viewer banners display correctly as red banners with whi
     text-decoration: none !important;
 }
 
-/* PDF Viewer Title - White text */
-.pdf-viewer-heading .pdf-viewer-title,
-.pdf-viewer-heading a.pdf-viewer-link .pdf-viewer-title {
-    color: #fff !important;
-    font-weight: 500 !important;
-    display: inline-block !important;
-}
-
-/* PDF Viewer Icon - White */
-.pdf-viewer-heading .fa-file-pdf-o,
-.pdf-viewer-heading a.pdf-viewer-link .fa-file-pdf-o {
-    color: #fff !important;
-    margin-right: 10px !important;
-    font-size: 20px !important;
-    float: left !important;
-}
-
-/* PDF Viewer Download Icon - White */
-.pdf-viewer-heading .fa-download,
-.pdf-viewer-heading a.pdf-viewer-link .fa-download {
-    color: #fff !important;
-    margin-left: 10px !important;
-}
-
-/* Ensure wysiwyg-hide PDF banners are visible and styled correctly */
-.wysiwyg-hide {
-    display: block !important;
-}
-
-.wysiwyg-hide .pdf-viewer-heading {
-    display: block !important;
-    visibility: visible !important;
-    background-color: rgba(254, 0, 0, 0.8) !important;
-    background: rgba(254, 0, 0, 0.8) !important;
-    border-left: 8px solid rgba(254, 0, 0, 1) !important;
-    border-radius: 2px !important;
-    margin-bottom: 10px !important;
-    min-height: 50px !important;
-    width: 100% !important;
-}
-
-/* Override any black background on PDF banners */
-.pdf-viewer-heading,
-.wysiwyg-hide .pdf-viewer-heading,
-.pdf-viewer-heading-wrap .wysiwyg-hide .pdf-viewer-heading {
-    background-color: rgba(254, 0, 0, 0.8) !important;
-    background: rgba(254, 0, 0, 0.8) !important;
-    color: #fff !important;
-}
-
-/* Ensure PDF banner link has proper styling */
-.wysiwyg-hide .pdf-viewer-heading a.pdf-viewer-link {
-    display: block !important;
-    padding: 15px 130px 15px 15px !important;
-    color: #fff !important;
-    text-decoration: none !important;
-    position: relative !important;
-    min-height: 50px !important;
-    line-height: 1.4 !important;
-    width: 100% !important;
-    background: transparent !important;
-}
-
-/* Ensure PDF banner text and icons are white */
-.wysiwyg-hide .pdf-viewer-heading *,
-.wysiwyg-hide .pdf-viewer-heading a.pdf-viewer-link *,
+/* PDF viewer title, icons, and content - white text */
 .wysiwyg-hide .pdf-viewer-heading .pdf-viewer-title,
+.wysiwyg-hide .pdf-viewer-heading a.pdf-viewer-link .pdf-viewer-title,
 .wysiwyg-hide .pdf-viewer-heading .pdf-viewer-filesize,
 .wysiwyg-hide .pdf-viewer-heading .fa,
 .wysiwyg-hide .pdf-viewer-heading .fa-file-pdf-o,
@@ -383,31 +481,108 @@ Description: Ensure PDF viewer banners display correctly as red banners with whi
     color: #fff !important;
 }
 
-/* Ensure PDF viewer iframe container doesn't have black background */
+/* Hide wysiwyg-hide PDF viewer headings when there's an embedded PDF */
+.pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .wysiwyg-hide .pdf-viewer-heading {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+}
+
+/* All PDF viewer headings are hidden - using embedded PDFs instead */
+
+/* All PDF viewer heading content is hidden */
+
+/* All PDF viewer headings are completely hidden - using embedded PDFs */
+
+/* Hide PDF viewer headings only when there's an embedded PDF in the same container */
+body .pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .pdf-viewer-heading,
+body .pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .wysiwyg-only.pdf-viewer-heading,
+body .pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .wysiwyg-hide .pdf-viewer-heading,
+body .pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) div.pdf-viewer-heading {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+}
+
+/* Keep pdf-viewer-heading-wrap visible */
+body .pdf-viewer-heading-wrap {
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Ensure PDF views inside the wrap are visible */
+body .pdf-viewer-heading-wrap .pdf-view,
+body .pdf-viewer-heading-wrap .pdf-view.HTML-only {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Ensure embedded PDF containers are visible - these are the actual PDFs */
 .pdf-view.HTML-only {
+    display: block !important;
+    visibility: visible !important;
     background: transparent !important;
     background-color: transparent !important;
+    height: 800px !important;
+    width: 100% !important;
+    margin: 10px 0 !important;
+    opacity: 1 !important;
 }
 
 .pdf-view.HTML-only iframe {
+    display: block !important;
+    visibility: visible !important;
     background: transparent !important;
     background-color: #fff !important;
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    opacity: 1 !important;
 }
 
-/* Make sz-web-link elements that link to PDFs red instead of teal */
+/* Ensure PDF view containers are visible */
+.pdf-view,
+div.pdf-view,
+#content01 .pdf-view,
+.content-wrap .pdf-view {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Make ALL sz-web-link elements red instead of teal/blue - applies to all banners */
+.wysiwyg.sz-web-link a.sz-web-a,
 .wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"],
 .wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] {
     background-color: rgba(254, 0, 0, 0.8) !important;
     border-left: 8px solid rgba(254, 0, 0, 1) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
     color: #fff !important;
 }
 
+.wysiwyg.sz-web-link a.sz-web-a:hover,
 .wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"]:hover,
 .wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"]:hover {
     background-color: rgba(254, 0, 0, 0.95) !important;
     border-left: 12px solid rgba(254, 0, 0, 1) !important;
 }
 
+.wysiwyg.sz-web-link a.sz-web-a .sz-web-icon,
+.wysiwyg.sz-web-link a.sz-web-a .sz-web-title,
+.wysiwyg.sz-web-link a.sz-web-a .fa,
 .wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"] .sz-web-icon,
 .wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] .sz-web-icon,
 .wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"] .sz-web-title,
@@ -415,4 +590,26 @@ Description: Ensure PDF viewer banners display correctly as red banners with whi
 .wysiwyg.sz-web-link a.sz-web-a[href$=".pdf"] .fa,
 .wysiwyg.sz-web-link a.sz-web-a[href*="/pdfs/"] .fa {
     color: #fff !important;
+}
+
+/* Fix any black rectangles/borders to match red banner style */
+.wysiwyg.sz-web-link,
+.wysiwyg.sz-web-link.bg-sub {
+    background-color: transparent !important;
+}
+
+.wysiwyg.sz-web-link a.sz-web-a,
+.wysiwyg.sz-web-link.bg-sub a.sz-web-a {
+    background-color: rgba(254, 0, 0, 0.8) !important;
+    border-left: 8px solid rgba(254, 0, 0, 1) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    color: #fff !important;
+}
+
+.wysiwyg.sz-web-link a.sz-web-a:hover,
+.wysiwyg.sz-web-link.bg-sub a.sz-web-a:hover {
+    background-color: rgba(254, 0, 0, 0.95) !important;
+    border-left: 12px solid rgba(254, 0, 0, 1) !important;
 }

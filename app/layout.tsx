@@ -40,7 +40,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/timepicki.css" />
       </head>
       <body className="stretched">
-        {/* Remove Schoolzine footer logo immediately - runs before any other scripts */}
+        {/* Remove Schoolzine footer logo and hide PDF banners when embedded PDFs exist */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -60,18 +60,130 @@ export default function RootLayout({
                     }
                   }
                 }
+                
+                function hidePDFBannersWithEmbeddedPDFs() {
+                  // Hide all wysiwyg-only PDF viewer headings (duplicates)
+                  var hideHeadings = document.querySelectorAll('.wysiwyg-only.pdf-viewer-heading');
+                  for (var k = 0; k < hideHeadings.length; k++) {
+                    hideHeadings[k].style.display = 'none';
+                    hideHeadings[k].style.visibility = 'hidden';
+                    hideHeadings[k].style.height = '0';
+                    hideHeadings[k].style.margin = '0';
+                    hideHeadings[k].style.padding = '0';
+                    hideHeadings[k].style.opacity = '0';
+                  }
+                  
+                  // Show wysiwyg-hide PDF viewer headings (the ones with file size)
+                  var showHeadings = document.querySelectorAll('.wysiwyg-hide .pdf-viewer-heading');
+                  for (var m = 0; m < showHeadings.length; m++) {
+                    var heading = showHeadings[m];
+                    // Check if this heading's wrap contains an embedded PDF
+                    var wrap = heading.closest('.pdf-viewer-heading-wrap');
+                    if (wrap && !wrap.querySelector('.pdf-view.HTML-only')) {
+                      // No embedded PDF, so show this heading
+                      heading.style.display = 'block';
+                      heading.style.visibility = 'visible';
+                      heading.style.opacity = '1';
+                    }
+                  }
+                  
+                  // Find all PDF viewer heading wraps
+                  var wraps = document.querySelectorAll('.pdf-viewer-heading-wrap');
+                  for (var i = 0; i < wraps.length; i++) {
+                    var wrap = wraps[i];
+                    // Check if this wrap contains an embedded PDF
+                    var hasEmbeddedPDF = wrap.querySelector('.pdf-view.HTML-only');
+                    if (hasEmbeddedPDF) {
+                      // Hide PDF viewer headings in this wrap when there's an embedded PDF
+                      var headings = wrap.querySelectorAll('.pdf-viewer-heading, .wysiwyg-hide .pdf-viewer-heading');
+                      for (var j = 0; j < headings.length; j++) {
+                        headings[j].style.display = 'none';
+                        headings[j].style.visibility = 'hidden';
+                        headings[j].style.height = '0';
+                        headings[j].style.margin = '0';
+                        headings[j].style.padding = '0';
+                        headings[j].style.opacity = '0';
+                      }
+                    }
+                  }
+                }
+                
+                function fixSpacingIssues() {
+                  // Hide empty divs that cause spacing issues
+                  var emptyDivs = document.querySelectorAll('div:empty');
+                  for (var i = 0; i < emptyDivs.length; i++) {
+                    var div = emptyDivs[i];
+                    // Don't hide divs with important classes or IDs
+                    if (!div.className && !div.id) {
+                      div.style.display = 'none';
+                      div.style.height = '0';
+                      div.style.margin = '0';
+                      div.style.padding = '0';
+                    }
+                  }
+                  
+                  // Hide wysiwyg-hide containers that only contain scripts (not PDFs or headings)
+                  var wysiwygHides = document.querySelectorAll('.wysiwyg-hide');
+                  for (var j = 0; j < wysiwygHides.length; j++) {
+                    var container = wysiwygHides[j];
+                    var hasPDF = container.querySelector('.pdf-view.HTML-only');
+                    var hasHeading = container.querySelector('.pdf-viewer-heading');
+                    var scripts = container.querySelectorAll('script');
+                    var otherContent = container.querySelectorAll('*:not(script)');
+                    
+                    // If it only has scripts and no PDF or heading, hide it
+                    if (!hasPDF && !hasHeading && scripts.length > 0 && otherContent.length === 0) {
+                      container.style.display = 'none';
+                      container.style.height = '0';
+                      container.style.margin = '0';
+                      container.style.padding = '0';
+                    }
+                  }
+                  
+                  // Remove extra spacing from empty paragraphs
+                  var emptyParas = document.querySelectorAll('p:empty');
+                  for (var k = 0; k < emptyParas.length; k++) {
+                    emptyParas[k].style.display = 'none';
+                    emptyParas[k].style.height = '0';
+                    emptyParas[k].style.margin = '0';
+                    emptyParas[k].style.padding = '0';
+                  }
+                }
+                
                 // Run immediately
                 removeSchoolzineLogo();
+                hidePDFBannersWithEmbeddedPDFs();
+                fixSpacingIssues();
+                
                 // Run when DOM is ready
                 if (document.readyState === 'loading') {
-                  document.addEventListener('DOMContentLoaded', removeSchoolzineLogo);
+                  document.addEventListener('DOMContentLoaded', function() {
+                    removeSchoolzineLogo();
+                    hidePDFBannersWithEmbeddedPDFs();
+                    fixSpacingIssues();
+                  });
                 } else {
                   removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
                 }
-                // Run after a delay
-                setTimeout(removeSchoolzineLogo, 100);
-                setTimeout(removeSchoolzineLogo, 500);
-                setTimeout(removeSchoolzineLogo, 1000);
+                
+                // Run after delays
+                setTimeout(function() {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }, 100);
+                setTimeout(function() {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }, 500);
+                setTimeout(function() {
+                  removeSchoolzineLogo();
+                  hidePDFBannersWithEmbeddedPDFs();
+                  fixSpacingIssues();
+                }, 1000);
               })();
             `,
           }}

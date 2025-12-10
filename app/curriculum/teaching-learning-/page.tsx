@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Teaching & Learning  - Heath Primary SchoolSchoolzine",
+  title: "Teaching & Learning  - Heath Primary School",
 };
 
 export default function Page() {
   return (
     <>
-      <div dangerouslySetInnerHTML={{ __html: `<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+      <div dangerouslySetInnerHTML={{ __html: `<script src="/assets/js/tinymce.min.js"></script>
 
-<script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js"></script>
+<script src="/assets/js/tinymcefunctions.js"></script>
 
 <div id="access">
   <ul>
@@ -108,7 +108,7 @@ export default function Page() {
 																					</div>
 									</a>
 																			<ul style="display: none;" class="nav-submenu">
-																							<li><a href="https://heathprimary.schoolzineplus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
+																							<li><a href="https://heathprimary.plus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
 																					</ul>
 																	</li>
 																												<li>
@@ -704,12 +704,12 @@ export default function Page() {
             <h3><a href="https://twitter.com/HPSDerbyshire">Twitter</a></h3>
             <span>Learn more about us</span>        </div>
     </article><article class="portfolio-item pf-media pf-icons"><div class="portfolio-image">
-            <a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">
+            <a href="https://heathprimary.plus.co.uk/calendar/1">
                 <img src="/images/hop1_slide3.jpg" alt="School Calendar"><div class="portfolio-overlay"></div>
             </a>
         </div>
         <div class="portfolio-desc">
-            <h3><a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">School Calendar</a></h3>
+            <h3><a href="https://heathprimary.plus.co.uk/calendar/1">School Calendar</a></h3>
             <span>What's upcoming in the school?</span>        </div>
     </article></div>
 
@@ -842,7 +842,7 @@ export default function Page() {
 	<script>
     var actualCaretPositionBookmark;
 </script>
-<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+<script src="/assets/js/tinymce.min.js"></script>
 <script>
 	function setWysiwygValue(id, value) {
 		tinymce.get(id).setContent(value);
@@ -894,7 +894,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],
@@ -1405,16 +1405,16 @@ export default function Page() {
 
 
 <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" alt="Lightbox Image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" name="Previous" href=""><span>Previous</span></a><a class="lb-next" name="Next" href=""><span>Next</span></a></div><div class="lb-loader"><a class="lb-cancel" name="Cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close" name="Close"></a></div></div></div></div>\` }} />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
+      <Script src="/assets/js/tinymcefunctions.js" strategy="afterInteractive" key="/assets/js/tinymcefunctions.js" />
       
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" />
+      <Script src="/assets/js/plugins.js" strategy="afterInteractive" key="/assets/js/plugins.js" />
+      <Script src="/assets/js/bs-switches.js" strategy="afterInteractive" key="/assets/js/bs-switches.js" />
       {/* External canvas/functions.js removed - using local /assets/js/functions.js instead via ScriptsLoader */}
       <Script src="/website/custom.js?skin_id=" strategy="afterInteractive" key="/website/custom.js?skin_id=" />
       {/* Load PDF.js before renderPDF scripts */}
       <Script id="pdfjs-init" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`\n        (function() {\n          if (typeof window !== 'undefined') {\n            function initPDFJS() {\n              if (window.pdfjsDistBuildPdf) {\n                window.PDFJS = window.pdfjsDistBuildPdf.PDFJS || window.pdfjsDistBuildPdf;\n                if (typeof PDFJS === 'undefined') {\n                  window.PDFJS = window.pdfjsDistBuildPdf;\n                }\n              } else if (window.pdfjsLib) {\n                window.PDFJS = window.pdfjsLib;\n              }\n              if (window.PDFJS) {\n                window.PDFJS.disableWorker = true;\n              }\n            }\n            initPDFJS();\n            setTimeout(initPDFJS, 100);\n            setTimeout(initPDFJS, 500);\n          }\n        })();\n      \` }} />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
       <Script id="inline-0" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
             $(function () {
                 // Wait for PDFJS to be available
@@ -1659,7 +1659,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],

@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Governors - Heath Primary SchoolSchoolzine",
+  title: "Governors - Heath Primary School",
 };
 
 export default function Page() {
   return (
     <>
-      <div dangerouslySetInnerHTML={{ __html: `<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+      <div dangerouslySetInnerHTML={{ __html: `<script src="/assets/js/tinymce.min.js"></script>
 
-<script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js"></script>
+<script src="/assets/js/tinymcefunctions.js"></script>
 
 <div id="access">
   <ul>
@@ -108,7 +108,7 @@ export default function Page() {
 																					</div>
 									</a>
 																			<ul style="display: none;" class="nav-submenu">
-																							<li><a href="https://heathprimary.schoolzineplus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
+																							<li><a href="https://heathprimary.plus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
 																					</ul>
 																	</li>
 																												<li>
@@ -653,9 +653,12 @@ export default function Page() {
 <p><span style="font-size: 14px;"><strong>Email:</strong> <a href="mailto:chair@heath.derbyshire.sch.uk">chair@heath.derbyshire.sch.uk</a></span></p>
 <p class="Clear sz-mce-clear mceNonEditable"></p>
 <p><span style="font-size: 18px;"><strong>Meet our Governors</strong></span></p>
-<div data-sb-image-container="1">
-<div data-sb-image-container="1"><a href="https://uk.sz-cdn.net/heathprimary/media/488/220228040811143/600x799/nt_.jpg" data-lightbox="NT_.jpg" data-title="NT_.jpg" class="no-ajaxy" data-sb-image-container="1"><img src="/images/nt_.jpg" alt="NT_.jpg" width="158" height="210" class=" szImg" data-object_id="488" data-object_ref="sb_cms_media_file" data_reference="/images/media/488/nt_.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1" style="float: left;"></a></div>
-<div data-sb-image-container="1"></div>
+<div data-sb-image-container="1" style="overflow: hidden;">
+<div style="float: left; margin-right: 15px; margin-bottom: 10px;">
+<div data-sb-image-container="1"><a href="https://uk.sz-cdn.net/heathprimary/media/488/220228040811143/600x799/nt_.jpg" data-lightbox="NT_.jpg" data-title="NT_.jpg" class="no-ajaxy" data-sb-image-container="1"><img src="/images/nt_.jpg" alt="NT_.jpg" width="158" height="210" class=" szImg" data-object_id="488" data-object_ref="sb_cms_media_file" data_reference="/images/media/488/nt_.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></a></div>
+</div>
+</div>
+<div style="clear: both;"></div>
 <div data-sb-image-container="1">
 <div style="text-align: left;"><strong><span style="font-size: 14px;">Nigel Twigg - <span style="text-decoration: underline;">Co-Chair of Governors</span>&nbsp;Parent, term of office: 18.10.18 - 09.11.26.</span></strong></div>
 <div style="text-align: left;"><span style="font-size: 14px;"></span></div>
@@ -667,16 +670,19 @@ export default function Page() {
 <div style="text-align: left;">
 <p class="Clear sz-mce-clear mceNonEditable"></p>
 <strong></strong></div>
-<div style="text-align: justify;"><strong>Business Interests: No</strong><br><span style="font-size: 14px;"></span></div>
+<div style="text-align: left;"><strong>Business Interests: No</strong><br><span style="font-size: 14px;"></span></div>
 <div style="text-align: left;">
 <div style="text-align: left;">
-<p style="text-align: justify;"><strong>Relationships with other Governors: No</strong></p>
-<p style="text-align: justify;"><strong>Relationships with staff: No</strong></p>
+<p style="text-align: left;"><strong>Relationships with other Governors: No</strong></p>
+<p style="text-align: left;"><strong>Relationships with staff: No</strong></p>
 </div>
 </div>
 <p class="Clear sz-mce-clear mceNonEditable"></p>
-<img src="/images/mr_j_lynch_headteacher.jpg" alt="Mr_J_Lynch_Headteacher.jpg" width="150" height="226" class=" szImg" data-object_id="833" data-object_ref="sb_cms_media_file" data_reference="/images/media/833/mr_j_lynch_headteacher.jpg" data-lightboxed="false" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1" style="float: left;"></div>
+<div style="overflow: hidden;">
+<div style="float: left; margin-right: 15px; margin-bottom: 10px;">
+<img src="/images/mr_j_lynch_headteacher.jpg" alt="Mr_J_Lynch_Headteacher.jpg" width="150" height="226" class=" szImg" data-object_id="833" data-object_ref="sb_cms_media_file" data_reference="/images/media/833/mr_j_lynch_headteacher.jpg" data-lightboxed="false" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></div>
 </div>
+<div style="clear: both;"></div>
 <p><span style="font-size: 14px;"><strong>Jonathan Lynch - Staff.</strong></span></p>
 <p><span style="font-size: 14px;">As Headteacher of Heath Primary School I feel I am privileged to be able to be part of a school community that works hard to enhance the learning opportunities for our children. I have been at Heath since September 2015 and have always been impressed by the behaviour and attitude to lear</span></p>
 <p><span style="font-size: 14px;">ning of the children and how they rise to challenges. We have a strong team of governors who help to shape the future of the school.</span></p>
@@ -686,7 +692,12 @@ export default function Page() {
 <p><strong>Relationships with staff: No</strong></p>
 </div>
 <p class="Clear sz-mce-clear mceNonEditable"></p>
-<p><b><a href="https://uk.sz-cdn.net/heathprimary/media/219/201207030819725/316x484/js.png" data-lightbox="JS" data-title="JS" class="no-ajaxy" data-sb-image-container="1" style="font-weight: bold;"><img src="/images/js.png" alt="JS" width="155" height="238" class=" szImg" data-object_id="42018" data-object_ref="sb_cms_media_file" data_reference="/images/media/219/js.png" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1" style="float: left;"></a></b><span></span></p>
+<div style="overflow: hidden;">
+<div style="float: left; margin-right: 15px; margin-bottom: 10px;">
+<p><b><a href="https://uk.sz-cdn.net/heathprimary/media/219/201207030819725/316x484/js.png" data-lightbox="JS" data-title="JS" class="no-ajaxy" data-sb-image-container="1" style="font-weight: bold;"><img src="/images/js.png" alt="JS" width="155" height="238" class=" szImg" data-object_id="42018" data-object_ref="sb_cms_media_file" data_reference="/images/media/219/js.png" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></a></b><span></span></p>
+</div>
+</div>
+<div style="clear: both;"></div>
 <p data-sb-image-container="1"><span style="font-size: 14px;"><strong>James Swain - Parent, term of office: 13.06.19 - 12.06.25.</strong></span></p>
 <p data-sb-image-container="1"><span style="font-size: 14px;">My name is James Swain. In September 2021, I started a two year commitment to act as chair of the governing body at Heath Primary School. As a parent governor who lives in the local area I am committed to helping the school effectively serve local children and families and be a valued part of the local community. I am keen to make myself available to parents/guardians, staff members, children and other stakeholders to ensure that any views, ideas or concerns are taken forward with a view to improving the school experience for all involved.</span></p>
 <div data-sb-image-container="1">
@@ -698,13 +709,18 @@ export default function Page() {
 <p><strong>Relationships with staff: No</strong></p>
 </div>
 </div>
-<div data-sb-image-container="1" style="text-align: right;">
+<div data-sb-image-container="1" style="text-align: left;">
 <div style="text-align: left;">
 <div dir="auto"></div>
 </div>
-<div style="text-align: left;">
+<div style="text-align: left; overflow: hidden;">
 <p class="Clear sz-mce-clear mceNonEditable"></p>
-<a href="https://uk.sz-cdn.net/heathprimary/media/693/221114041513588/600x900/b_youldon.jpg" data-lightbox="B_Youldon.jpg" data-title="B_Youldon.jpg" class="no-ajaxy" data-sb-image-container="1" style="font-weight: bold;"></a><a href="https://uk.sz-cdn.net/heathprimary/media/812/230321083308529/600x900/b_youldon.jpg" data-lightbox="B_Youldon.jpg" data-title="B_Youldon.jpg" class="no-ajaxy" data-sb-image-container="1" style="font-weight: bold;"><img src="/images/b_youldon.jpg" alt="B_Youldon.jpg" width="158" height="238" class=" szImg" data-object_id="812" data-object_ref="sb_cms_media_file" data_reference="/images/media/812/b_youldon.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1" style="float: left;"></a><strong></strong><strong>Bethany Youldon - Staff, term of office: 10.11.2022-09.11.26.</strong></div>
+<div style="float: left; margin-right: 15px; margin-bottom: 10px;">
+<a href="https://uk.sz-cdn.net/heathprimary/media/693/221114041513588/600x900/b_youldon.jpg" data-lightbox="B_Youldon.jpg" data-title="B_Youldon.jpg" class="no-ajaxy" data-sb-image-container="1" style="font-weight: bold;"></a><a href="https://uk.sz-cdn.net/heathprimary/media/812/230321083308529/600x900/b_youldon.jpg" data-lightbox="B_Youldon.jpg" data-title="B_Youldon.jpg" class="no-ajaxy" data-sb-image-container="1" style="font-weight: bold;"><img src="/images/b_youldon.jpg" alt="B_Youldon.jpg" width="158" height="238" class=" szImg" data-object_id="812" data-object_ref="sb_cms_media_file" data_reference="/images/media/812/b_youldon.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></a></div>
+</div>
+<div style="clear: both;"></div>
+<div style="text-align: left;">
+<strong>Bethany Youldon - Staff, term of office: 10.11.2022-09.11.26.</strong></div>
 <div style="text-align: left;"><strong><span></span></strong></div>
 <div style="text-align: left;">My name is Bethany Youldon and I am a Year 1 teacher and Key Stage 1 Phase Lead at Heath Primary School. My roles allow me to work collaboratively with my colleagues within the incredibly supportive environment we have at Heath. I have previously worked in a Primary School in Manchester,&nbsp;</div>
 <div style="text-align: left;">working across Key Stage 1 and 2. I became a governor as I am passionate about making positive changes to support our school and children. I also want to ensure that staff at Heath have a voice and that their input and feedback is supported.&nbsp;</div>
@@ -720,9 +736,14 @@ export default function Page() {
 <div style="text-align: left;">
 <p class="Clear sz-mce-clear mceNonEditable"></p>
 </div>
+<div style="text-align: left; overflow: hidden;">
+<div style="float: left; margin-right: 15px; margin-bottom: 10px;">
+<div data-sb-image-container="1" style="text-align: left;"><a href="https://uk.sz-cdn.net/heathprimary/media/1263/251104104249126/600x900/mrs_j_freeman_teaching_assistant.jpg" data-lightbox="Mrs_J_Freeman_Teaching_Assistant.jpg" data-title="Mrs_J_Freeman_Teaching_Assistant.jpg" class="no-ajaxy" data-sb-image-container="1"><img src="/images/mrs_j_freeman_teaching_assistant.jpg" alt="Mrs_J_Freeman_Teaching_Assistant.jpg" width="164" height="246" class=" szImg" data-object_id="1263" data-object_ref="sb_cms_media_file" data_reference="/images/media/1263/mrs_j_freeman_teaching_assistant.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></a></div>
+</div>
+</div>
+<div style="clear: both;"></div>
 <div style="text-align: left;">
-<div data-sb-image-container="1" style="text-align: left;"><a href="https://uk.sz-cdn.net/heathprimary/media/1263/251104104249126/600x900/mrs_j_freeman_teaching_assistant.jpg" data-lightbox="Mrs_J_Freeman_Teaching_Assistant.jpg" data-title="Mrs_J_Freeman_Teaching_Assistant.jpg" class="no-ajaxy" data-sb-image-container="1"><img src="/images/mrs_j_freeman_teaching_assistant.jpg" alt="Mrs_J_Freeman_Teaching_Assistant.jpg" width="164" height="246" class=" szImg" data-object_id="1263" data-object_ref="sb_cms_media_file" data_reference="/images/media/1263/mrs_j_freeman_teaching_assistant.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1" style="float: left;"></a></div>
-<strong><br>Jessica Freeman - Staff, term of office: 07.02.2025-06.02.2029</strong></div>
+<strong>Jessica Freeman - Staff, term of office: 07.02.2025-06.02.2029</strong></div>
 <div style="text-align: left;">
 <div style="text-align: left;"><strong>Business Interests: No</strong></div>
 <div style="text-align: left;">
@@ -735,17 +756,21 @@ export default function Page() {
 <div data-sb-image-container="1"><strong></strong></div>
 <div data-sb-image-container="1"><strong></strong></div>
 <div data-sb-image-container="1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong></strong></div>
-<div data-sb-image-container="1">
+<div data-sb-image-container="1" style="overflow: hidden;">
 <p class="Clear sz-mce-clear mceNonEditable"></p>
-<strong></strong></div>
-<a href="https://uk.sz-cdn.net/heathprimary/media/1262/251104103631560/399x600/laura_baker.jpg" data-lightbox="Laura_Baker.jpg" data-title="Laura_Baker.jpg" class="no-ajaxy" data-sb-image-container="1"><img src="/images/laura_baker.jpg" alt="Laura_Baker.jpg" width="158" height="238" class=" szImg" data-object_id="1262" data-object_ref="sb_cms_media_file" data_reference="/images/media/1262/laura_baker.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1" style="float: left;"></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div>
-<p>&nbsp;<strong>Laura Baker - Parent Governor, </strong><strong>term of office: 04.07.2024-03.07.2028</strong></p>
-<div style="text-align: justify;">
+<strong></strong>
+<div style="float: left; margin-right: 15px; margin-bottom: 10px;">
+<a href="https://uk.sz-cdn.net/heathprimary/media/1262/251104103631560/399x600/laura_baker.jpg" data-lightbox="Laura_Baker.jpg" data-title="Laura_Baker.jpg" class="no-ajaxy" data-sb-image-container="1"><img src="/images/laura_baker.jpg" alt="Laura_Baker.jpg" width="158" height="238" class=" szImg" data-object_id="1262" data-object_ref="sb_cms_media_file" data_reference="/images/media/1262/laura_baker.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></a>
+</div>
+</div>
+<div style="clear: both;"></div>
+<p><strong>Laura Baker - Parent Governor, </strong><strong>term of office: 04.07.2024-03.07.2028</strong></p>
+<div style="text-align: left;">
 <div style="text-align: left;">
 <div style="text-align: left;"><strong>&nbsp;Business Interests: No</strong></div>
 <div style="text-align: left;">
-<p style="text-align: justify;"><strong>&nbsp;Relationships with other Governors: No</strong></p>
-<p style="text-align: justify;"><strong>&nbsp;Relationships with staff: No</strong></p>
+<p style="text-align: left;"><strong>&nbsp;Relationships with other Governors: No</strong></p>
+<p style="text-align: left;"><strong>&nbsp;Relationships with staff: No</strong></p>
 </div>
 </div>
 </div>
@@ -821,12 +846,12 @@ export default function Page() {
             <h3><a href="https://twitter.com/HPSDerbyshire">Twitter</a></h3>
             <span>Learn more about us</span>        </div>
     </article><article class="portfolio-item pf-media pf-icons"><div class="portfolio-image">
-            <a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">
+            <a href="https://heathprimary.plus.co.uk/calendar/1">
                 <img src="/images/hop1_slide3.jpg" alt="School Calendar"><div class="portfolio-overlay"></div>
             </a>
         </div>
         <div class="portfolio-desc">
-            <h3><a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">School Calendar</a></h3>
+            <h3><a href="https://heathprimary.plus.co.uk/calendar/1">School Calendar</a></h3>
             <span>What's upcoming in the school?</span>        </div>
     </article></div>
 
@@ -959,7 +984,7 @@ export default function Page() {
 	<script>
     var actualCaretPositionBookmark;
 </script>
-<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+<script src="/assets/js/tinymce.min.js"></script>
 <script>
 	function setWysiwygValue(id, value) {
 		tinymce.get(id).setContent(value);
@@ -1011,7 +1036,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],
@@ -1522,14 +1547,14 @@ export default function Page() {
 
 
 <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" alt="Lightbox Image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" name="Previous" href=""><span>Previous</span></a><a class="lb-next" name="Next" href=""><span>Next</span></a></div><div class="lb-loader"><a class="lb-cancel" name="Cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close" name="Close"></a></div></div></div></div>\` }} />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
+      <Script src="/assets/js/tinymcefunctions.js" strategy="afterInteractive" key="/assets/js/tinymcefunctions.js" />
       
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" />
+      <Script src="/assets/js/plugins.js" strategy="afterInteractive" key="/assets/js/plugins.js" />
+      <Script src="/assets/js/bs-switches.js" strategy="afterInteractive" key="/assets/js/bs-switches.js" />
       {/* External canvas/functions.js removed - using local /assets/js/functions.js instead via ScriptsLoader */}
       <Script src="/website/custom.js?skin_id=" strategy="afterInteractive" key="/website/custom.js?skin_id=" />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
       <Script id="inline-0" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
 
                     jQuery('.sz-gallery').each(function() {
@@ -1658,7 +1683,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],

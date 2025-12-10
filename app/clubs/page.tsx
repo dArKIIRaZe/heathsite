@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "Clubs - Heath Primary SchoolSchoolzine",
+  title: "Clubs - Heath Primary School",
 };
 
 export default function Page() {
   return (
     <>
-      <div dangerouslySetInnerHTML={{ __html: `<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+      <div dangerouslySetInnerHTML={{ __html: `<script src="/assets/js/tinymce.min.js"></script>
 
-<script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js"></script>
+<script src="/assets/js/tinymcefunctions.js"></script>
 
 <div id="access">
   <ul>
@@ -108,7 +108,7 @@ export default function Page() {
 																					</div>
 									</a>
 																			<ul style="display: none;" class="nav-submenu">
-																							<li><a href="https://heathprimary.schoolzineplus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
+																							<li><a href="https://heathprimary.plus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
 																					</ul>
 																	</li>
 																												<li>
@@ -704,10 +704,434 @@ export default function Page() {
 </div>
 <p></p>
 </div>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/dance_club_pick_n_mix.pdf" data-fileid="865"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Dance Club Pick 'N' Mix <i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/dance_club_pick_n_mix.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">Dance Club Pick 'N' Mix</span>
+            </a>
+        </div>
+                <div id="pdf-view-865-8656936df4f40ff6" class="pdf-view HTML-only" style="height: 800px; width: 100%;">
+        <iframe src="/pdfs/dance_club_pick_n_mix.pdf" type="application/pdf" style="width: 100%; height: 100%; border: none;" title="PDF Viewer"></iframe>
+        </div>
+        <script>
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-865-8656936df4f40ff6").height(canvas.height);
+                            $("#pdf-view-loading-865-8656936df4f40ff6").hide();
+                            $("#pdf-view-865-8656936df4f40ff6").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-865-8656936df4f40ff6").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/dance_club_pick_n_mix.pdf', document.getElementById('pdf-view-865-8656936df4f40ff6'));
+            });
+        </script></div>
+<p></p>
+</div>
+</div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/dance_club.pdf" data-fileid="691"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Dance Club <i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+                <div id="pdf-view-691-6916936df4f47839" class="pdf-view HTML-only" style="height: 800px; width: 100%;">
+        <iframe src="/pdfs/dance_club.pdf" type="application/pdf" style="width: 100%; height: 100%; border: none;" title="PDF Viewer"></iframe>
+        </div>
+        <script>
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-691-6916936df4f47839").height(canvas.height);
+                            $("#pdf-view-loading-691-6916936df4f47839").hide();
+                            $("#pdf-view-691-6916936df4f47839").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-691-6916936df4f47839").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/dance_club.pdf', document.getElementById('pdf-view-691-6916936df4f47839'));
+            });
+        </script></div>
+<p></p>
+</div>
+<p><strong><span style="font-size: 18px;">Cheerleading Club</span></strong></p>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/cheerleading_club.pdf" data-fileid="889"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Cheerleading Club <i class="fa fa-download pdf-flyer-edit"></i><i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/cheerleading_club.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">Cheerleading Club</span>
+                                <span class="pdf-viewer-filesize">    335.21 KB <i class="fa fa-download"></i></span>
+            </a>
+        </div>
+                <div id="pdf-view-889-8896936df4f4df76" class="pdf-view HTML-only" style="height: 800px; width: 100%;">
+        <iframe src="/pdfs/cheerleading_club.pdf" type="application/pdf" style="width: 100%; height: 100%; border: none;" title="PDF Viewer"></iframe>
+        </div>
+        <script>
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-889-8896936df4f4df76").height(canvas.height);
+                            $("#pdf-view-loading-889-8896936df4f4df76").hide();
+                            $("#pdf-view-889-8896936df4f4df76").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-889-8896936df4f4df76").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/cheerleading_club.pdf', document.getElementById('pdf-view-889-8896936df4f4df76'));
+            });
+        </script></div>
+</div>
+</div>
+<p><strong><span style="font-size: 18px;">Sewing Club&nbsp;</span></strong></p>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/sewing_club_document.pdf" data-fileid="846"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Sewing Club <i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+                <div id="pdf-view-846-8466936df4f5475e" class="pdf-view HTML-only" style="height: 800px; width: 100%;">
+        <iframe src="/pdfs/sewing_club_document.pdf" type="application/pdf" style="width: 100%; height: 100%; border: none;" title="PDF Viewer"></iframe>
+        </div>
+        <script>
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-846-8466936df4f5475e").height(canvas.height);
+                            $("#pdf-view-loading-846-8466936df4f5475e").hide();
+                            $("#pdf-view-846-8466936df4f5475e").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-846-8466936df4f5475e").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/sewing_club_document.pdf', document.getElementById('pdf-view-846-8466936df4f5475e'));
+            });
+        </script></div>
+</div>
+<p><strong><span style="font-size: 18px;">Gymnastics Club</span></strong></p>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/gymnastic_club.pdf" data-fileid="973"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Gymnastic club 2023 <i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+                <div id="pdf-view-973-9736936df4f5ad84" class="pdf-view HTML-only" style="height: 800px; width: 100%;">
+        <iframe src="/pdfs/gymnastic_club.pdf" type="application/pdf" style="width: 100%; height: 100%; border: none;" title="PDF Viewer"></iframe>
+        </div>
+        <script>
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-973-9736936df4f5ad84").height(canvas.height);
+                            $("#pdf-view-loading-973-9736936df4f5ad84").hide();
+                            $("#pdf-view-973-9736936df4f5ad84").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-973-9736936df4f5ad84").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/gymnastic_club.pdf', document.getElementById('pdf-view-973-9736936df4f5ad84'));
+            });
+        </script></div>
+<p></p>
+</div>
+</div>
+</div>
+<div>
+<div></div>
+<div>
+<p><span style="font-size: 18px;"><strong>Choir&nbsp;</strong></span></p>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/choir.pdf" data-fileid="808"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Choir <i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+                <div id="pdf-view-808-8086936df4f61518" class="pdf-view HTML-only" style="height: 800px; width: 100%;">
+        <iframe src="/pdfs/choir.pdf" type="application/pdf" style="width: 100%; height: 100%; border: none;" title="PDF Viewer"></iframe>
+        </div>
+        <script>
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-808-8086936df4f61518").height(canvas.height);
+                            $("#pdf-view-loading-808-8086936df4f61518").hide();
+                            $("#pdf-view-808-8086936df4f61518").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-808-8086936df4f61518").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/choir.pdf', document.getElementById('pdf-view-808-8086936df4f61518'));
+            });
+        </script></div>
+<p></p>
+</div>
+<p><strong><span style="font-size: 18px;">Reading Clubs&nbsp;</span></strong></p>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/reading_club_23.pdf" data-fileid="968"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Reading Club 2023 <i class="fa fa-download pdf-flyer-edit"></i><i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+            <div class="pdf-viewer-heading">
+            <a class="pdf-viewer-link" href="/pdfs/reading_club_23.pdf" download="download">
+                <i class="fa fa-file-pdf-o"></i>
+                <span class="pdf-viewer-title">Reading Club 2023</span>
+                                <span class="pdf-viewer-filesize">    845.83 KB <i class="fa fa-download"></i></span>
+            </a>
+        </div>
+                <div id="pdf-view-968-9686936df4f67de7" class="pdf-view HTML-only" style="height: 800px; width: 100%;">
+        <iframe src="/pdfs/reading_club_23.pdf" type="application/pdf" style="width: 100%; height: 100%; border: none;" title="PDF Viewer"></iframe>
+        </div>
+        <script>
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-968-9686936df4f67de7").height(canvas.height);
+                            $("#pdf-view-loading-968-9686936df4f67de7").hide();
+                            $("#pdf-view-968-9686936df4f67de7").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-968-9686936df4f67de7").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/reading_club_23.pdf', document.getElementById('pdf-view-968-9686936df4f67de7'));
+            });
+        </script></div>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<div>
+<div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
+<div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/pdfs/reading_clubs.pdf" data-fileid="831"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">Reading Clubs <i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
+<div class="wysiwyg-hide">
+                <div id="pdf-view-831-8316936df4f6e4d0" class="pdf-view HTML-only" style="height: 800px; width: 100%;">
+        <iframe src="/pdfs/reading_clubs.pdf" type="application/pdf" style="width: 100%; height: 100%; border: none;" title="PDF Viewer"></iframe>
+        </div>
+        <script>
+            $(function () {
+                function renderPDF(url, canvasContainer, options) {
+                    options = options || {scale: 1};
+                    var first = 0;
+                    function renderPage(page) {
+                        var viewport = page.getViewport(options.scale);
+                        var canvas = document.createElement('canvas');
+                        var ctx = canvas.getContext('2d');
+                        var renderContext = {
+                            canvasContext: ctx,
+                            viewport: viewport
+                        };
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvasContainer.appendChild(canvas);
+                        if(first == 0){
+                            $("#pdf-view-831-8316936df4f6e4d0").height(canvas.height);
+                            $("#pdf-view-loading-831-8316936df4f6e4d0").hide();
+                            $("#pdf-view-831-8316936df4f6e4d0").show();
+                        }
+                        page.render(renderContext);
+                        first = 1;
+                    }
+                    function renderPages(pdfDoc) {
+                        if(pdfDoc.numPages == 1){
+                            $("#pdf-view-831-8316936df4f6e4d0").addClass("single-page");
+                        }
+                        for (var num = 1; num <= pdfDoc.numPages; num++){
+                            pdfDoc.getPage(num).then(renderPage);
+                        }
+                    }
+
+                    PDFJS.disableWorker = true;
+                    PDFJS.getDocument(url).then(renderPages);
+
+                }
+                renderPDF('/pdfs/reading_clubs.pdf', document.getElementById('pdf-view-831-8316936df4f6e4d0'));
+            });
+        </script></div>
+<p></p>
+</div>
 <p><span style="font-size: 16px;"><strong>Heath Primary School - Extra Curricular Activities Spring Term 2023</strong></span></p>
 </div>
 <div>
-<div data-sb-image-container="1"><a href="https://uk.sz-cdn.net/heathprimary/media/735/230203015659503/600x279/spring_term_clubs_.png" data-lightbox="Spring_Term_Clubs_.png" data-title="Spring_Term_Clubs_.png" class="no-ajaxy" data-sb-image-container="1">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<img src="/images/spring_term_clubs_.png" alt="Spring_Term_Clubs_.png" width="882" height="410" class=" szImg" data-object_id="735" data-object_ref="sb_cms_media_file" data_reference="/images/media/735/spring_term_clubs_.png" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></a></div>
+<div data-sb-image-container="1" style="text-align: center;"><a href="/images/spring_term_clubs_.png" data-lightbox="Spring_Term_Clubs_.png" data-title="Spring_Term_Clubs_.png" class="no-ajaxy" data-sb-image-container="1"><img src="/images/spring_term_clubs_.png" alt="Spring_Term_Clubs_.png" width="882" height="410" class=" szImg" data-object_id="735" data-object_ref="sb_cms_media_file" data_reference="/images/media/735/spring_term_clubs_.png" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1" style="display: block; margin: 0 auto;"></a></div>
 <br><p></p>
 </div>
 <p></p>
@@ -743,12 +1167,12 @@ export default function Page() {
             <h3><a href="https://twitter.com/HPSDerbyshire">Twitter</a></h3>
             <span>Learn more about us</span>        </div>
     </article><article class="portfolio-item pf-media pf-icons"><div class="portfolio-image">
-            <a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">
+            <a href="https://heathprimary.plus.co.uk/calendar/1">
                 <img src="/images/hop1_slide3.jpg" alt="School Calendar"><div class="portfolio-overlay"></div>
             </a>
         </div>
         <div class="portfolio-desc">
-            <h3><a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">School Calendar</a></h3>
+            <h3><a href="https://heathprimary.plus.co.uk/calendar/1">School Calendar</a></h3>
             <span>What's upcoming in the school?</span>        </div>
     </article></div>
 
@@ -881,7 +1305,7 @@ export default function Page() {
 	<script>
     var actualCaretPositionBookmark;
 </script>
-<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+<script src="/assets/js/tinymce.min.js"></script>
 <script>
 	function setWysiwygValue(id, value) {
 		tinymce.get(id).setContent(value);
@@ -933,7 +1357,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],
@@ -1444,14 +1868,14 @@ export default function Page() {
 
 
 <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" alt="Lightbox Image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" name="Previous" href=""><span>Previous</span></a><a class="lb-next" name="Next" href=""><span>Next</span></a></div><div class="lb-loader"><a class="lb-cancel" name="Cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close" name="Close"></a></div></div></div></div>\` }} />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
+      <Script src="/assets/js/tinymcefunctions.js" strategy="afterInteractive" key="/assets/js/tinymcefunctions.js" />
       
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" />
+      <Script src="/assets/js/plugins.js" strategy="afterInteractive" key="/assets/js/plugins.js" />
+      <Script src="/assets/js/bs-switches.js" strategy="afterInteractive" key="/assets/js/bs-switches.js" />
       {/* External canvas/functions.js removed - using local /assets/js/functions.js instead via ScriptsLoader */}
       <Script src="/website/custom.js?skin_id=" strategy="afterInteractive" key="/website/custom.js?skin_id=" />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
       <Script id="inline-0" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
             $(function () {
                 function renderPDF(url, canvasContainer, options) {
@@ -1940,7 +2364,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],

@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: "SEND/Inclusion - Heath Primary SchoolSchoolzine",
+  title: "SEND/Inclusion - Heath Primary School",
 };
 
 export default function Page() {
   return (
     <>
-      <div dangerouslySetInnerHTML={{ __html: `<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+      <div dangerouslySetInnerHTML={{ __html: `<script src="/assets/js/tinymce.min.js"></script>
 
-<script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js"></script>
+<script src="/assets/js/tinymcefunctions.js"></script>
 
 <div id="access">
   <ul>
@@ -108,7 +108,7 @@ export default function Page() {
 																					</div>
 									</a>
 																			<ul style="display: none;" class="nav-submenu">
-																							<li><a href="https://heathprimary.schoolzineplus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
+																							<li><a href="https://heathprimary.plus.co.uk/governors/governors-secure-area" title="Governors Secure Link"><div>Governors Secure Link</div></a></li>
 																					</ul>
 																	</li>
 																												<li>
@@ -645,12 +645,9 @@ export default function Page() {
                 <div class="clearfix container content-wrap">
                                     
 <h1 style="background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: none; background-origin: padding-box; background-position-x: 0%; background-position-y: 0%; background-repeat: repeat; background-size: auto; border-image-outset: 0; border-image-repeat: stretch; border-image-slice: 100%; border-image-source: none; border-image-width: 1; color: #000000; font-family: &amp;quot; lato&amp;quot;,sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; vertical-align: top; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px; padding: 0px; margin: 0px; border: 0px none currentColor;"><span style="font-size: 20px;">SEND/Inclusion</span></h1>
-<p style="background: none 0% 0% / auto repeat scroll padding-box border-box transparent; color: #000000; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-decoration: none; text-indent: 0px; text-transform: none; vertical-align: top; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px; padding: 0px; margin: 0px; border: 0px none currentcolor;"><span style="font-size: 14px;">Our school is all inclusive and we work with many different agencies to support our children at Heath Primary School.</span><a href="https://uk.sz-cdn.net/heathprimary/media/1073/240612102300187/600x900/mrs_f_gomery.jpg" data-lightbox="Mrs_F_Gomery.jpg" data-title="Mrs_F_Gomery.jpg" class="no-ajaxy" data-sb-image-container="1"><br></a><a href="https://uk.sz-cdn.net/heathprimary/media/1073/240612102300187/600x900/mrs_f_gomery.jpg" data-lightbox="Mrs_F_Gomery.jpg" data-title="Mrs_F_Gomery.jpg" class="no-ajaxy" data-sb-image-container="1"></a></p>
-<div data-sb-image-container="1"><a href="https://uk.sz-cdn.net/heathprimary/media/868/230328121533048/600x900/miss_k_ward_teacher.jpg" data-lightbox="Miss_K_Ward_Teacher.jpg" data-title="Miss_K_Ward_Teacher.jpg" class="no-ajaxy" data-sb-image-container="1"></a></div>
+<p style="background: none 0% 0% / auto repeat scroll padding-box border-box transparent; color: #000000; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-decoration: none; text-indent: 0px; text-transform: none; vertical-align: top; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px; padding: 0px; margin: 0px; border: 0px none currentcolor;"><span style="font-size: 14px;">Our school is all inclusive and we work with many different agencies to support our children at Heath Primary School.</span></p>
 <p style="text-align: center;"></p>
-<p style="background: none 0% 0% / auto repeat scroll padding-box border-box transparent; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; vertical-align: top; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px; padding: 0px; margin: 0px; border: 0px none currentcolor; text-align: center;"><a href="https://uk.sz-cdn.net/heathprimary/media/1073/240612102300187/600x900/mrs_f_gomery.jpg" data-lightbox="Mrs_F_Gomery.jpg" data-title="Mrs_F_Gomery.jpg" class="no-ajaxy" data-sb-image-container="1" style="background-color: transparent;"></a></p>
-<div data-sb-image-container="1"><a href="https://uk.sz-cdn.net/heathprimary/media/1074/240612102703082/600x900/mrs_f_gomery.jpg" data-lightbox="Mrs_F_Gomery.jpg" data-title="Mrs_F_Gomery.jpg" class="no-ajaxy" data-sb-image-container="1">&nbsp; &nbsp;<br></a></div>
-<div data-sb-image-container="1" style="text-align: center;"><a href="https://uk.sz-cdn.net/heathprimary/media/1075/240612102733678/600x900/k_clayton.jpg" data-lightbox="K_Clayton.jpg" data-title="K_Clayton.jpg" class="no-ajaxy" data-sb-image-container="1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="/images/k_clayton.jpg" alt="K_Clayton.jpg" width="133" height="200" class=" szImg" data-object_id="1075" data-object_ref="sb_cms_media_file" data_reference="/images/media/1075/k_clayton.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></a><a href="https://uk.sz-cdn.net/heathprimary/media/1074/240612102703082/600x900/mrs_f_gomery.jpg" data-lightbox="Mrs_F_Gomery.jpg" data-title="Mrs_F_Gomery.jpg" class="no-ajaxy" data-sb-image-container="1"> &nbsp; &nbsp; &nbsp; <img src="/images/mrs_f_gomery.jpg" alt="Mrs_F_Gomery.jpg" width="133" height="200" class=" szImg" data-object_id="1074" data-object_ref="sb_cms_media_file" data_reference="/images/media/1074/mrs_f_gomery.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></a></div>
+<div data-sb-image-container="1" style="text-align: center;"><a href="/images/k_clayton.jpg" data-lightbox="K_Clayton.jpg" data-title="K_Clayton.jpg" class="no-ajaxy" data-sb-image-container="1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="/images/k_clayton.jpg" alt="K_Clayton.jpg" width="133" height="200" class=" szImg" data-object_id="1075" data-object_ref="sb_cms_media_file" data_reference="/images/media/1075/k_clayton.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></a><a href="/images/mrs_f_gomery.jpg" data-lightbox="Mrs_F_Gomery.jpg" data-title="Mrs_F_Gomery.jpg" class="no-ajaxy" data-sb-image-container="1"> &nbsp; &nbsp; &nbsp; <img src="/images/mrs_f_gomery.jpg" alt="Mrs_F_Gomery.jpg" width="133" height="200" class=" szImg" data-object_id="1074" data-object_ref="sb_cms_media_file" data_reference="/images/media/1074/mrs_f_gomery.jpg" data-lightboxed="true" data-externally-linked="false" data-custom-style-class="szImg" data-sb-image-container="1"></a></div>
 <p style="text-align: center;"><span style="font-size: 14px;"></span><span style="font-size: 14px;">Our SENDCo's are Mrs K Clayton and Mrs Gomery who can be contacted via <a href="mailto:info@heath.derbyshire.sch.uk">info@heath.derbyshire.sch.uk</a></span></p>
 <p></p>
 <p style="background: none 0% 0% / auto repeat scroll padding-box border-box transparent; color: #000000; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-decoration: none; text-indent: 0px; text-transform: none; vertical-align: top; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px; padding: 0px; margin: 0px; border: 0px none currentcolor; text-align: left;"><strong><span style="font-size: 14px;">Mrs Clayton and Mrs Gomery are responsible for:</span></strong></p>
@@ -674,49 +671,10 @@ export default function Page() {
 <div class="pdf-viewer-heading-wrap pdf-flyer-edit mceNonEditable">
 <div class="wysiwyg-only pdf-viewer-heading pdf-flyer-edit"><a class="pdf-viewer-link pdf-flyer-edit" href="/images/media/k_clayton.jpg" data-fileid="1077"> <i class="fa fa-file-pdf-o pdf-flyer-edit"></i><span class="pdf-viewer-title pdf-flyer-edit">SEND at heath <i class="fa fa-eye pdf-flyer-edit"></i></span><span class="pdf-viewer-filesize pdf-flyer-edit"></span><i class="fa fa-pencil pdf-flyer-edit edit-pdf-flyer"></i><i class="fa fa-minus-circle pdf-flyer-edit deleted-pdf-flyer"></i></a></div>
 <div class="wysiwyg-hide">
-                <div id="pdf-view-1077-10776936df246c8da" class="pdf-view HTML-only" style="height: 800px; width: 100%;">
-        <iframe src="/images/media/k_clayton.jpg" type="application/pdf" style="width: 100%; height: 100%; border: none;" title="PDF Viewer"></iframe>
+                <div style="width: 100%; text-align: center;">
+        <img src="/images/send.png" alt="SEND at heath" style="max-width: 100%; height: auto;" />
         </div>
-        <script>
-            $(function () {
-                function renderPDF(url, canvasContainer, options) {
-                    options = options || {scale: 1};
-                    var first = 0;
-                    function renderPage(page) {
-                        var viewport = page.getViewport(options.scale);
-                        var canvas = document.createElement('canvas');
-                        var ctx = canvas.getContext('2d');
-                        var renderContext = {
-                            canvasContext: ctx,
-                            viewport: viewport
-                        };
-                        canvas.height = viewport.height;
-                        canvas.width = viewport.width;
-                        canvasContainer.appendChild(canvas);
-                        if(first == 0){
-                            $("#pdf-view-1077-10776936df246c8da").height(canvas.height);
-                            $("#pdf-view-loading-1077-10776936df246c8da").hide();
-                            $("#pdf-view-1077-10776936df246c8da").show();
-                        }
-                        page.render(renderContext);
-                        first = 1;
-                    }
-                    function renderPages(pdfDoc) {
-                        if(pdfDoc.numPages == 1){
-                            $("#pdf-view-1077-10776936df246c8da").addClass("single-page");
-                        }
-                        for (var num = 1; num <= pdfDoc.numPages; num++){
-                            pdfDoc.getPage(num).then(renderPage);
-                        }
-                    }
-
-                    PDFJS.disableWorker = true;
-                    PDFJS.getDocument(url).then(renderPages);
-
-                }
-                renderPDF('/images/media/k_clayton.jpg', document.getElementById('pdf-view-1077-10776936df246c8da'));
-            });
-        </script></div>
+</div>
 <p></p>
 </div>
 </div>
@@ -757,12 +715,12 @@ export default function Page() {
             <h3><a href="https://twitter.com/HPSDerbyshire">Twitter</a></h3>
             <span>Learn more about us</span>        </div>
     </article><article class="portfolio-item pf-media pf-icons"><div class="portfolio-image">
-            <a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">
+            <a href="https://heathprimary.plus.co.uk/calendar/1">
                 <img src="/images/hop1_slide3.jpg" alt="School Calendar"><div class="portfolio-overlay"></div>
             </a>
         </div>
         <div class="portfolio-desc">
-            <h3><a href="https://heathprimary.schoolzineplus.co.uk/calendar/1">School Calendar</a></h3>
+            <h3><a href="https://heathprimary.plus.co.uk/calendar/1">School Calendar</a></h3>
             <span>What's upcoming in the school?</span>        </div>
     </article></div>
 
@@ -895,7 +853,7 @@ export default function Page() {
 	<script>
     var actualCaretPositionBookmark;
 </script>
-<script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js"></script>
+<script src="/assets/js/tinymce.min.js"></script>
 <script>
 	function setWysiwygValue(id, value) {
 		tinymce.get(id).setContent(value);
@@ -947,7 +905,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],
@@ -1458,54 +1416,14 @@ export default function Page() {
 
 
 <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" alt="Lightbox Image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" name="Previous" href=""><span>Previous</span></a><a class="lb-next" name="Next" href=""><span>Next</span></a></div><div class="lb-loader"><a class="lb-cancel" name="Cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close" name="Close"></a></div></div></div></div>\` }} />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/tinymcefunctions.js" />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
+      <Script src="/assets/js/tinymcefunctions.js" strategy="afterInteractive" key="/assets/js/tinymcefunctions.js" />
       
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/plugins.js" />
-      <Script src="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/theme/_blueprint/js/canvas/components/bs-switches.js" />
+      <Script src="/assets/js/plugins.js" strategy="afterInteractive" key="/assets/js/plugins.js" />
+      <Script src="/assets/js/bs-switches.js" strategy="afterInteractive" key="/assets/js/bs-switches.js" />
       {/* External canvas/functions.js removed - using local /assets/js/functions.js instead via ScriptsLoader */}
       <Script src="/website/custom.js?skin_id=" strategy="afterInteractive" key="/website/custom.js?skin_id=" />
-      <Script src="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" strategy="afterInteractive" key="https://www.heath.derbyshire.sch.uk/app/js/tinymce/js/tinymce/tinymce.min.js" />
-      <Script id="inline-0" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
-            $(function () {
-                function renderPDF(url, canvasContainer, options) {
-                    options = options || {scale: 1};
-                    var first = 0;
-                    function renderPage(page) {
-                        var viewport = page.getViewport(options.scale);
-                        var canvas = document.createElement('canvas');
-                        var ctx = canvas.getContext('2d');
-                        var renderContext = {
-                            canvasContext: ctx,
-                            viewport: viewport
-                        };
-                        canvas.height = viewport.height;
-                        canvas.width = viewport.width;
-                        canvasContainer.appendChild(canvas);
-                        if(first == 0){
-                            $("#pdf-view-1077-10776936df246c8da").height(canvas.height);
-                            $("#pdf-view-loading-1077-10776936df246c8da").hide();
-                            $("#pdf-view-1077-10776936df246c8da").show();
-                        }
-                        page.render(renderContext);
-                        first = 1;
-                    }
-                    function renderPages(pdfDoc) {
-                        if(pdfDoc.numPages == 1){
-                            $("#pdf-view-1077-10776936df246c8da").addClass("single-page");
-                        }
-                        for (var num = 1; num <= pdfDoc.numPages; num++){
-                            pdfDoc.getPage(num).then(renderPage);
-                        }
-                    }
-
-                    PDFJS.disableWorker = true;
-                    PDFJS.getDocument(url).then(renderPages);
-
-                }
-                renderPDF('/images/media/k_clayton.jpg', document.getElementById('pdf-view-1077-10776936df246c8da'));
-            });
-        \` }} />
+      <Script src="/assets/js/tinymce.min.js" strategy="afterInteractive" key="/assets/js/tinymce.min.js" />
       <Script id="inline-1" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: \`
 
                     jQuery('.sz-gallery').each(function() {
@@ -1634,7 +1552,7 @@ export default function Page() {
                 toolbar: toolbarOptions,
 				image_advtab: true,
 				contextmenu: "link image inserttable | cell row column deletetable",
-				external_filemanager_path: "/https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
+				external_filemanager_path: "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/",
 				filemanager_title: "File Manager",
 				external_plugins: {"filemanager": "https://www.heath.derbyshire.sch.uk/theme/_admin/bluetree/js/tinymce/js/filemanager/plugin.js"},
 				image_list: [],

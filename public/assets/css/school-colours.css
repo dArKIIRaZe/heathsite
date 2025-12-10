@@ -324,13 +324,44 @@ ul.iconlist li i{ color:rgb(254,0,0); }
 /* ======================================================================
 PDF Link
 ========================================================================= */
-.pdf-viewer-heading, .wysiwyg.sz-web-link, .cbContent .pdf-viewer-heading{
-	background: rgba(254,0,0,0.8); 
-	border-color: rgba(254,0,0);
+/* Show PDF viewer headings by default (red banners) */
+/* Hide only when there's an embedded PDF */
+.pdf-viewer-heading, .cbContent .pdf-viewer-heading{
+	background: rgba(254,0,0,0.8) !important; 
+	background-color: rgba(254,0,0,0.8) !important;
+	border-left: 8px solid rgba(254,0,0,1) !important;
+	border-color: rgba(254,0,0,1) !important;
+	border-top: none !important;
+	border-right: none !important;
+	border-bottom: none !important;
+	color: #fff !important;
+	display: block !important;
+	min-height: 50px !important;
+	width: 100% !important;
 }
 .pdf-viewer-heading:hover, .cbContent .pdf-viewer-heading:hover{
-	background: rgba(254,0,0, 0.95);  
-	border-color: rgba(254,0,0);
+	background: rgba(254,0,0, 0.95) !important;
+	background-color: rgba(254,0,0, 0.95) !important;
+	border-left: 12px solid rgba(254,0,0,1) !important;
+	border-color: rgba(254,0,0,1) !important;
+}
+
+/* Hide when there's an embedded PDF */
+.pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .pdf-viewer-heading,
+.pdf-viewer-heading-wrap:has(.pdf-view.HTML-only) .cbContent .pdf-viewer-heading {
+	display: none !important;
+	visibility: hidden !important;
+	height: 0 !important;
+	min-height: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	opacity: 0 !important;
+}
+
+/* Keep sz-web-link styling (these are the red banners we want to keep) */
+.wysiwyg.sz-web-link {
+	/* Keep existing styling for sz-web-link banners */
 }
 
 .faqs .toggle .togglet:hover{
