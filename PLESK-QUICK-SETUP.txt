@@ -1,0 +1,45 @@
+========================================
+PLESK GIT DEPLOYMENT - QUICK SETUP
+========================================
+
+In Plesk Git Settings, configure:
+
+1. REPOSITORY: [Your Git repo URL]
+2. BRANCH: main (or master)
+3. DEPLOYMENT PATH: out/
+4. BUILD COMMAND: plesk-deploy.bat
+
+OR if plesk-deploy.bat doesn't work, try:
+
+BUILD COMMAND: npm install && npm run build
+
+OR if Node.js is not in PATH:
+
+BUILD COMMAND: "C:\Program Files\nodejs\npm.cmd" install && "C:\Program Files\nodejs\npm.cmd" run build
+
+========================================
+IMPORTANT NOTES:
+========================================
+
+- Make sure Node.js is installed on the server
+- The build command runs in the repository directory
+- After build, Plesk will copy files from 'out/' to 'httpdocs/'
+- The .htaccess file will be automatically copied to out/ during build
+
+========================================
+TROUBLESHOOTING:
+========================================
+
+If you get "nodenv is not recognized":
+→ Replace the build command with one of the options above
+
+If you get "Node.js not found":
+→ Install Node.js on the server or use full path to npm
+
+If build succeeds but files don't deploy:
+→ Check that Deployment path is set to "out/"
+
+========================================
+
+See PLESK-GIT-SETUP.md for detailed instructions.
+

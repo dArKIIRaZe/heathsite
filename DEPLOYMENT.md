@@ -82,8 +82,9 @@ If your Plesk hosting supports Git:
 2. **Push to Plesk**
    - Set up Git repository in Plesk
    - Configure deployment settings
-   - Set build command: `npm run build`
-   - Set deployment directory to `out/`
+   - **Set build command**: `plesk-deploy.bat` (or see PLESK-GIT-SETUP.md for alternatives)
+   - **Set deployment directory**: `out/`
+   - See `PLESK-GIT-SETUP.md` for detailed configuration instructions
 
 ## Post-Deployment Checklist
 
